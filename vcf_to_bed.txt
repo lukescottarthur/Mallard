@@ -5,4 +5,36 @@ plink2 --vcf chr17.WMA.vcf.gz --make-bed --out chr17.WMA
 
 #merging bed files
 plink --bfile file1 --merge-list merge_list.txt --make-bed --out merged_data   
-plink --bfile chr17.GFM.bed --merge-list 17merge_list.txt --make-bed --out chr17merge
+plink --bfile chr17.GFM --merge-list 17merge_list.txt --make-bed --out chr17merge
+
+#output of above command
+Warning: Multiple positions seen for variant '.'.
+Warning: Multiple positions seen for variant '.'.
+Warning: Multiple positions seen for variant '.'.
+Warning: First fileset to be merged contains duplicate variant ID(s).  Variants
+with matching IDs are all merged together; if this is not what you want (e.g.
+you have a bunch of novel variants, all with ID "."), assign distinct IDs to
+them (with e.g. --set-missing-var-ids) before rerunning this merge.
+77523 more multiple-position warnings: see log file.
+Error: 1 variant with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  chr17merge-merge.missnp.
+  (Warning: if the subsequent merge seems to work, strand errors involving SNPs
+  with A/T or C/G alleles probably remain in your data.  If LD between nearby
+  SNPs is high, --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.
+See https://www.cog-genomics.org/plink/1.9/data#merge3 for more discussion.
+
+#maybe this
+bcftools annotate --set-id +'%CHROM\_%POS\_%REF\_%FIRST_ALT' file.vcf
+
+
+###summary: my variant ids are all absent (depicted as '.'). I need to replace them with unique variants so they don't overwrite into each other when I merge the bed files.
+
+So I need to use bcftools or plink or something to set unique variant ids.
+(Then re-convert to bed file if necessary)
+Then merge bed files.
+Then start pcadapt pipeline.

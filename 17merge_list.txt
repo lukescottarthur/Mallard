@@ -1,2 +1,0 @@
-chr17.GFM.bed chr17.GFM.bim chr17.GFM.fam
-chr17.WMA.bed chr17.WMA.bim chr17.WMA.fam
