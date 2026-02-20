@@ -1,3 +1,8 @@
 plink2 --vcf data.vcf.gz --make-bed --out mydata    
 plink2 --vcf chr17.GFM.vcf.gz --make-bed --out chr17.GFM
 plink2 --vcf chr17.WMA.vcf.gz --make-bed --out chr17.WMA
+
+
+#merging bed files
+plink --bfile file1 --merge-list merge_list.txt --make-bed --out merged_data   
+plink --bfile chr17.GFM.bed --merge-list 17merge_list.txt --make-bed --out chr17merge
