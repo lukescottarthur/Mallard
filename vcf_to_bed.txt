@@ -1,0 +1,3 @@
+plink2 --vcf data.vcf.gz --make-bed --out mydata    
+plink2 --vcf chr17.GFM.vcf.gz --make-bed --out chr17.GFM
+plink2 --vcf chr17.WMA.vcf.gz --make-bed --out chr17.WMA
