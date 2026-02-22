@@ -1,0 +1,7 @@
+#Working pipeline
+
+#add unique identifiers to vcf files
+bcftools annotate --set-id '%CHROM:%POS:%REF:%ALT' chr17.WMA.vcf.gz -o chr17.WMA.withID2.vcf.gz
+
+#merge vcf files
+bcftools merge chr17.GFM.withID2.vcf.gz chr17.WMA.withID2.vcf.gz -Oz -o chr17merge.vcf.gz
