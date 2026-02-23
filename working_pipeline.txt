@@ -1,7 +1,56 @@
 #Working pipeline
 
-#add unique identifiers to vcf files
-bcftools annotate --set-id '%CHROM:%POS:%REF:%ALT' chr17.WMA.vcf.gz -o chr17.WMA.withID2.vcf.gz
+conda activate test_env
+
+#view vcf file header
+bcftools view -h .vcf.gz
+
+##change headers
+#extract header
+bcftools view -h chr17.GFM.withId.vcf.gz > headerGFM.txt   
+bcftools view -h chr17.WMA.withID.vcf.gz > headerWMA.txt 
+
+#move txt file
+mv headerGFM.txt /home/las80898/Mallard/
+mv headerWMA.txt /home/las80898/Mallard/
+
+#manually edit header
+##FORMAT=<ID=MQ,Number=1,Type=Float,Description="Average mapping quality">  
+note: first attempt, i didn't change format, just type=float
+
+#move txt file back
+mv /home/las80898/Mallard/headerGFM.txt /home/las80898/mallard_data 
+mv /home/las80898/Mallard/headerWMA.txt /home/las80898/mallard_data 
+
+#reheader the file
+bcftools reheader -h headerGFM.txt -o chr17.GFMIDreheader.vcf.gz chr17.GFM.withId.vcf.gz   
+bcftools reheader -h headerWMA.txt -o chr17.WMAIDreheader.vcf.gz chr17.WMA.withID.vcf.gz   
+##
+
+#create index files
+bcftools index chr17.GFMIDreheader.vcf.gz 
+bcftools index chr17.WMAIDreheader.vcf.gz 
 
 #merge vcf files
-bcftools merge chr17.GFM.withID2.vcf.gz chr17.WMA.withID2.vcf.gz -Oz -o chr17merge.vcf.gz
+bcftools merge chr17.GFMIDreheader.vcf.gz chr17.WMAIDreheader.vcf.gz -Oz -o chr17merge.vcf.gz
+
+#convert vcf to bed
+plink2 --vcf chr17merge.vcf.gz --make-bed --out chr17
+
+conda deactivate
+
+#conda install -y -n pcadapt_env -c conda-forge r-tidyverse r-gridextra r-gplots r-pcadapt r-devtools r-qvalue r-RSpectra
+#conda activate pcadapt_env
+
+conda activate R_env_mallard
+
+R
+#install.packages("devtools")
+#install_github("jdstorey/qvalue")
+#install.packages("RSpectra")   
+#install.packages("pcadapt", type = "binary")   
+#remotes::install_github("bcm-uga/pcadapt", dependencies = TRUE)  
+
+
+#conda export -n R_env_mallard > R_env_mallard_pcadapt.yaml
+#conda export -n pcadapt_env > pcadapt_env.yaml

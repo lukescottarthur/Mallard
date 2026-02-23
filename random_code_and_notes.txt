@@ -1,3 +1,4 @@
+#vcf to bed
 plink2 --vcf data.vcf.gz --make-bed --out mydata    
 plink2 --vcf chr17.GFM.vcf.gz --make-bed --out chr17.GFM
 plink2 --vcf chr17.WMA.vcf.gz --make-bed --out chr17.WMA
@@ -38,3 +39,19 @@ So I need to use bcftools or plink or something to set unique variant ids.
 (Then re-convert to bed file if necessary)
 Then merge bed files.
 Then start pcadapt pipeline.
+
+
+
+##random commands
+~~~~
+#unzip vcf.gz files
+bcftools view -O v chr17.WMA.vcf.gz -o chr17.WMA.vcf  
+bcftools view -O v chr17.GFM.vcf.gz -o chr17.GFM.vcf  
+
+#add unique identifiers to vcf files
+bcftools annotate --set-id '%CHROM:%POS:%REF:%ALT' chr17.WMA.vcf -o chr17.WMA.withID2.vcf
+bcftools annotate --set-id '%CHROM:%POS:%REF:%ALT' chr17.GFM.vcf -o chr17.GFM.withID2.vcf
+
+#compress
+ bgzip chr17.WMA.withID2.vcf
+ bgzip chr17.GFM.withID2.vcf

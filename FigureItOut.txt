@@ -1,0 +1,9 @@
+
+*1. Edit vcf file header: MQ should be declared as Type-Float
+solved
+
+error message for reference:
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+
+*2. Merge files into new VCF files (might need to unzip, add unique IDs, index, and re-compress using bgzip)
+solved: didn't need to unzip or anything. needed to index.
