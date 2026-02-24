@@ -28,16 +28,6 @@ plot(x, option = "screeplot")
 
 #K=2
 
-###not working
-# With integers
-poplist.int <- c(rep(1, 40), rep(2, 22))
-# With names
-poplist.names <- c(rep("POP1", 40),rep("POP2", 22))
-print(poplist.int)
-print(poplist.names)
-plot(test17, option = "scores", pop = poplist.int)
-###
-
 #computing test statistic
 x1 <- pcadapt(test17, K = 2)
 summary(x1)
@@ -48,7 +38,6 @@ plot(x1, option = "stat.distribution")
 
 
 #choosing method for cutoff of outlier detection
-
 
 #least conservative
 qval <- qvalue(x1$pvalues)$qvalues
@@ -78,38 +67,15 @@ for (i in 1:2)
   plot(x1$loadings[, i], pch = 19, cex = .3, ylab = paste0("Loadings PC", i))
 
 
-
 #doesn't look like LD is affecting PCs
 
 #association between pc and outliers
 snp_pc <- get.pc(x1, outliersbonf)
 snp_pc
 
-##create snp threshold list for colored points
-#make a list of converted 
-#x1$threshold_cat < ifelse(x1$pvalue < .0000001, "Above Threshold", "Below Threshold")
-
-#remove NA and create new list that syncs up with SNPs
-#x1$threshold_pass <- Filter(Negate(anyNA), x1$threshold_cat)   
-
-##plotting
-#plot(x1, option = "manhattan", snp.info = x1$pass, plt.pkg = "ggplot", K = 2, label = x1$pass, col = x1$threshold_pass) +
- # scale_color_manual(values = c("Above Threshold" = "red", "Below Threshold" = "black")) + 
- # geom_hline(yintercept = 7, col="red") +
-                       theme_minimal()
-
-  
-######try different
-
-
-#plot(x1, option = "manhattan", snp.info = x1$pass, plt.pkg = "ggplot", K = 2, label = x1$pass, highlight = outliersbonf) +
-  geom_hline(yintercept = 7, col="red") +
-  theme_minimal()
-
-#manhattan(gwasResults, chr="CHR", bp="BP", snp="SNP", p="P" )
 
 #converting pcadapt object contents into qqman format
-
+#manhattan(gwasResults, chr="CHR", bp="BP", snp="SNP", p="P" )
 #need: chromosome number (1), bp location number (9093), snp identifier, p value, snps of interest
 summary(x1)
 
@@ -150,11 +116,11 @@ axisdf = don %>%
 ggplot(don, aes(x=BPcum, y=-log10(P))) +
   
   # Show all points
-  geom_point( aes(color=as.factor(CHR)), alpha=0.8, size=1.3) +
-  scale_color_manual(values = rep(c("grey", "skyblue"), 22 )) +
+  geom_point( aes(color=as.factor(CHR)), alpha=1, size=1.3) +
+  scale_color_manual(values = rep(c("black") )) +
   
   #horizontal line
-  geom_hline(yintercept = 8, col="red") +
+  geom_hline(yintercept = 8, col="red", alpha = .7) +
   
   # custom X axis:
   scale_x_continuous( label = axisdf$CHR, breaks= axisdf$center ) +
@@ -203,8 +169,8 @@ axisdf <- don %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) )
 chr17gg <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
   
   # Show all points
-  geom_point( aes(color=as.factor(CHR)), alpha=0.8, size=1.3) +
-  scale_color_manual(values = rep(c("grey", "skyblue"), 22 )) +
+  geom_point( aes(color=as.factor(CHR)), alpha=1, size=1.3) +
+  scale_color_manual(values = rep(c("black"))) +
   
   # custom X axis:
   scale_x_continuous( label = axisdf$CHR, breaks= axisdf$center ) +
@@ -230,8 +196,8 @@ chr17gg <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank()
   )
-ggsave("chr17gg.png", chr17gg, width = 8, height = 6, dpi = 600)
-ggsave("my_plot.png", plot = my_plot, width = 8, height = 6, dpi = 300)   
+#ggsave("chr17gg.png", chr17gg, width = 8, height = 6, dpi = 600)
+#ggsave("my_plot.png", plot = my_plot, width = 8, height = 6, dpi = 300)   
 
 
 ###circular plot
