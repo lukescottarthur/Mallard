@@ -1,0 +1,128 @@
+4 parts:
+1) Generation of a training set(s) for diploS/HIC using simulation via discoal.
+2) diploS/HIC training and performance evaluation. 
+3) Calculation of dipoS/HIC feature vectors from genomic data. 
+4) prediction on empirical data using the trained network.
+
+
+
+Part 1: discoal
+Note: it looks like this simulator can simulate a number of different scenarious (hard, soft, partial). Maybe we should simulate each scenario, then procede into diploS/HIC workflow.
+
+conda activate test_env
+git clone https://github.com/kern-lab/discoal.git
+cd discoal
+make discoal
+#test install (if doens't work, 'make discoal' again)
+./discoal 10 1 1000 -t 10
+
+##basic format: './discoal sampleSize numReplicates nSites -t theta'
+sampleSize: The number of chromosomes to sample (maximum: 65,535)
+numReplicates: The number of independent samples to generate
+nSites: The number of discrete sites in the sequence
+theta: The population mutation rate (4N₀μ) where N₀ is the current population size and μ is the mutation rate per generation for the entire locus.
+
+##output in Hudson's ms format:
+Header: Command line and random number seeds
+Sample blocks: Each starting with //
+Segregating sites: Number of variable sites
+Positions: Relative positions along the sequence (0-1)
+Haplotypes: Binary strings where 0 is ancestral and 1 is derived
+
+
+###Sweeps:
+
+
+*Hard Sweeps:
+A classical selective sweep from a single new mutation:
+-wd: Deterministic trajectory
+-ws: Stochastic trajectory
+-wn: Neutral fixation
+Parameters:
+tau: Time since fixation (in units of 4N generations)
+-a alpha: Selection strength (2Ns)
+-x position: Location of selected site (0-1)
+
+Example:
+# Stochastic sweep fixed 0.05 time units ago
+./discoal 20 10 10000 -t 20 -r 20 -ws 0.05 -a 1000 -x 0.5 > mallard_diplo/test1
+
+*Soft Sweeps
+Selection on standing variation or recurrent mutation.
+From standing variation (-f):
+
+# Sweep from initial frequency 0.1
+./discoal 20 10 10000 -t 20 -r 20 -ws 0.05 -a 1000 -x 0.5 -f 0.1
+From recurrent mutation (-uA):
+
+# Recurrent adaptive mutation rate 0.0001
+./discoal 20 10 10000 -t 20 -r 20 -ws 0.05 -a 1000 -x 0.5 -uA 0.0001
+
+*Partial Sweeps
+
+Sweeps that stop before fixation using -c:
+
+# Partial sweep to frequency 0.8
+./discoal 20 10 10000 -t 20 -r 20 -ws 0.05 -a 1000 -x 0.5 -c 0.8
+
+# Partial soft sweep from standing variation
+./discoal 20 10 10000 -t 20 -r 20 -ws 0.05 -a 1000 -x 0.5 -f 0.1 -c 0.8
+
+
+*Linked Selection
+
+Simulate effects of a sweep outside the sampled region:
+
+-ls: Stochastic sweep to the left
+
+-ld: Deterministic sweep to the left
+
+-ln: Neutral fixation to the left
+
+Example:
+
+# Sweep to the left at genetic distance 4Nr = 100
+./discoal 20 10 10000 -t 20 -r 20 -ls 0.05 -a 1000
+The position is drawn uniformly between 0 and the specified genetic distance.
+
+
+*Recurrent Hitchhiking
+
+Multiple sweeps over time:
+
+-R rate: Sweeps within the locus
+
+-L rate: Sweeps to the left of the locus
+
+Rate is per 2N individuals per generation.
+
+Example:
+
+# Recurrent sweeps at rate 0.001
+./discoal 20 10 10000 -t 20 -r 20 -R 0.001 -a 1000
+
+# Recurrent partial sweeps
+./discoal 20 10 10000 -t 20 -r 20 -R 0.001 -a 1000 -c 0.7
+
+
+*Combining with Demography
+
+Selection can be combined with population size changes:
+
+# Sweep during population expansion
+./discoal 20 10 10000 -t 20 -r 20 \
+  -ws 0.05 -a 1000 -x 0.5 \
+  -en 0.02 0 10.0 \
+  -en 0.1 0 1.0
+
+*Advanced Options:
+Time discretization (-i):
+
+Controls time step size during sweeps (default 40):
+
+# Finer time steps (slower but more accurate)
+./discoal 20 10 10000 -t 20 -ws 0.05 -a 1000 -i 400
+Effective population size during sweep (-N):
+
+# Set sweep effective size to 500,000
+./discoal 20 10 10000 -t 20 -ws 0.05 -a 1000 -N 500000
