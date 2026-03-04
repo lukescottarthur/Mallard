@@ -1,6 +1,7 @@
 This is the soup to nuts workflow for diploshic
 
 # activate env (with python, diploshic installed)
+conda env create -f diplo_env.yam
 conda activate diplo_env
 
 # download diploshic

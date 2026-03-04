@@ -1,0 +1,17 @@
+This is a workflow to get started with diploS/HIC
+see: https://github.com/kr-colab/diploSHIC/wiki/A-soup-to-nuts-example
+
+
+# activate environment
+conda env create -f diplo_env.yam
+conda activate diplo_env
+
+# download (clone) diploshic repository from github
+git clone https://github.com/kr-colab/diploSHIC.git
+
+# navigate into diploshic directory 
+cd diploSHIC
+
+# download example dataset
+wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && tar zxvf exampleApplication.tar.gz
+
