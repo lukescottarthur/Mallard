@@ -12,6 +12,9 @@ pip install diploshic #this should probably be done differently, ie without pip
 wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && tar zxvf exampleApplication.tar.gz
 
 # calculate feature vectors from simulations (big job, 16GB, 8 CPUS, started at 3:20, ended at ) (perform in diploSHIC directory)
+
+# run as sbatch script next time
+
 for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done
 
 # make balanced trianing set
