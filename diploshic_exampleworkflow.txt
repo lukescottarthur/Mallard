@@ -1,0 +1,16 @@
+This is the soup to nuts workflow for diploshic
+
+# activate env (with python, diploshic installed)
+conda activate diplo_env
+
+# download diploshic
+git clone https://github.com/kr-colab/diploSHIC.git
+cd diploSHIC
+pip install diploshic #this should probably be done differently, ie without pip
+
+## download directory
+wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && tar zxvf exampleApplication.tar.gz
+
+# calculate feature vectors from simulations (big job)
+for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done
+
