@@ -7,7 +7,7 @@
 #SBATCH --time=03:30:00                              # Time limit hrs:mins:secs
 #SBATCH --output=/home/las80898/diploSHIC/%x_%j.out  ####change to your path
 #SBATCH --error=/home/las80898/diploSHIC/%x_%j.error ####change to your path
-#SBATCH --mail-user=las80898@uga.edu                # Where to send mail
+#SBATCH --mail-user=las80898@uga.edu                #####change to your path
 #SBATCH --mail-type=BEGIN,END,FAIL                        # Mail events 
 
 # Load conda environment 

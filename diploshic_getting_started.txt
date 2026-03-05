@@ -1,8 +1,7 @@
 This is a workflow to get started with diploS/HIC
 see: https://github.com/kr-colab/diploSHIC/wiki/A-soup-to-nuts-example
 
-# Before starting, make sure to change file paths in .sh script to match your file path (two spots in header, one in code)
-
+# Before starting, make sure to change file paths in .sh script to match your file path (three spots in header, one in code)
 
 # create environment (this will take a few minutes)
 conda env create -f diplo_env.yaml
