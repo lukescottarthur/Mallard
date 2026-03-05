@@ -1,7 +1,7 @@
 This is the soup to nuts workflow for diploshic
 
 # activate env (with python, diploshic installed)
-conda env create -f diplo_env.yam
+conda env create -f diplo_env.yaml
 conda activate diplo_env
 
 # download diploshic
@@ -15,10 +15,11 @@ wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && ta
 # calculate feature vectors from simulations (big job, 16GB, 8 CPUS, started at 3:20, ended at ) (perform in diploSHIC directory)
 
 # run as sbatch script next time
+sbatch diploshic_test_1.sh
 
 for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done
 
-# make balanced trianing set
+# make balanced training set
 mkdir rawFVFiles && mv exampleApplication/*.fvec rawFVFiles/
 mkdir trainingSets
 diploSHIC makeTrainingSets rawFVFiles/neut.msOut.gz.diploid.fvec rawFVFiles/soft \
