@@ -12,31 +12,25 @@ pip install diploshic #this should probably be done differently, ie without pip
 ## download directory
 wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && tar zxvf exampleApplication.tar.gz
 
-# calculate feature vectors from simulations (big job, 16GB, 8 CPUS, started at 3:20, ended at ) (perform in diploSHIC directory)
+# run sbatch script (big job, 16GB, 8 CPUS, runs for about 2 hours on cluster)
 
-# run as sbatch script next time
 sbatch diploshic_test_1.sh
 
-for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done # note: '&' only works on multiple 
+for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R
+done
 
 # make balanced training set
 mkdir rawFVFiles && mv exampleApplication/*.fvec rawFVFiles/
 mkdir trainingSets
-diploSHIC makeTrainingSets rawFVFiles/neut.msOut.gz.diploid.fvec rawFVFiles/soft \
-rawFVFiles/hard 5 0,1,2,3,4,6,7,8,9,10 trainingSets/
+diploSHIC makeTrainingSets rawFVFiles/neut.msOut.gz.diploid.fvec rawFVFiles/soft rawFVFiles/hard 5 0,1,2,3,4,6,7,8,9,10 trainingSets/
 
-# train!
+# train! 
 diploSHIC train trainingSets/ trainingSets/ bfsModel
 
-# feature vectors for real data (long job)
-diploSHIC fvecVcf diploid \
-    exampleApplication/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz \
-    3R 53200684 \
-    exampleApplication/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec \
-    --targetPop BFS \
-    --sampleToPopFileName exampleApplication/samples_pops.txt \
-    --winSize 55000 \
-    --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz
+# feature vectors for real data (sort of long job)
+diploSHIC fvecVcf diploid exampleApplication/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz 3R 53200684 exampleApplication/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec --targetPop BFS --sampleToPopFileName exampleApplication/samples_pops.txt --winSize 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz
 
-    # prediction on empirical feature vectors
-    diploSHIC predict bfsModel.json bfsModel.weights.hdf5 rawFVFiles/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec mossie.preds
+mv exampleApplication/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec rawFVFiles/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec
+
+# prediction on empirical feature vectors
+diploSHIC predict bfsModel.json bfsModel.weights.hdf5 rawFVFiles/ag1000g.phase1.ar3.pass.biallelic.3R.vcf.28000000-29000000.gz.diploid.fvec mossie.preds
