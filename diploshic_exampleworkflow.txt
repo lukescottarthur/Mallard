@@ -17,7 +17,7 @@ wget http://sesame.uoregon.edu/~adkern/diploSHIC/exampleApplication.tar.gz && ta
 # run as sbatch script next time
 sbatch diploshic_test_1.sh
 
-for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done
+for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R & done # note: '&' only works on multiple 
 
 # make balanced training set
 mkdir rawFVFiles && mv exampleApplication/*.fvec rawFVFiles/
