@@ -4,7 +4,7 @@ see: https://github.com/kr-colab/diploSHIC/wiki/A-soup-to-nuts-example
 # Before starting, make sure to change file paths in .sh script to match your file path (three spots in header, one in code)
 
 # create environment (this will take a few minutes)
-conda env create -f diplo_env.yaml
+conda env create -f diplo_env.yaml -n diplo_env
 
 # download (clone) diploshic repository from github
 git clone https://github.com/kr-colab/diploSHIC.git
