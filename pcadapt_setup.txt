@@ -62,6 +62,10 @@ plink2 --vcf chr17merge.GFMKC.vcf.gz --make-bed --out chr17GFMKC
 
 ##setting up pcadapt
 
+
+# Note: if working off the cluster, you need bim and fam files in directory in addition to bed file (I think)
+
+
 module load R/4.4.2-gfbf-2024a
 
 module load R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2
