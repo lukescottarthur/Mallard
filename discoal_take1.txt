@@ -1,0 +1,19 @@
+# This is a workflow for generating discoal simulations for diploS/HIC
+
+
+conda env create -f diplo_env.yaml -n diplo_env
+conda activate diplo_env
+
+git clone https://github.com/kern-lab/discoal.git #if necessary
+cd discoal
+make discoal
+
+# 5x hard sweeps with different -x values
+
+./ discoal 162 2000 55000 -t 48000 -ws 0 -x
+
+
+# 5x soft sweeps with different -x values
+
+# neutral sweep
+./ discoal 162 2000 55000 -t 48000
