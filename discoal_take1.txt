@@ -8,12 +8,35 @@ git clone https://github.com/kern-lab/discoal.git #if necessary
 cd discoal
 make discoal
 
-# 5x hard sweeps with different -x values
+ 
+ #following format: 
+ # ./ discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x *
 
-./ discoal 162 2000 55000 -t 48000 -ws 0 -x
+# 11x hard sweeps with different -x values
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.0454545 > hard_0_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.1363636 > hard_1_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.2272727 > hard_2_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.3181818 > hard_3_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.4090909 > hard_4_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.5 > hard_5_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.5909090 > hard_6_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.6818181 > hard_7_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.7727272 > hard_8_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.8636363 > hard_9_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -x 0.9545454 > hard_10_msOut.gz
 
-
-# 5x soft sweeps with different -x values
+# 11x soft sweeps with different -x values
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.0454545 > soft_0_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.1363636 > soft_1_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.2272727 > soft_2_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.3181818 > soft_3_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.4090909 > soft_4_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.5 > soft_5_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.5909090 > soft_6_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.6818181 > soft_7_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.7727272 > soft_8_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.8636363 > soft_9_msOut.gz
+./discoal 162 2000 55000 -Pt 10000 100000 -ws 0 -Pf 0 0.2 -x 0.9545454 > soft_10_msOut.gz
 
 # neutral sweep
 ./ discoal 162 2000 55000 -t 48000
