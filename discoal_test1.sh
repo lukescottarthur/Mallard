@@ -12,8 +12,14 @@
 
 cd /home/las80898/discoal
 
+# number of chromosomes (sample size): 162
+# number of replicates: 2000
+# number of discrete sites in sequence: 55000
+# -Pt (prior on theta) lower boundary: 20; upper boundary: 2000
+# -ws (stochastic sweep): 0 generations ago
+# -x (location of sweep on chromosome)
+# -Pf (prior on standing variation) lower boundary: 0; upper boundary: 0.2
 
-./discoal 162 2000 55000 -Pt 20 2000 -ws 0 -x 0.0454545 > mallardtest1/hard_0_mallard1.gz
 
 # 11x hard sweeps with different -x values
 ./discoal 162 2000 55000 -Pt 20 2000 -ws 0 -x 0.0454545 > mallardtest1/hard_0_mallard1.gz
