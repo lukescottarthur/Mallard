@@ -23,6 +23,7 @@ cd /home/las80898/diploSHIC
 
 # make directory if necessary in diploshic (mine is 'mallardtest1')
 # add vcf.gz file to your directory
+# move discoal simulations into your directory
 
 #calculate feature vectors from simulations
 for f in mallardtest1/*_mallard1.gz; do diploSHIC fvecSim diploid $f $f.fvec --totalPhysLen 55000

@@ -48,4 +48,4 @@ cd /home/las80898/discoal
 ./discoal 162 2000 55000 -Pt 20 2000 -ws 0 -Pf 0 0.2 -x 0.9545454 > mallardtest1/soft_10_mallard1.gz
 
 # neutral sweep
-./ discoal 162 2000 55000 -Pt 20 2000 > mallardtest1/neutral_mallard1.gz
+./discoal 162 2000 55000 -Pt 20 2000 > mallardtest1/neutral_mallard1.gz
