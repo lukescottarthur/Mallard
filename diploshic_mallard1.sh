@@ -21,15 +21,18 @@ cd /home/las80898/diploSHIC
 # chr17 name
 # chr17 length 215745
 
+# make directory if necessary in diploshic (mine is 'mallardtest1')
+# add vcf.gz file to your directory
+
 #calculate feature vectors from simulations
-for f in mallardtest1/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000
+for f in mallardtest1/*_mallard1.gz; do diploSHIC fvecSim diploid $f $f.fvec --totalPhysLen 55000
 done
 
 # make balanced training set
 mkdir rawFVFiles
 mv mallardtest1/*.fvec rawFVFiles/
 mkdir mallardTrainingSets
-diploSHIC makeTrainingSets rawFVFiles/neut.msOut.gz.diploid.fvec rawFVFiles/soft rawFVFiles/hard 5 0,1,2,3,4,6,7,8,9,10 mallardTrainingSets/
+diploSHIC makeTrainingSets rawFVFiles/neutral_mallard1.gz.fvec rawFVFiles/soft rawFVFiles/hard 5 0,1,2,3,4,6,7,8,9,10 mallardTrainingSets/
 
 # train!
 diploSHIC train mallardTrainingSets/ mallardTrainingSets/ bfsModel
