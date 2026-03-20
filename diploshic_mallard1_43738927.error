@@ -1,0 +1,584 @@
+file name='mallardtest1/hard_0_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_10_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_1_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_2_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_3_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_4_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_5_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_6_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_7_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_8_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/hard_9_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/neutral_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_0_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_10_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_1_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_2_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_3_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_4_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_5_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_6_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_7_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_8_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+file name='mallardtest1/soft_9_mallard1.gz'Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py", line 36, in <module>
+    ) = openMsOutFileForSequentialReading(trainingDataFileName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/diploshic/msTools.py", line 182, in openMsOutFileForSequentialReading
+    header = msStream.readline()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 351, in read1
+    return self._buffer.read1(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 544, in read
+    if not self._read_gzip_header():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 513, in _read_gzip_header
+    last_mtime = _read_gzip_header(self._fp)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/gzip.py", line 473, in _read_gzip_header
+    raise BadGzipFile('Not a gzipped file (%r)' % magic)
+gzip.BadGzipFile: Not a gzipped file (b'./')
+mkdir: cannot create directory ‘rawFVFiles’: File exists
+mv: cannot stat 'mallardtest1/*.fvec': No such file or directory
+2026-03-20 13:39:12.708028: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-20 13:39:12.974619: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-20 13:39:17.955963: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-20 13:39:52.787596: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-20 13:39:52.793450: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/diploSHIC", line 344, in <module>
+    neut = np.loadtxt(trainingDir + "neut.fvec", skiprows=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 1384, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 1011, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/numpy/lib/_datasource.py", line 192, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/numpy/lib/_datasource.py", line 529, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: mallardTrainingSets/neut.fvec not found.
+/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/allel/io/vcf_read.py:1732: UserWarning: invalid INFO header: '##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">\n'
+  warnings.warn('invalid INFO header: %r' % header)
+Warning: a mask.fa file for the chr arm with all masked sites N'ed out is strongly recommended (pass in the reference to remove Ns at the very least)!
+1-5000 num unmasked snps: 582; unmasked frac: 0.971000
+5001-10000 num unmasked snps: 391; unmasked frac: 0.975600
+10001-15000 num unmasked snps: 437; unmasked frac: 0.965000
+15001-20000 num unmasked snps: 404; unmasked frac: 0.973600
+20001-25000 num unmasked snps: 291; unmasked frac: 0.977600
+25001-30000 num unmasked snps: 369; unmasked frac: 0.972200
+30001-35000 num unmasked snps: 376; unmasked frac: 0.982800
+35001-40000 num unmasked snps: 523; unmasked frac: 0.967000
+40001-45000 num unmasked snps: 396; unmasked frac: 0.972000
+45001-50000 num unmasked snps: 393; unmasked frac: 0.972000
+50001-55000 num unmasked snps: 525; unmasked frac: 0.971200
+55001-60000 num unmasked snps: 483; unmasked frac: 0.972000
+60001-65000 num unmasked snps: 529; unmasked frac: 0.974200
+65001-70000 num unmasked snps: 425; unmasked frac: 0.971800
+70001-75000 num unmasked snps: 531; unmasked frac: 0.970000
+75001-80000 num unmasked snps: 486; unmasked frac: 0.974600
+80001-85000 num unmasked snps: 430; unmasked frac: 0.969800
+85001-90000 num unmasked snps: 501; unmasked frac: 0.970000
+90001-95000 num unmasked snps: 590; unmasked frac: 0.962800
+95001-100000 num unmasked snps: 526; unmasked frac: 0.972800
+100001-105000 num unmasked snps: 477; unmasked frac: 0.976400
+105001-110000 num unmasked snps: 298; unmasked frac: 0.983600
+110001-115000 num unmasked snps: 277; unmasked frac: 0.986200
+115001-120000 num unmasked snps: 588; unmasked frac: 0.979200
+120001-125000 num unmasked snps: 646; unmasked frac: 0.976800
+125001-130000 num unmasked snps: 483; unmasked frac: 0.976800
+130001-135000 num unmasked snps: 403; unmasked frac: 0.981600
+135001-140000 num unmasked snps: 745; unmasked frac: 0.973000
+140001-145000 num unmasked snps: 921; unmasked frac: 0.963600
+145001-150000 num unmasked snps: 920; unmasked frac: 0.969800
+150001-155000 num unmasked snps: 567; unmasked frac: 0.985600
+155001-160000 num unmasked snps: 515; unmasked frac: 0.980600
+160001-165000 num unmasked snps: 766; unmasked frac: 0.977000
+165001-170000 num unmasked snps: 746; unmasked frac: 0.976800
+170001-175000 num unmasked snps: 376; unmasked frac: 0.991200
+175001-180000 num unmasked snps: 527; unmasked frac: 0.980200
+180001-185000 num unmasked snps: 761; unmasked frac: 0.976000
+185001-190000 num unmasked snps: 313; unmasked frac: 0.986600
+190001-195000 num unmasked snps: 150; unmasked frac: 0.991000
+195001-200000 num unmasked snps: 227; unmasked frac: 0.988800
+200001-205000 num unmasked snps: 216; unmasked frac: 0.989800
+205001-210000 num unmasked snps: 485; unmasked frac: 0.981400
+210001-215000 num unmasked snps: 182; unmasked frac: 0.982600
+completed in 3.62067 seconds
+2026-03-20 13:40:22.781640: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-20 13:40:22.782006: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-20 13:40:22.836146: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-20 13:40:24.156665: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-20 13:40:24.158494: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-20 13:40:25.460853: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
