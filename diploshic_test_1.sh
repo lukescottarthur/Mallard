@@ -18,8 +18,9 @@ conda activate diplo_env
 # Navigate to diploSHIC directory (change to your directory)
 cd /home/las80898/diploSHIC
 
+
 #calculate feature vectors from simulations
-for f in exampleApplication/*.msOut.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R 
+for f in exampleApplication/*_mallard1.gz; do diploSHIC fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName exampleApplication/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa.gz --chrArmsForMasking 3R 
 done
 
 # make balanced training set
