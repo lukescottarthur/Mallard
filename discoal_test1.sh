@@ -56,3 +56,8 @@ mkdir mallardtest2
 # neutral sweep
 ./discoal 162 2000 55000 -Pt 20 2000 | gzip > mallardtest2/neutral_mallard1.gz
 
+# make directory for diploshic
+mkdir -p /home/las80898/diploSHIC/mallardtest1B
+
+# move files into diploshic directory
+mv mallardtest2/* /home/las80898/diploSHIC/mallardtest1B/

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=diploshic_mallard1                      # Job name 
+#SBATCH --job-name=diploshic_mallardtest1B                      # Job name 
 #SBATCH --partition=batch                           # Partition name 
 #SBATCH --ntasks=1                                  # 
 #SBATCH --cpus-per-task=16                           # CPU core count per task
@@ -24,8 +24,8 @@ cd /home/las80898/diploSHIC
 # chr17 name
 # chr17 length 215745
 
-# make directory if necessary in diploshic (mine is 'mallardtest1B')
 # add vcf.gz file to your directory
+
 # move discoal simulations into your directory
 
 #calculate feature vectors from simulations
