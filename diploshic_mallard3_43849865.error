@@ -1,0 +1,104 @@
+/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/allel/io/vcf_read.py:1732: UserWarning: invalid INFO header: '##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">\n'
+  warnings.warn('invalid INFO header: %r' % header)
+Warning: a mask.fa file for the chr arm with all masked sites N'ed out is strongly recommended (pass in the reference to remove Ns at the very least)!
+1-5000 num unmasked snps: 546; unmasked frac: 0.963800
+5001-10000 num unmasked snps: 369; unmasked frac: 0.971200
+10001-15000 num unmasked snps: 409; unmasked frac: 0.959400
+15001-20000 num unmasked snps: 378; unmasked frac: 0.968400
+20001-25000 num unmasked snps: 265; unmasked frac: 0.972400
+25001-30000 num unmasked snps: 353; unmasked frac: 0.969000
+30001-35000 num unmasked snps: 358; unmasked frac: 0.979200
+35001-40000 num unmasked snps: 491; unmasked frac: 0.960600
+40001-45000 num unmasked snps: 374; unmasked frac: 0.967600
+45001-50000 num unmasked snps: 371; unmasked frac: 0.967600
+50001-55000 num unmasked snps: 497; unmasked frac: 0.965600
+55001-60000 num unmasked snps: 460; unmasked frac: 0.967400
+60001-65000 num unmasked snps: 509; unmasked frac: 0.970200
+65001-70000 num unmasked snps: 406; unmasked frac: 0.968000
+70001-75000 num unmasked snps: 514; unmasked frac: 0.966600
+75001-80000 num unmasked snps: 460; unmasked frac: 0.969400
+80001-85000 num unmasked snps: 400; unmasked frac: 0.963800
+85001-90000 num unmasked snps: 468; unmasked frac: 0.963400
+90001-95000 num unmasked snps: 542; unmasked frac: 0.953200
+95001-100000 num unmasked snps: 484; unmasked frac: 0.964400
+100001-105000 num unmasked snps: 457; unmasked frac: 0.972400
+105001-110000 num unmasked snps: 286; unmasked frac: 0.981200
+110001-115000 num unmasked snps: 260; unmasked frac: 0.982800
+115001-120000 num unmasked snps: 561; unmasked frac: 0.973800
+120001-125000 num unmasked snps: 610; unmasked frac: 0.969600
+125001-130000 num unmasked snps: 454; unmasked frac: 0.971000
+130001-135000 num unmasked snps: 380; unmasked frac: 0.977000
+135001-140000 num unmasked snps: 704; unmasked frac: 0.964800
+140001-145000 num unmasked snps: 836; unmasked frac: 0.946600
+145001-150000 num unmasked snps: 859; unmasked frac: 0.957600
+150001-155000 num unmasked snps: 525; unmasked frac: 0.977200
+155001-160000 num unmasked snps: 480; unmasked frac: 0.973600
+160001-165000 num unmasked snps: 712; unmasked frac: 0.966200
+165001-170000 num unmasked snps: 699; unmasked frac: 0.967400
+170001-175000 num unmasked snps: 345; unmasked frac: 0.985000
+175001-180000 num unmasked snps: 505; unmasked frac: 0.975800
+180001-185000 num unmasked snps: 714; unmasked frac: 0.966600
+185001-190000 num unmasked snps: 298; unmasked frac: 0.983600
+190001-195000 num unmasked snps: 143; unmasked frac: 0.989600
+195001-200000 num unmasked snps: 208; unmasked frac: 0.985000
+200001-205000 num unmasked snps: 203; unmasked frac: 0.987200
+205001-210000 num unmasked snps: 467; unmasked frac: 0.977800
+210001-215000 num unmasked snps: 172; unmasked frac: 0.980600
+completed in 4.9703 seconds
+/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/allel/io/vcf_read.py:1732: UserWarning: invalid INFO header: '##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">\n'
+  warnings.warn('invalid INFO header: %r' % header)
+Warning: a mask.fa file for the chr arm with all masked sites N'ed out is strongly recommended (pass in the reference to remove Ns at the very least)!
+1-5000 num unmasked snps: 273; unmasked frac: 0.909200
+5001-10000 num unmasked snps: 162; unmasked frac: 0.929800
+10001-15000 num unmasked snps: 203; unmasked frac: 0.918200
+15001-20000 num unmasked snps: 187; unmasked frac: 0.930200
+20001-25000 num unmasked snps: 116; unmasked frac: 0.942600
+25001-30000 num unmasked snps: 160; unmasked frac: 0.930400
+30001-35000 num unmasked snps: 175; unmasked frac: 0.942600
+35001-40000 num unmasked snps: 293; unmasked frac: 0.921000
+40001-45000 num unmasked snps: 187; unmasked frac: 0.930200
+45001-50000 num unmasked snps: 206; unmasked frac: 0.934600
+50001-55000 num unmasked snps: 283; unmasked frac: 0.922800
+55001-60000 num unmasked snps: 243; unmasked frac: 0.924000
+60001-65000 num unmasked snps: 291; unmasked frac: 0.926600
+65001-70000 num unmasked snps: 204; unmasked frac: 0.927600
+70001-75000 num unmasked snps: 250; unmasked frac: 0.913800
+75001-80000 num unmasked snps: 222; unmasked frac: 0.921800
+80001-85000 num unmasked snps: 207; unmasked frac: 0.925200
+85001-90000 num unmasked snps: 233; unmasked frac: 0.916400
+90001-95000 num unmasked snps: 313; unmasked frac: 0.907400
+95001-100000 num unmasked snps: 296; unmasked frac: 0.926800
+100001-105000 num unmasked snps: 275; unmasked frac: 0.936000
+105001-110000 num unmasked snps: 175; unmasked frac: 0.959000
+110001-115000 num unmasked snps: 160; unmasked frac: 0.962800
+115001-120000 num unmasked snps: 351; unmasked frac: 0.931800
+120001-125000 num unmasked snps: 433; unmasked frac: 0.934200
+125001-130000 num unmasked snps: 328; unmasked frac: 0.945800
+130001-135000 num unmasked snps: 278; unmasked frac: 0.956600
+135001-140000 num unmasked snps: 558; unmasked frac: 0.935600
+140001-145000 num unmasked snps: 667; unmasked frac: 0.912800
+145001-150000 num unmasked snps: 605; unmasked frac: 0.906800
+150001-155000 num unmasked snps: 430; unmasked frac: 0.958200
+155001-160000 num unmasked snps: 358; unmasked frac: 0.949200
+160001-165000 num unmasked snps: 578; unmasked frac: 0.939400
+165001-170000 num unmasked snps: 534; unmasked frac: 0.934400
+170001-175000 num unmasked snps: 262; unmasked frac: 0.968400
+175001-180000 num unmasked snps: 337; unmasked frac: 0.942200
+180001-185000 num unmasked snps: 501; unmasked frac: 0.924000
+185001-190000 num unmasked snps: 167; unmasked frac: 0.957400
+190001-195000 num unmasked snps: 71; unmasked frac: 0.975200
+195001-200000 num unmasked snps: 127; unmasked frac: 0.968800
+200001-205000 num unmasked snps: 138; unmasked frac: 0.974200
+205001-210000 num unmasked snps: 344; unmasked frac: 0.953200
+210001-215000 num unmasked snps: 97; unmasked frac: 0.965600
+completed in 0.465698 seconds
+2026-03-24 14:24:56.339910: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 14:25:05.906364: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-24 14:25:51.873378: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 14:26:15.501838: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-03-24 14:26:19.198645: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 14:26:19.281352: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-24 14:26:21.244802: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 14:26:23.197372: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected

@@ -1,0 +1,12 @@
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py mallardtest3/chr17.WMAIDreheader.vcf.gz chr17 215745 None 55000 11 None 0.25 0.75 None None mallardtest3/chr17.WMA.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py mallardtest3/chr17.GFMIDreheader.vcf.gz chr17 215745 None 55000 11 None 0.25 0.75 None None mallardtest3/chr17.GFM.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+Loaded model from disk
+[1m1/2[0m [32m━━━━━━━━━━[0m[37m━━━━━━━━━━[0m [1m0s[0m 879ms/step[1m2/2[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 147ms/step[1m2/2[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 160ms/step
+33 predictions complete
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+Loaded model from disk
+[1m1/2[0m [32m━━━━━━━━━━[0m[37m━━━━━━━━━━[0m [1m0s[0m 197ms/step[1m2/2[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 131ms/step[1m2/2[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 144ms/step
+33 predictions complete

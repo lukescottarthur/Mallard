@@ -12,3 +12,17 @@
 /home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_4_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_4_mallard1.gz.fvec
 /home/las80898/conda/envs/diplo_env/bin/python3.12
 /home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_5_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_5_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_6_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_6_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_7_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_7_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_8_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_8_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_9_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_9_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/neutral_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/neutral_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/soft_0_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/soft_0_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/soft_10_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/soft_10_mallard1.gz.fvec
