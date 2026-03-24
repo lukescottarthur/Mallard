@@ -1,0 +1,6 @@
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py mallardtest1B/chr17merge.vcf.gz chr17 215745 WMA 55000 11 None 0.25 0.75 mallardtest2/mallard_pop_id.txt None mallardtest2/chr17mergeWMA.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py mallardtest1B/chr17merge.vcf.gz chr17 215745 GFM 55000 11 None 0.25 0.75 mallardtest2/mallard_pop_id.txt None mallardtest2/chr17mergeGFM.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12

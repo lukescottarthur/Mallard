@@ -1,0 +1,14 @@
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_0_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_0_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_10_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_10_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_1_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_1_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_2_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_2_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_3_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_3_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_4_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_4_mallard1.gz.fvec
+/home/las80898/conda/envs/diplo_env/bin/python3.12
+/home/las80898/conda/envs/diplo_env/bin/python3.12 /home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForSingleMsDiploid.py mallardtest1B/hard_5_mallard1.gz 55000 11 None None None None 0.75 all 0.25 None mallardtest1B/hard_5_mallard1.gz.fvec

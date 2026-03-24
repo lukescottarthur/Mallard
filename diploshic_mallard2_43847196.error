@@ -1,0 +1,70 @@
+/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/allel/io/vcf_read.py:1732: UserWarning: invalid INFO header: '##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">\n'
+  warnings.warn('invalid INFO header: %r' % header)
+Warning: a mask.fa file for the chr arm with all masked sites N'ed out is strongly recommended (pass in the reference to remove Ns at the very least)!
+Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py", line 125, in <module>
+    sampleToPop = readSampleToPopFile(sampleToPopFileName)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py", line 101, in readSampleToPopFile
+    sample, pop = line.strip().split()
+    ^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-03-24 13:54:37.788239: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 13:54:49.852799: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-24 13:55:49.587876: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/diploSHIC", line 562, in <module>
+    x_df = pd.read_table(argsDict["predictFile"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1436, in read_table
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'mallardtest2/chr17mergeWMA.fvec'
+/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/allel/io/vcf_read.py:1732: UserWarning: invalid INFO header: '##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">\n'
+  warnings.warn('invalid INFO header: %r' % header)
+Warning: a mask.fa file for the chr arm with all masked sites N'ed out is strongly recommended (pass in the reference to remove Ns at the very least)!
+Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py", line 125, in <module>
+    sampleToPop = readSampleToPopFile(sampleToPopFileName)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/bin/makeFeatureVecsForChrArmFromVcfDiploid.py", line 101, in readSampleToPopFile
+    sample, pop = line.strip().split()
+    ^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-03-24 13:56:42.239996: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-03-24 13:56:42.350178: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-03-24 13:56:44.713454: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Traceback (most recent call last):
+  File "/home/las80898/conda/envs/diplo_env/bin/diploSHIC", line 562, in <module>
+    x_df = pd.read_table(argsDict["predictFile"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1436, in read_table
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/las80898/conda/envs/diplo_env/lib/python3.12/site-packages/pandas/io/common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'mallardtest2/chr17mergeGFM.fvec'
