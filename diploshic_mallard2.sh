@@ -26,8 +26,8 @@ cd /home/las80898/diploSHIC
 # make new directory
 mkdir mallardtest2
 
-# move txt file
-mv mallardtest1/mallard_pop_id.txt mallardtest2/
+# copy txt file
+cp mallardtest1/mallard_pop_id.txt mallardtest2/
 
 # feature vectors for real data WMA 
 diploSHIC fvecVcf diploid mallardtest1B/chr17merge.vcf.gz chr17 215745 mallardtest2/chr17mergeWMA.fvec --targetPop WMA --sampleToPopFileName mallardtest2/mallard_pop_id.txt --winSize 55000
