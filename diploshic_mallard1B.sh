@@ -4,14 +4,14 @@
 #SBATCH --ntasks=1                                  # 
 #SBATCH --cpus-per-task=16                           # CPU core count per task
 #SBATCH --mem=32G                                    # Memory per node
-#SBATCH --time=24:00:00                              # Time limit hrs:mins:secs
+#SBATCH --time=12:00:00                              # Time limit hrs:mins:secs
 #SBATCH --output=/home/las80898/Mallard/%x_%j.out  ####change to your path
 #SBATCH --error=/home/las80898/Mallard/%x_%j.error ####change to your path
 #SBATCH --mail-user=las80898@uga.edu                #####change to your path
 #SBATCH --mail-type=END,FAIL                        # Mail events 
 
 # This is a re-work of diploshic_mallard1.sh
-# Purpose: I didn't rename some of the directories, etc from the initial test, and I'm not convinced the initial script worked.
+
 
 # Load conda environment 
 CONDA_BASE=$(conda info --base)
@@ -25,8 +25,7 @@ cd /home/las80898/diploSHIC
 # chr17 length 215745
 
 # add vcf.gz file to your directory
-
-# move discoal simulations into your directory
+mv mallardtest1/chr17merge.vcf.gz mallardtest1B/
 
 #calculate feature vectors from simulations
 for f in mallardtest1B/*_mallard1.gz; do diploSHIC fvecSim diploid $f $f.fvec --totalPhysLen 55000
@@ -42,10 +41,7 @@ diploSHIC makeTrainingSets mallardFV/neutral_mallard1.gz.fvec mallardFV/soft mal
 diploSHIC train mallardTrainingSets/ mallardTrainingSets/ bfsModel
 
 # feature vectors for real data
-diploSHIC fvecVcf diploid mallardtest1B/chr17merge.vcf.gz chr17 215745 mallardtest1/chr17merge.fvec --winSize 55000
-
-# move output
-mv mallardtest1/chr17merge.fvec rawFVFiles/chr17merge.fvec
+diploSHIC fvecVcf diploid mallardtest1B/chr17merge.vcf.gz chr17 215745 mallardtest1B/chr17merge.fvec --winSize 55000
 
 # prediction on empirical feature vectors
-diploSHIC predict bfsModel.json bfsModel.weights.h5 rawFVFiles/chr17merge.fvec mallardtest1_results
+diploSHIC predict bfsModel.json bfsModel.weights.h5 mallardtest1B/chr17merge.fvec mallardtest1B_results

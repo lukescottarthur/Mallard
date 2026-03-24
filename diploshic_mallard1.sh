@@ -10,6 +10,10 @@
 #SBATCH --mail-user=las80898@uga.edu                #####change to your path
 #SBATCH --mail-type=END,FAIL                        # Mail events 
 
+#### this is broken, use *1B instead!!!!
+
+
+
 # Load conda environment 
 CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh
