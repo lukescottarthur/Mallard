@@ -78,3 +78,16 @@ install.packages("pcadapt")
 
 #downloaded source packages are in:
 #‘/tmp/las80898-tmpdir-mwIiuc/RtmpVgUdm4/downloaded_packages’
+
+
+###
+# merging pcadapt snp numbers with chromosome positions
+# lenght of chr17: 215745
+# last snp on 215707
+# number of snps: 25843
+
+bcftools query -f '%CHROM\t%POS\t%REF\t%ALT\n' chr17.WMAIDreheader.vcf.gz > chr17snplist.txt
+
+# add sequence of snp numbers to *.txt
+seq 1 25843 > chr17seq.txt
+nl chr17snplist.txt > chr17snplistnumbered.txt
