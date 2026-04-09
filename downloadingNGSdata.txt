@@ -6,19 +6,17 @@ conda install gdown
 
 #navigate to directory that you want to download files into
 
-#vcf.gz file
+#filtered vcf.gz file
 gdown https://drive.google.com/uc?id=1TnEiEh7rFw6t4S2iPAXQH-D5fRy023bc
 
 #tbi file
 gdown https://drive.google.com/uc?id=1al_kRc0KqFqevrLER8iLs7ulnOmJCouZ
 
-#vcf file
-gdown https://drive.google.com/uc?id=18i0K-NGWuXkB9Noid2MgcskYfFUhdPfg
-
-#link to vcf file
-https://drive.google.com/file/d/18i0K-NGWuXkB9Noid2MgcskYfFUhdPfg/view?usp=sharing
 
 #link to vcf.gz file
+https://drive.google.com/file/d/18i0K-NGWuXkB9Noid2MgcskYfFUhdPfg/view?usp=sharing
+
+#link to filtered vcf.gz file
 https://drive.google.com/file/d/1TnEiEh7rFw6t4S2iPAXQH-D5fRy023bc/view?usp=sharing
 
 #link to vcf.gz.tbi file
