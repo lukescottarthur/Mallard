@@ -1,8 +1,9 @@
 # this is for accessing ngs data from google drive
 
 
-conda activate 'environment'
+conda activate 'environment' (test_env)
 conda install gdown
+conda install rsync
 
 #navigate to directory that you want to download files into
 
@@ -12,6 +13,11 @@ gdown https://drive.google.com/uc?id=1TnEiEh7rFw6t4S2iPAXQH-D5fRy023bc
 #tbi file
 gdown https://drive.google.com/uc?id=1al_kRc0KqFqevrLER8iLs7ulnOmJCouZ
 
+##uploading large whole genome file to cluster from local machine (this didn't work)
+rsync -avzP /Users/lukescott/PARENTALS_CH1_individuals.vcf.gz las80898@sapelo2.gacrc.uga.edu:/home/las80898/mallard_wholegenome_data/
+
+#alternate
+scp /Users/lukescott/PARENTALS_CH1_individuals.vcf.gz las80898@sapelo2.gacrc.uga.edu:/home/las80898/mallard_wholegenome_data/
 
 #link to vcf.gz file
 https://drive.google.com/file/d/18i0K-NGWuXkB9Noid2MgcskYfFUhdPfg/view?usp=sharing
