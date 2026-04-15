@@ -15,7 +15,7 @@ CONDA_BASE=$(conda info --base)
 source ${CONDA_BASE}/etc/profile.d/conda.sh
 conda activate test_env
 
-# Navigate to diploSHIC directory (change to your directory)
+# Navigate to directory (change to your directory)
 cd /home/las80898/mallard_wholegenome_data
 
 
