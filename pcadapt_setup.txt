@@ -82,7 +82,7 @@ install.packages("pcadapt")
 
 ###
 # merging pcadapt snp numbers with chromosome positions
-# lenght of chr17: 215745
+# length of chr17: 215745
 # last snp on 215707
 # number of snps: 25843
 

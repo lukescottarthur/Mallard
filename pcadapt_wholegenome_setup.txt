@@ -1,0 +1,71 @@
+# workflow for running whole genomes on pcadapt
+
+conda activate test_env
+
+# view header
+bcftools view -h PARENTALS_CH1_inds_FILTERED.recode.vcf.gz
+
+# extract
+bcftools view -h PARENTALS_CH1_inds_FILTERED.recode.vcf.gz > Allheader.txt
+
+# move to vscode directory
+mv Allheader.txt /home/las80898/Mallard/
+
+# manually edit header in vscode or choice of text editor
+##FORMAT=<ID=MQ,Number=1,Type=Float,Description="Average mapping quality">
+
+# move back
+mv /home/las80898/Mallard/Allheader.txt /home/las80898/mallard_wholegenome_data
+
+# reheader
+bcftools reheader -h Allheader.txt -o Wholegenomes_Allpopulations_reheader.vcf.gz PARENTALS_CH1_inds_FILTERED.recode.vcf.gz
+
+# check header
+bcftools view -h Wholegenomes_Allpopulations_reheader.vcf.gz
+
+# create index files
+bcftools index Wholegenomes_Allpopulations_reheader.vcf.gz
+
+# view samples
+bcftools query -l Wholegenomes_Allpopulations_reheader.vcf.gz 
+
+# make sample list of three populations (copy/paste int txt files)
+bcftools query -l chr17.WMAIDreheader.vcf.gz
+bcftools query -l chr17.KCIDreheader.vcf.gz
+bcftools query -l chr17.GFMIDreheader.vcf.gz
+
+~~~
+## split into three files
+sbatch mallard_split_VCF.sh
+# GFM x WM
+bcftools view -Oz - S /home/las80898/Mallard/GFMxWM_samplelist.txt Wholegenomes_Allpopulations_reheader.vcf.gz -o GFMxWM.vcf.gz
+
+# GFM x KC
+bcftools view -Oz - S /home/las80898/Mallard/GFMxKC_samplelist.txt Wholegenomes_Allpopulations_reheader.vcf.gz -o GFMxKC.vcf.gz
+
+# WM x KC
+bcftools view -Oz - S /home/las80898/Mallard/WMxKC_samplelist.txt Wholegenomes_Allpopulations_reheader.vcf.gz -o WMxKC.vcf.gz
+
+# make index files
+bcftools index GFMxWM.vcf.gz
+bcftools index GFMxKC.vcf.gz
+bcftools index WMxKC.vcf.gz
+~~~
+
+# validate new files
+bcftools view -h GFMxWM.vcf.gz
+bcftools view -h GFMxKC.vcf.gz
+bcftools view -h WMxKC.vcf.gz
+
+# convert to bed
+plink2 --vcf GFMxWM.vcf.gz --make-bed --out GFMxWM
+plink2 --vcf GFMxKC.vcf.gz --make-bed --out GFMxKC
+plink2 --vcf WMxKC.vcf.gz --make-bed --out WMxKC
+
+
+### (after running pcadapt) equating pcadapt snp numbers to chromosome positions
+bcftools query -f '%CHROM\t%POS\t%REF\t%ALT\n' chr17.WMAIDreheader.vcf.gz > chr17snplist.txt
+
+# add sequence of snp numbers to *.txt
+seq 1 25843 > chr17seq.txt
+nl chr17snplist.txt > chr17snplistnumbered.txt
