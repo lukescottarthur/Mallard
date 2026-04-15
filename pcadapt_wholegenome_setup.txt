@@ -62,6 +62,11 @@ plink2 --vcf GFMxWM.vcf.gz --chr-set 31 --make-bed --out GFMxWM
 plink2 --vcf GFMxKC.vcf.gz --chr-set 31 --make-bed --out GFMxKC
 plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 
+## load R interactive session in cluster
+
+
+
+
 
 ### (after running pcadapt) equating pcadapt snp numbers to chromosome positions
 bcftools query -f '%CHROM\t%POS\t%REF\t%ALT\n' chr17.WMAIDreheader.vcf.gz > chr17snplist.txt
