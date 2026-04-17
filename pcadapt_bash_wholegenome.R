@@ -13,7 +13,7 @@ library(devtools)
 library(CMplot)
 
 # read data
-GFMxWM <- read.pcadapt("GFMxWM.bed", type = "bed")
+GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
 
 # initial analysis
 x1 <- pcadapt(GFMxWM, K = 2)
@@ -43,7 +43,9 @@ print(outliersbonf)
 sink()
 
 # LD
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_LD.png")
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_LD.png",
+    width = 800, height = 400 * 2)
+par(mfrow = c(2, 1))
 for (i in 1:2)
   plot(x1$loadings[, i], pch = 19, cex = .3, ylab = paste0("Loadings PC", i))
 dev.off()
@@ -55,15 +57,15 @@ print(snp_pc)
 sink()
 
 # plotting with qqman
-
-~~~~~CHR Numeric vector of chromosome numbers (e.g., 1–22; X/Y must be renamed to 23/24)
-~~ad chrlabs?
-
 #make dataframe with values from pcadapt
-SNP <- x1$pass
-~~~~~CHR <- rep(17, times = 9093)  #####~~~need to sort this out
-BP <- x1$pass
-P <- x1$pvalues[!is.na(x1$pvalues)]
+bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
+                  header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
+
+keep <- !is.na(x1$pvalues)
+SNP  <- bim$SNP[keep]
+CHR  <- bim$CHR[keep]
+BP   <- bim$BP[keep]
+P    <- x1$pvalues[keep]
 
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
@@ -135,8 +137,7 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
 ggsave("/scratch/las80898/pcadapt_output/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
 
 ###circular plot
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_circular_manhattan.png")
 CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
-       outward=TRUE, cir.chr.h=.1 ,chr.den.col="orange", file="jpg",
-       dpi=300, chr.labels=seq(1,22))
-dev.off()
+       outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
+       file="/scratch/las80898/pcadapt_output/GFMxWM_circular_manhattan.png", dpi=600, chr.labels=seq(1,31))
+       

@@ -8,7 +8,7 @@
 #SBATCH --error=/home/las80898/Mallard/pcadapt_bash_GFMxWM.%j.err
 #SBATCH --output=/home/las80898/Mallard/pcadapt_bash_GFMxWM.%j.out
 #SBATCH --mail-user=las80898@uga.edu
-#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-type=BEGIN,END,FAIL
 
 # activate R environment
 CONDA_BASE=$(conda info --base)
@@ -19,9 +19,9 @@ conda activate test_env
 OUTDIR="/scratch/las80898/pcadapt_output"                 
 
 #if output directory doesn't exist, create it
-if [ ! -d $OUTDIR ]
+if [ ! -d "$OUTDIR" ]
 then
-    mkdir -p $OUTDIR
+    mkdir -p "$OUTDIR"
 fi
 
 # run R script

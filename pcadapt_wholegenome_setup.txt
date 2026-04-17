@@ -62,6 +62,8 @@ plink2 --vcf GFMxWM.vcf.gz --chr-set 31 --make-bed --out GFMxWM
 plink2 --vcf GFMxKC.vcf.gz --chr-set 31 --make-bed --out GFMxKC
 plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 
+
+
 # notes for R scripting:
 
 ~~~~use the following code to save what I want.
@@ -93,6 +95,13 @@ print(123)
 # Close the file connection
 sink()   
 ~~~~
+
+### removed this ie claude (IDK where pass came from?????)
+SNP <- x1$pass
+CHR <- rep(1:31)
+BP <- x1$pass
+P <- x1$pvalues[!is.na(x1$pvalues)]
+
 
 
 # for loading interactive?
