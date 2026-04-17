@@ -1,6 +1,8 @@
 # this is a script made to be submitted in bash, intended to analyze
 # whole genome data and output files along the way
 
+# GFMxWM
+
 # load libraries
 library(pcadapt)
 library(ggplot2)
@@ -13,61 +15,63 @@ library(CMplot)
 # read data
 GFMxWM <- read.pcadapt("GFMxWM.bed", type = "bed")
 
-~~~~use the following code to save what I want.
-# save ggplot using ggsave
-# make a plot first with a name, then save it
-ggsave(
-    "/scratch/las80898/pcadapt_output/*.png",
-    combo_plot
-)
-
-# or base r plot using png, pdf, etc.
-png("/scratch/las80898/pcadapt_output/*.png")
-heatmap.2(mtrx, scale = "row", Rowv = FALSE, Colv = FALSE, dendrogram = "none", trace = "none")
-dev.off()
-
-# Example: Saving a base plot to a PNG file
-png(filename = "output_plot.png")
-plot(1:10, 1:10, col = "blue", pch = 18, main = "Base Plot")
-dev.off()   
-~~~~
-
 # initial analysis
 x1 <- pcadapt(GFMxWM, K = 2)
-summary(x1)
+
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_initial_manhattan.png")
 plot(x1 , option = "manhattan")
+dev.off()
+
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqplot.png")
 plot(x1, option = "qqplot")
+dev.off()
+
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_pvalue_histogram.png")
 hist(x1$pvalues, xlab = "p-values", main = NULL, breaks = 50, col = "orange")
+dev.off()
+
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_stats_distribution.png")
 plot(x1, option = "stat.distribution")
+dev.off()
 
 # outlier adjustment
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
 alpha <- 0.0001
 outliersbonf <- which(padjbonf < alpha)
-length(outliersbonf)
-outliersbonf
+sink("/scratch/las80898/pcadapt_output/GFMxWM_outliers.txt")
+print(outliersbonf)
+sink()
 
 # LD
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_LD.png")
 for (i in 1:2)
   plot(x1$loadings[, i], pch = 19, cex = .3, ylab = paste0("Loadings PC", i))
+dev.off()
 
 #association between pc and outliers
 snp_pc <- get.pc(x1, outliersbonf)
-snp_pc
+sink("/scratch/las80898/pcadapt_output/GFMxWM_snp_pc_associations.txt")
+print(snp_pc)
+sink()
 
 # plotting with qqman
 
+~~~~~CHR Numeric vector of chromosome numbers (e.g., 1–22; X/Y must be renamed to 23/24)
+~~ad chrlabs?
+
 #make dataframe with values from pcadapt
 SNP <- x1$pass
-CHR <- rep(17, times = 9093) 
+~~~~~CHR <- rep(17, times = 9093)  #####~~~need to sort this out
 BP <- x1$pass
 P <- x1$pvalues[!is.na(x1$pvalues)]
 
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqman.png")
 manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, 
           annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, 
           xlab = "Chromosome number", cex = 0.3, highlight = outliersbonf)
+dev.off()
 
 # plotting with ggplot
 # Prepare the dataset
@@ -96,7 +100,7 @@ don <- qqdf_GFMxWM %>%
 axisdf <- don %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
 
 # Make the plot
-ggplot(don, aes(x=BPcum, y=-log10(P))) +
+GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
   
   # Show all points
   geom_point( aes(color=as.factor(CHR)), alpha=0.8, size=1.3) +
@@ -104,7 +108,7 @@ ggplot(don, aes(x=BPcum, y=-log10(P))) +
   
   # custom X axis:
   scale_x_continuous( label = axisdf$CHR, breaks= axisdf$center ) +
-  scale_y_continuous(expand = c(0, 0) ) +     # remove space between plot area and x axis
+  scale_y_continuous(expand = c(0, 0) ) +  # remove space between plot area and x axis
   
   # Add highlighted points
   geom_point(data=subset(don, is_highlight=="yes"), color="orange", size=2) +
@@ -127,12 +131,12 @@ ggplot(don, aes(x=BPcum, y=-log10(P))) +
     panel.grid.minor.x = element_blank()
   )
 
-# saving plots
-ggsave(".....png", chr17gg, width = 8, height = 6, dpi = 600)
-ggsave("......png", plot = my_plot, width = 8, height = 6, dpi = 300)   
-
+# saving ggplot
+ggsave("/scratch/las80898/pcadapt_output/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
 
 ###circular plot
+png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_circular_manhattan.png")
 CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
        outward=TRUE, cir.chr.h=.1 ,chr.den.col="orange", file="jpg",
        dpi=300, chr.labels=seq(1,22))
+dev.off()

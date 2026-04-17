@@ -62,12 +62,43 @@ plink2 --vcf GFMxWM.vcf.gz --chr-set 31 --make-bed --out GFMxWM
 plink2 --vcf GFMxKC.vcf.gz --chr-set 31 --make-bed --out GFMxKC
 plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 
-## load R interactive session in cluster
+# notes for R scripting:
+
+~~~~use the following code to save what I want.
+# save ggplot using ggsave
+# make a plot first with a name, then save it
+ggsave(
+    "/scratch/las80898/pcadapt_output/*.png",
+    combo_plot
+)
+
+# or base r plot using png, pdf, etc.
+png("/scratch/las80898/pcadapt_output/*.png")
+heatmap.2(mtrx, scale = "row", Rowv = FALSE, Colv = FALSE, dendrogram = "none", trace = "none")
+dev.off()
+
+# Example: Saving a base plot to a PNG file
+png(filename = "output_plot.png")
+plot(1:10, 1:10, col = "blue", pch = 18, main = "Base Plot")
+dev.off()
+
+## to save output of print
+# Start redirecting output to a file
+sink("output.txt")
+
+# Your print statement
+print("This is a test")
+print(123)
+
+# Close the file connection
+sink()   
+~~~~
 
 
+# for loading interactive?
 R/4.4.2-gfbf-2024a
 R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2
-
+#
 
 ### (after running pcadapt) equating pcadapt snp numbers to chromosome positions
 bcftools query -f '%CHROM\t%POS\t%REF\t%ALT\n' chr17.WMAIDreheader.vcf.gz > chr17snplist.txt
