@@ -65,7 +65,8 @@ plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 ## load R interactive session in cluster
 
 
-
+R/4.4.2-gfbf-2024a
+R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2
 
 
 ### (after running pcadapt) equating pcadapt snp numbers to chromosome positions
