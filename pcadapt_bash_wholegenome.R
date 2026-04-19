@@ -36,7 +36,7 @@ dev.off()
 
 # outlier adjustment
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
-alpha <- 0.0001
+alpha <- 0.0000001
 outliersbonf <- which(padjbonf < alpha)
 sink("/scratch/las80898/pcadapt_output/GFMxWM_outliers.txt")
 print(outliersbonf)
@@ -70,9 +70,7 @@ P    <- x1$pvalues[keep]
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
 png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqman.png")
-manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, 
-          annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, 
-          xlab = "Chromosome number", cex = 0.3, highlight = outliersbonf)
+manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, xlab = "Chromosome number", cex = 0.3, highlight = outliersbonf)
 dev.off()
 
 # plotting with ggplot

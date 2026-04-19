@@ -62,6 +62,9 @@ plink2 --vcf GFMxWM.vcf.gz --chr-set 31 --make-bed --out GFMxWM
 plink2 --vcf GFMxKC.vcf.gz --chr-set 31 --make-bed --out GFMxKC
 plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 
+# updated convert to bed...nope
+plink2 --vcf GFMxWM.vcf.gz --chr-set 29 MT --make-bed --out GFMxWM
+
 
 
 # notes for R scripting:
