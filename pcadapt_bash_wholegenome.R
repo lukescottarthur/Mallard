@@ -134,8 +134,9 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
 # saving ggplot
 ggsave("/scratch/las80898/pcadapt_output/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
 
-###circular plot
+###circular plot - need to amend chr.labels i think
+setwd("/scratch/las80898/pcadapt_output_2")
 CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
        outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
-       file="/scratch/las80898/pcadapt_output/GFMxWM_circular_manhattan.png", dpi=600, chr.labels=seq(1,31))
-       
+       file.name="GFMxWM_circular_manhattan",
+       file="jpg", dpi=600, chr.labels=seq(1, 31))

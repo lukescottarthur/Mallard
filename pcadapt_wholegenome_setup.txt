@@ -63,6 +63,7 @@ plink2 --vcf GFMxKC.vcf.gz --chr-set 31 --make-bed --out GFMxKC
 plink2 --vcf WMxKC.vcf.gz --chr-set 31 --make-bed --out WMxKC
 
 # updated convert to bed...nope
+# i think this should be only 1-29 and Z
 plink2 --vcf GFMxWM.vcf.gz --chr-set 29 MT --make-bed --out GFMxWM
 
 
