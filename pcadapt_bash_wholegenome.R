@@ -61,6 +61,28 @@ sink()
 bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
+message("Unique CHR values in bim: ")
+print(unique(bim$CHR))
+message("Total SNPs in bim: ", nrow(bim))
+message("Total pvalues: ", length(x1$pvalues))
+
+# Get SNP IDs of outliers BEFORE subsetting, using the original bim
+outlier_snps <- bim$SNP[outliersbonf]
+
+# fixing bim file
+# Convert CHR to character for manipulation
+bim$CHR <- as.character(bim$CHR)
+
+# Recode z chromosomes to numbers
+bim$CHR[bim$CHR == "chrZ" | bim$CHR == "Z"]  <- "30"
+
+# Remove unplaced scaffolds (any CHR that still can't be coerced to numeric)
+bim$CHR <- suppressWarnings(as.numeric(bim$CHR))
+bim <- bim[!is.na(bim$CHR), ]
+
+# Now rebuild keep index AFTER filtering bim
+keep <- !is.na(x1$pvalues[1:nrow(bim)])  # align length after scaffold removal
+
 keep <- !is.na(x1$pvalues)
 SNP  <- bim$SNP[keep]
 CHR  <- bim$CHR[keep]
@@ -69,8 +91,9 @@ P    <- x1$pvalues[keep]
 
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
+
 png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqman.png")
-manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, xlab = "Chromosome number", cex = 0.3, highlight = outliersbonf)
+manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, xlab = "Chromosome number", cex = 0.3, highlight = outlier_snps)
 dev.off()
 
 # plotting with ggplot
@@ -93,7 +116,7 @@ don <- qqdf_GFMxWM %>%
   mutate( BPcum=BP+tot) %>%
   
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(SNP %in% outliersbonf, "yes", "no")) %>%
+  mutate( is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
   mutate( is_annotate=ifelse(-log10(P)>8, "yes", "no")) 
 
 # Prepare X axis
