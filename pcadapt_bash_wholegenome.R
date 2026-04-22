@@ -68,6 +68,16 @@ message("Total pvalues: ", length(x1$pvalues))
 
 # Get SNP IDs of outliers BEFORE any filtering
 outlier_snps <- bim$SNP[outliersbonf]
+# Before renaming SNPs, get row positions of outliers in the filtered df
+outlier_positions <- which(qqdf_GFMxWM$SNP %in% outlier_snps)
+
+# Rename all SNPs to simple numeric IDs
+qqdf_GFMxWM$SNP <- paste0("snp", seq_len(nrow(qqdf_GFMxWM)))
+
+# Rebuild outlier_snps with new IDs
+outlier_snps_renamed <- qqdf_GFMxWM$SNP[outlier_positions]
+
+
 
 # Convert CHR and recode
 bim$CHR <- as.character(bim$CHR)
@@ -96,53 +106,66 @@ message("Lengths after filtering - SNP: ", length(SNP),
 message("Any NA in P: ", any(is.na(P)))
 message("Any infinite in P: ", any(!is.finite(P)))
 
+# Replace exact zero p-values before building qqdf
+P[P == 0] <- .Machine$double.xmin  # ~2.2e-308, effectively -log10 = 307
+
+# How many zeros were there?
+message("Number of zero p-values replaced: ", sum(P == 0))  # run before replacement
+
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
+
 # verify outliers
-sink("/scratch/las80898/pcadapt_output_2/GFMxWM_snp_pc_associations.txt")
 message("Number of outliers: ", length(outliersbonf))
-print("Number of outliers: ", length(outliersbonf))
 message("Number of valid outlier SNP IDs: ", sum(!is.na(outlier_snps)))
-print("Number of valid outlier SNP IDs: ", sum(!is.na(outlier_snps)))
-sink()
+
+message("nrow of qqdf: ", nrow(qqdf_GFMxWM))
+message("CHR range: ", min(CHR), " to ", max(CHR))
+message("BP range: ", min(BP), " to ", max(BP))
+message("P range: ", min(P), " to ", max(P))
+message("CHR unique values: ")
+print(sort(unique(CHR)))
+message("Sample SNP IDs: ")
+print(head(SNP, 10))
 
 # build manhattan qqman
 png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_qqman.png")
-manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, xlab = "Chromosome number", cex = 0.3, highlight = outlier_snps)
+manhattan(qqdf_GFMxWM, 
+          main = "pcadapt SNP Outliers", 
+          cex.axis = 0.8, cex.main = .8,
+          annotatePval = 0.0000001, 
+          suggestiveline = FALSE,
+          annotateTop = FALSE, 
+          xlab = "Chromosome number", 
+          cex = 0.3, 
+          highlight = outlier_snps,
+          ylim = c(0, 320))   # 320 safely covers -log10(.Machine$double.xmin)
 dev.off()
+
 
 # plotting with ggplot
 # Prepare the dataset
 don <- qqdf_GFMxWM %>% 
-  
-  # Compute chromosome size
   group_by(CHR) %>% 
   summarise(chr_len=max(BP)) %>% 
-  
-  # Calculate cumulative position of each chromosome
   mutate(tot=cumsum(chr_len)-chr_len) %>%
   select(-chr_len) %>%
-  
-  # Add this info to the initial dataset
   left_join(qqdf_GFMxWM, ., by=c("CHR"="CHR")) %>%
-  
-  # Add a cumulative position of each SNP
   arrange(CHR, BP) %>%
-  mutate( BPcum=BP+tot) %>%
-  
-  # Add highlight and annotation information
-  mutate( is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
-  mutate( is_annotate=ifelse(-log10(P)>8, "yes", "no")) 
+  mutate(BPcum=BP+tot) %>%
+  mutate(logP = pmin(-log10(P), 320)) %>%        # move up here
+  mutate(is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
+  mutate(is_annotate=ifelse(logP > 8, "yes", "no"))  # use logP, not -log10(P)
 
 # Prepare X axis
 axisdf <- don %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
 
 # Make the plot
-GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
+GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=logP)) +
   
   # Show all points
   geom_point( aes(color=as.factor(CHR)), alpha=0.8, size=1.3) +
-  scale_color_manual(values = rep(c("black"))) +
+  scale_color_manual(values = rep(c("black", "grey60"), length.out = 30)) +
   
   # custom X axis:
   scale_x_continuous( label = axisdf$CHR, breaks= axisdf$center ) +
@@ -169,6 +192,7 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
     panel.grid.minor.x = element_blank()
   )
 
+
 # saving ggplot
 ggsave("/scratch/las80898/pcadapt_output_2/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
 
@@ -177,4 +201,4 @@ setwd("/scratch/las80898/pcadapt_output_2")
 CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
        outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
        file.name="GFMxWM_circular_manhattan",
-       file="jpg", dpi=600, chr.labels=seq(1, 31))
+       file="jpg", dpi=600, chr.labels=seq(1, 30))

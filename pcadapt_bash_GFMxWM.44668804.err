@@ -34,12 +34,3 @@ Full description, Bug report, Suggestion and the latest codes:
 https://github.com/YinLiLin/CMplot
 Warning message:
 package ‘CMplot’ was built under R version 4.4.3 
-Warning message:
-Removed 17848 rows containing non-finite outside the scale range
-(`stat_bin()`). 
-Unique CHR values in bim: 
-Total SNPs in bim: 19977033
-Total pvalues: 19977033
-Error in plot.window(...) : need finite 'ylim' values
-Calls: manhattan ... do.call -> plot -> plot.default -> localWindow -> plot.window
-Execution halted
