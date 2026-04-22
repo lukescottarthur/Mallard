@@ -58,6 +58,7 @@ sink()
 
 # plotting with qqman
 #make dataframe with values from pcadapt
+# Read bim
 bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
@@ -66,52 +67,28 @@ print(unique(bim$CHR))
 message("Total SNPs in bim: ", nrow(bim))
 message("Total pvalues: ", length(x1$pvalues))
 
-# Get SNP IDs of outliers BEFORE any filtering
+# Step 2: get outlier SNP IDs from ORIGINAL unfiltered bim
 outlier_snps <- bim$SNP[outliersbonf]
-# Before renaming SNPs, get row positions of outliers in the filtered df
-outlier_positions <- which(qqdf_GFMxWM$SNP %in% outlier_snps)
 
-# Rename all SNPs to simple numeric IDs
-qqdf_GFMxWM$SNP <- paste0("snp", seq_len(nrow(qqdf_GFMxWM)))
-
-# Rebuild outlier_snps with new IDs
-outlier_snps_renamed <- qqdf_GFMxWM$SNP[outlier_positions]
-
-
-
-# Convert CHR and recode
+# Step 3: recode and filter scaffolds
 bim$CHR <- as.character(bim$CHR)
 bim$CHR[bim$CHR == "chrZ" | bim$CHR == "Z"] <- "30"
 bim$CHR <- suppressWarnings(as.numeric(bim$CHR))
-
-# Track which rows to keep (non-scaffold rows)
 scaffold_keep <- !is.na(bim$CHR)
 
-# Filter bim AND pvalues together using the same index
-bim_filtered  <- bim[scaffold_keep, ]
+# Step 4: filter bim AND pvalues with the same index
+bim_filtered   <- bim[scaffold_keep, ]
 pvals_filtered <- x1$pvalues[scaffold_keep]
 
-# Now filter NAs from pvalues, again keeping bim aligned
+# Step 5: filter NAs and replace zero p-values
 pval_keep <- !is.na(pvals_filtered)
 SNP <- bim_filtered$SNP[pval_keep]
 CHR <- bim_filtered$CHR[pval_keep]
 BP  <- bim_filtered$BP[pval_keep]
 P   <- pvals_filtered[pval_keep]
+P[P == 0] <- .Machine$double.xmin
 
-# Sanity check - all should be equal and > 0
-message("Lengths after filtering - SNP: ", length(SNP), 
-        " CHR: ", length(CHR), 
-        " BP: ", length(BP), 
-        " P: ", length(P))
-message("Any NA in P: ", any(is.na(P)))
-message("Any infinite in P: ", any(!is.finite(P)))
-
-# Replace exact zero p-values before building qqdf
-P[P == 0] <- .Machine$double.xmin  # ~2.2e-308, effectively -log10 = 307
-
-# How many zeros were there?
-message("Number of zero p-values replaced: ", sum(P == 0))  # run before replacement
-
+# Step 6: build qqdf — outlier_snps already set above, no renaming needed
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
 
