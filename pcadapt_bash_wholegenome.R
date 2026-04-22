@@ -18,19 +18,19 @@ GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", typ
 # initial analysis
 x1 <- pcadapt(GFMxWM, K = 2)
 
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_initial_manhattan.png")
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_initial_manhattan.png")
 plot(x1 , option = "manhattan")
 dev.off()
 
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqplot.png")
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_qqplot.png")
 plot(x1, option = "qqplot")
 dev.off()
 
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_pvalue_histogram.png")
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_pvalue_histogram.png")
 hist(x1$pvalues, xlab = "p-values", main = NULL, breaks = 50, col = "orange")
 dev.off()
 
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_stats_distribution.png")
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_stats_distribution.png")
 plot(x1, option = "stat.distribution")
 dev.off()
 
@@ -38,12 +38,12 @@ dev.off()
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
 alpha <- 0.0000001
 outliersbonf <- which(padjbonf < alpha)
-sink("/scratch/las80898/pcadapt_output/GFMxWM_outliers.txt")
+sink("/scratch/las80898/pcadapt_output_2/GFMxWM_outliers.txt")
 print(outliersbonf)
 sink()
 
 # LD
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_LD.png",
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_LD.png",
     width = 800, height = 400 * 2)
 par(mfrow = c(2, 1))
 for (i in 1:2)
@@ -52,7 +52,7 @@ dev.off()
 
 #association between pc and outliers
 snp_pc <- get.pc(x1, outliersbonf)
-sink("/scratch/las80898/pcadapt_output/GFMxWM_snp_pc_associations.txt")
+sink("/scratch/las80898/pcadapt_output_2/GFMxWM_snp_pc_associations.txt")
 print(snp_pc)
 sink()
 
@@ -66,33 +66,48 @@ print(unique(bim$CHR))
 message("Total SNPs in bim: ", nrow(bim))
 message("Total pvalues: ", length(x1$pvalues))
 
-# Get SNP IDs of outliers BEFORE subsetting, using the original bim
+# Get SNP IDs of outliers BEFORE any filtering
 outlier_snps <- bim$SNP[outliersbonf]
 
-# fixing bim file
-# Convert CHR to character for manipulation
+# Convert CHR and recode
 bim$CHR <- as.character(bim$CHR)
-
-# Recode z chromosomes to numbers
-bim$CHR[bim$CHR == "chrZ" | bim$CHR == "Z"]  <- "30"
-
-# Remove unplaced scaffolds (any CHR that still can't be coerced to numeric)
+bim$CHR[bim$CHR == "chrZ" | bim$CHR == "Z"] <- "30"
 bim$CHR <- suppressWarnings(as.numeric(bim$CHR))
-bim <- bim[!is.na(bim$CHR), ]
 
-# Now rebuild keep index AFTER filtering bim
-keep <- !is.na(x1$pvalues[1:nrow(bim)])  # align length after scaffold removal
+# Track which rows to keep (non-scaffold rows)
+scaffold_keep <- !is.na(bim$CHR)
 
-keep <- !is.na(x1$pvalues)
-SNP  <- bim$SNP[keep]
-CHR  <- bim$CHR[keep]
-BP   <- bim$BP[keep]
-P    <- x1$pvalues[keep]
+# Filter bim AND pvalues together using the same index
+bim_filtered  <- bim[scaffold_keep, ]
+pvals_filtered <- x1$pvalues[scaffold_keep]
+
+# Now filter NAs from pvalues, again keeping bim aligned
+pval_keep <- !is.na(pvals_filtered)
+SNP <- bim_filtered$SNP[pval_keep]
+CHR <- bim_filtered$CHR[pval_keep]
+BP  <- bim_filtered$BP[pval_keep]
+P   <- pvals_filtered[pval_keep]
+
+# Sanity check - all should be equal and > 0
+message("Lengths after filtering - SNP: ", length(SNP), 
+        " CHR: ", length(CHR), 
+        " BP: ", length(BP), 
+        " P: ", length(P))
+message("Any NA in P: ", any(is.na(P)))
+message("Any infinite in P: ", any(!is.finite(P)))
 
 qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
+# verify outliers
+sink("/scratch/las80898/pcadapt_output_2/GFMxWM_snp_pc_associations.txt")
+message("Number of outliers: ", length(outliersbonf))
+print("Number of outliers: ", length(outliersbonf))
+message("Number of valid outlier SNP IDs: ", sum(!is.na(outlier_snps)))
+print("Number of valid outlier SNP IDs: ", sum(!is.na(outlier_snps)))
+sink()
 
-png(filename = "/scratch/las80898/pcadapt_output/GFMxWM_qqman.png")
+# build manhattan qqman
+png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_qqman.png")
 manhattan(qqdf_GFMxWM, main = " pcadapt SNP Outliers", cex.axis = 0.8, cex.main = .8, annotatePval = 0.0000001, suggestiveline = F , annotateTop = FALSE, xlab = "Chromosome number", cex = 0.3, highlight = outlier_snps)
 dev.off()
 
@@ -155,7 +170,7 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=-log10(P))) +
   )
 
 # saving ggplot
-ggsave("/scratch/las80898/pcadapt_output/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
+ggsave("/scratch/las80898/pcadapt_output_2/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
 
 ###circular plot - need to amend chr.labels i think
 setwd("/scratch/las80898/pcadapt_output_2")
