@@ -16,7 +16,7 @@ source ${CONDA_BASE}/etc/profile.d/conda.sh
 conda activate test_env
 
 #set output directory variable
-OUTDIR="/scratch/las80898/pcadapt_output_2"                 
+OUTDIR="/scratch/las80898/pcadapt_output_3"                 
 
 #if output directory doesn't exist, create it
 if [ ! -d "$OUTDIR" ]
@@ -25,4 +25,4 @@ then
 fi
 
 # run R script
-R --no-save < /home/las80898/Mallard/pcadapt_bash_wholegenome.R
+R --no-save < /home/las80898/Mallard/pcadapt_bash_wholegenome_2.R

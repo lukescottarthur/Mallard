@@ -18,49 +18,19 @@ GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", typ
 # initial analysis
 x1 <- pcadapt(GFMxWM, K = 2)
 
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_initial_manhattan.png")
-plot(x1 , option = "manhattan")
-dev.off()
-
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_qqplot.png")
-plot(x1, option = "qqplot")
-dev.off()
-
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_pvalue_histogram.png")
-hist(x1$pvalues, xlab = "p-values", main = NULL, breaks = 50, col = "orange")
-dev.off()
-
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_stats_distribution.png")
-plot(x1, option = "stat.distribution")
-dev.off()
-
 # outlier adjustment
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
 alpha <- 0.0000001
 outliersbonf <- which(padjbonf < alpha)
-sink("/scratch/las80898/pcadapt_output_2/GFMxWM_outliers.txt")
-print(outliersbonf)
-sink()
 
-# LD
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_LD.png",
-    width = 800, height = 400 * 2)
-par(mfrow = c(2, 1))
-for (i in 1:2)
-  plot(x1$loadings[, i], pch = 19, cex = .3, ylab = paste0("Loadings PC", i))
-dev.off()
-
-#association between pc and outliers
-snp_pc <- get.pc(x1, outliersbonf)
-sink("/scratch/las80898/pcadapt_output_2/GFMxWM_snp_pc_associations.txt")
-print(snp_pc)
-sink()
 
 # plotting with qqman
 #make dataframe with values from pcadapt
 # Read bim
 bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
+
+bim$SNP <- paste0("snp", seq_len(nrow(bim)))
 
 message("Unique CHR values in bim: ")
 print(unique(bim$CHR))
@@ -106,7 +76,7 @@ message("Sample SNP IDs: ")
 print(head(SNP, 10))
 
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_2/GFMxWM_qqman.png", width = 1200, height = 800, res = 600,)
+png(filename = "/scratch/las80898/pcadapt_output_3/GFMxWM_qqman_2.png", width = 2400, height = 1600, res = 600,)
 manhattan(qqdf_GFMxWM, 
           main = "pcadapt SNP Outliers", 
           cex.axis = 0.8, cex.main = .8,
@@ -171,11 +141,11 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=logP)) +
 
 
 # saving ggplot
-ggsave("/scratch/las80898/pcadapt_output_2/GFMxWM_ggplot_manhattan.png", GFMxWM_ggplot_manhattan, width = 8, height = 6, dpi = 600)
+ggsave("/scratch/las80898/pcadapt_output_3/GFMxWM_ggplot_manhattan_2.png", GFMxWM_ggplot_manhattan, width = 16, height = 12, dpi = 600)
 
 ###circular plot - need to amend chr.labels i think
-setwd("/scratch/las80898/pcadapt_output_2")
+setwd("/scratch/las80898/pcadapt_output_3")
 CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
        outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
-       file.name="GFMxWM_circular_manhattan",
+       file.name="GFMxWM_circular_manhattan_2",
        file="jpg", dpi=600, chr.labels=seq(1, 30))
