@@ -16,7 +16,7 @@ source ${CONDA_BASE}/etc/profile.d/conda.sh
 conda activate test_env
 
 #set output directory variable
-OUTDIR="/scratch/las80898/pcadapt_output_3"                 
+OUTDIR="/scratch/las80898/pcadapt_output_4"                 
 
 #if output directory doesn't exist, create it
 if [ ! -d "$OUTDIR" ]
