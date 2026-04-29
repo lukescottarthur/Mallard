@@ -56,17 +56,15 @@ qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
 
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_3/GFMxWM_qqman_3.png", width = 1024, height = 768, units = "px", pointsize = 14)
+png(filename = "/scratch/las80898/pcadapt_output_3/GFMxWM_qqman_6.png", width = 1024, height = 768, units = "px", pointsize = 14)
 manhattan(qqdf_GFMxWM, 
-          main = "pcadapt SNP Outliers", 
-          cex.axis = 0.8, cex.main = .8,
-          annotatePval = 0.0000001, 
+          cex.axis = 0.8, 
           suggestiveline = FALSE,
           annotateTop = FALSE, 
+          genomewideline = FALSE,
           xlab = "Chromosome number", 
-          cex = 0.3, 
-          highlight = outlier_snps,
-          ylim = c(0, 150))
+          cex = 0.5, 
+          ylim = c(0, 120))
 dev.off()
 
 
@@ -80,7 +78,7 @@ don <- qqdf_GFMxWM %>%
   left_join(qqdf_GFMxWM, ., by=c("CHR"="CHR")) %>%
   arrange(CHR, BP) %>%
   mutate(BPcum=BP+tot) %>%
-  mutate(logP = pmin(-log10(P), 320)) #%>%        # move up here
+  mutate(logP = pmin(-log10(P), 120)) #%>%        # move up here
   #mutate(is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
   #mutate(is_annotate=ifelse(logP > 8, "yes", "no"))  # use logP, not -log10(P)
 
@@ -107,7 +105,8 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=logP)) +
   #horizontal line
   #geom_hline(yintercept = 8, col="red", alpha = 0.5) +
   
-  labs(x = "Chromosome number") +
+  labs(x = "Chromosome number", y = "expression(-log[10](p))") +
+  scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
   
   # Customize theme:
   theme_bw() +
@@ -120,7 +119,7 @@ GFMxWM_ggplot_manhattan <- ggplot(don, aes(x=BPcum, y=logP)) +
 
 
 # saving ggplot
-ggsave("/scratch/las80898/pcadapt_output_3/GFMxWM_ggplot_manhattan_3.png", GFMxWM_ggplot_manhattan, width = 10, height = 7.5, units = "in", 
+ggsave("/scratch/las80898/pcadapt_output_3/GFMxWM_ggplot_manhattan_6.png", GFMxWM_ggplot_manhattan, width = 10, height = 7.5, units = "in", 
        dpi = 600)
 
 ###circular plot - need to amend chr.labels i think

@@ -47,16 +47,6 @@ Type 'q()' to quit R.
 > bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
 +                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 > 
-> bim$SNP <- paste0("snp", seq_len(nrow(bim)))
-> 
-> message("Unique CHR values in bim: ")
-> print(unique(bim$CHR))
- [1] "1"    "2"    "3"    "chrZ" "4"    "5"    "7"    "6"    "8"    "9"   
-[11] "13"   "11"   "12"   "10"   "14"   "15"   "21"   "16"   "19"   "18"  
-[21] "20"   "29"   "27"   "28"   "26"   "22"   "25"   "24"   "23"   "17"  
-> message("Total SNPs in bim: ", nrow(bim))
-> message("Total pvalues: ", length(x1$pvalues))
-> 
 > # Step 2: get outlier SNP IDs from ORIGINAL unfiltered bim
 > outlier_snps <- bim$SNP[outliersbonf]
 > 
@@ -82,35 +72,17 @@ Type 'q()' to quit R.
 > qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 > 
 > 
-> # verify outliers
-> message("Number of outliers: ", length(outliersbonf))
-> message("Number of valid outlier SNP IDs: ", sum(!is.na(outlier_snps)))
-> 
-> message("nrow of qqdf: ", nrow(qqdf_GFMxWM))
-> message("CHR range: ", min(CHR), " to ", max(CHR))
-> message("BP range: ", min(BP), " to ", max(BP))
-> message("P range: ", min(P), " to ", max(P))
-> message("CHR unique values: ")
-> print(sort(unique(CHR)))
- [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
-[26] 26 27 28 29 30
-> message("Sample SNP IDs: ")
-> print(head(SNP, 10))
- [1] "snp1"  "snp2"  "snp3"  "snp4"  "snp5"  "snp6"  "snp8"  "snp9"  "snp11"
-[10] "snp12"
-> 
 > # build manhattan qqman
-> png(filename = "/scratch/las80898/pcadapt_output_3/GFMxWM_qqman_2.png", width = 2400, height = 1600, res = 600,)
+> png(filename = "/scratch/las80898/pcadapt_output_3/GFMxWM_qqman_5.png", width = 1024, height = 768, units = "px", pointsize = 14)
 > manhattan(qqdf_GFMxWM, 
 +           main = "pcadapt SNP Outliers", 
-+           cex.axis = 0.8, cex.main = .8,
-+           annotatePval = 0.0000001, 
++           cex.axis = 0.8, cex.main = .8, 
 +           suggestiveline = FALSE,
 +           annotateTop = FALSE, 
++           genomewideline = FALSE,
 +           xlab = "Chromosome number", 
 +           cex = 0.3, 
-+           highlight = outlier_snps,
-+           ylim = c(0, 320))   # 320 safely covers -log10(.Machine$double.xmin)
++           ylim = c(0, 120))
 > dev.off()
 null device 
           1 
@@ -126,9 +98,9 @@ null device
 +   left_join(qqdf_GFMxWM, ., by=c("CHR"="CHR")) %>%
 +   arrange(CHR, BP) %>%
 +   mutate(BPcum=BP+tot) %>%
-+   mutate(logP = pmin(-log10(P), 320)) %>%        # move up here
-+   mutate(is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
-+   mutate(is_annotate=ifelse(logP > 8, "yes", "no"))  # use logP, not -log10(P)
++   mutate(logP = pmin(-log10(P), 120)) #%>%        # move up here
+>   #mutate(is_highlight=ifelse(SNP %in% outlier_snps, "yes", "no")) %>%
+>   #mutate(is_annotate=ifelse(logP > 8, "yes", "no"))  # use logP, not -log10(P)
 > 
 > # Prepare X axis
 > axisdf <- don %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
@@ -145,16 +117,16 @@ null device
 +   scale_y_continuous(expand = c(0, 0) ) +  # remove space between plot area and x axis
 +   
 +   # Add highlighted points
-+   geom_point(data=subset(don, is_highlight=="yes"), color="orange", size=2) +
++   #geom_point(data=subset(don, is_highlight=="yes"), color="orange", size=2) +
 +   
 +   # Add label using ggrepel to avoid overlapping
-+   geom_label_repel( data=subset(don, is_annotate=="yes"), aes(label=SNP), 
-+                     size=2, max.overlaps = 15) +
++   #geom_label_repel( data=subset(don, is_annotate=="yes"), aes(label=SNP), 
++    #                 size=2, max.overlaps = 15) +
 +   #horizontal line
-+   geom_hline(yintercept = 8, col="red", alpha = 0.5) +
++   #geom_hline(yintercept = 8, col="red", alpha = 0.5) +
 +   
-+   labs(title = "pcadapt SNP outliers", 
-+        x = "Chromosome number") +
++   labs(x = "Chromosome number") +
++   scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
 +   
 +   # Customize theme:
 +   theme_bw() +
@@ -167,14 +139,13 @@ null device
 > 
 > 
 > # saving ggplot
-> ggsave("/scratch/las80898/pcadapt_output_3/GFMxWM_ggplot_manhattan_2.png", GFMxWM_ggplot_manhattan, width = 16, height = 12, dpi = 600)
+> ggsave("/scratch/las80898/pcadapt_output_3/GFMxWM_ggplot_manhattan_5.png", GFMxWM_ggplot_manhattan, width = 10, height = 7.5, units = "in", 
++        dpi = 600)
 > 
 > ###circular plot - need to amend chr.labels i think
-> setwd("/scratch/las80898/pcadapt_output_3")
-> CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
-+        outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
-+        file.name="GFMxWM_circular_manhattan_2",
-+        file="jpg", dpi=600, chr.labels=seq(1, 30))
- Circular Manhattan plotting P.
- Plots are stored in: /scratch/las80898/pcadapt_output_3 
+> #setwd("/scratch/las80898/pcadapt_output_4")
+> #CMplot(qqdf_GFMxWM, plot.type="c", r=1.6,
+> #       outward=TRUE, cir.chr.h=.1, chr.den.col="orange",
+> #       file.name="GFMxWM_circular_manhattan_2",
+> #       file="jpg", dpi=600, chr.labels=seq(1, 30))
 > 
