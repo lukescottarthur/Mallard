@@ -71,6 +71,6 @@ manhattan(qqdf_GFMxWM,
           genomewideline = -log10(5e-08),
           xlab = "Chromosome number", 
           cex = 0.5, 
-          ylim = c(0, 120))
+          ylim = c(0, 75))
 dev.off()
 

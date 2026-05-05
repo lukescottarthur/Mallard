@@ -18,27 +18,12 @@ GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", typ
 # initial analysis
 x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 50000, thr = 0.1))
 
-# outlier adjustment
-padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
-alpha <- 0.00000005
-outliersbonf <- which(padjbonf < alpha)
-
 
 # plotting with qqman
 #make dataframe with values from pcadapt
 # Read bim
 bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
-
-# Step 2: get outlier SNP IDs from ORIGINAL unfiltered bim
-outlier_snps <- bim$SNP[outliersbonf]
-
-# Start redirecting output to a file
-sink("GFMxWM_outliers.txt")
-# Your print statement
-print(outlier_snps)
-# Close the file connection
-sink()  
 
 
 # Step 3: recode and filter scaffolds
@@ -64,7 +49,7 @@ qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
 
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_4/GFMxWM_qqman_T1.png", width = 1024, height = 768, units = "px", pointsize = 14)
+png(filename = "/scratch/las80898/pcadapt_output_4/GFMxWM_qqman_T1.png", width = 1900, height = 850, units = "px", pointsize = 14)
 manhattan(qqdf_GFMxWM, 
           cex.axis = 0.8, 
           suggestiveline = FALSE,
@@ -72,5 +57,15 @@ manhattan(qqdf_GFMxWM,
           genomewideline = -log10(5e-08),
           xlab = "Chromosome number", 
           cex = 0.5, 
-          ylim = c(0, 120))
+          ylim = c(0, 50))
 dev.off()
+
+# list of sig snps
+significant_snps <- qqdf_chr17 %>%
+  filter(-log10(P) > 7.301)
+
+# Start redirecting output to a file
+sink("/scratch/las80898/pcadapt_output_4/GFMxWM_outliers.txt")
+# View the resulting list
+print(significant_snps)
+sink() 
