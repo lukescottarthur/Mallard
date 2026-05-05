@@ -16,7 +16,7 @@ library(CMplot)
 GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/WMxKC.bed", type = "bed")
 
 # initial analysis
-x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 50000, thr = 0.1)
+x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 50000, thr = 0.1))
 
 # outlier adjustment
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")

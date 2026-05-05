@@ -34,5 +34,3 @@ Full description, Bug report, Suggestion and the latest codes:
 https://github.com/YinLiLin/CMplot
 Warning message:
 package ‘CMplot’ was built under R version 4.4.3 
-Scale for x is already present.
-Adding another scale for x, which will replace the existing scale.
