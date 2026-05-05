@@ -1,7 +1,7 @@
 # this is a script made to be submitted in bash, intended to analyze
 # whole genome data and output files along the way
 
-# GFMxWM
+#####GFMxKC
 
 # load libraries
 library(pcadapt)
@@ -16,7 +16,7 @@ library(CMplot)
 GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
 
 # initial analysis
-x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 50000, thr = 0.1)
+x1 <- pcadapt(GFMxKC, K = 2, LD.clumping = list(size = 50000, thr = 0.1)
 
 # outlier adjustment
 padjbonf <- p.adjust(x1$pvalues,method="bonferroni")
@@ -27,19 +27,18 @@ outliersbonf <- which(padjbonf < alpha)
 # plotting with qqman
 #make dataframe with values from pcadapt
 # Read bim
-bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
+bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxKC.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
 # Step 2: get outlier SNP IDs from ORIGINAL unfiltered bim
 outlier_snps <- bim$SNP[outliersbonf]
 
 # Start redirecting output to a file
-sink("GFMxWM_outliers.txt")
+sink("GFMxKC_outliers.txt")
 # Your print statement
 print(outlier_snps)
 # Close the file connection
 sink()  
-
 
 # Step 3: recode and filter scaffolds
 bim$CHR <- as.character(bim$CHR)
@@ -64,7 +63,7 @@ qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
 
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_4/GFMxWM_qqman_T1.png", width = 1024, height = 768, units = "px", pointsize = 14)
+png(filename = "/scratch/las80898/pcadapt_output_4/GFMxKC_qqman_T1.png", width = 1024, height = 768, units = "px", pointsize = 14)
 manhattan(qqdf_GFMxWM, 
           cex.axis = 0.8, 
           suggestiveline = FALSE,
@@ -74,3 +73,12 @@ manhattan(qqdf_GFMxWM,
           cex = 0.5, 
           ylim = c(0, 120))
 dev.off()
+
+
+
+
+
+
+
+
+
