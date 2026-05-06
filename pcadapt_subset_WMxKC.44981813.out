@@ -15,22 +15,3 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> # this is a script made to be submitted in bash, intended to analyze
-> # whole genome data and output files along the way
-> 
-> # GFMxWM
-> 
-> # load libraries
-> library(pcadapt)
-> library(ggplot2)
-> library(qqman)
-> library(ggrepel)
-> library(dplyr)
-> library(devtools)
-> library(CMplot)
-> 
-> # read data
-> GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
-> 
-> # initial analysis
-> x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 50000, thr = 0.1))

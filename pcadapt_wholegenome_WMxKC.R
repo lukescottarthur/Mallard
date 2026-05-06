@@ -13,16 +13,16 @@ library(devtools)
 library(CMplot)
 
 # read data
-GFMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxKC.bed", type = "bed")
+WMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/WMxKC.bed", type = "bed")
 
 # initial analysis
-x1 <- pcadapt(GFMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
+x1 <- pcadapt(WMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
 
 
 # plotting with qqman
 #make dataframe with values from pcadapt
 # Read bim
-bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxKC.bim",
+bim <- read.table("/home/las80898/mallard_wholegenome_data/WMxKC.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
 
@@ -45,27 +45,27 @@ P   <- pvals_filtered[pval_keep]
 P[P == 0] <- .Machine$double.xmin
 
 # Step 6: build qqdf — outlier_snps already set above, no renaming needed
-qqdf_GFMxKC <- data.frame(SNP, CHR, BP, P)
+qqdf_WMxKC <- data.frame(SNP, CHR, BP, P)
 
 
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_4/GFMxKC_qqman_T2.png", width = 1800, height = 850, units = "px", pointsize = 14)
-manhattan(qqdf_GFMxKC, 
+png(filename = "/scratch/las80898/pcadapt_output_4/WMxKC_qqman_T2.png", width = 1800, height = 850, units = "px", pointsize = 14)
+manhattan(qqdf_WMxKC, 
           cex.axis = 0.8, 
           suggestiveline = FALSE,
           annotateTop = FALSE, 
           genomewideline = FALSE,
           xlab = "Chromosome number", 
           cex = 0.6, 
-          ylim = c(0, 250))
+          ylim = c(0, 150))
 dev.off()
 
 # list of sig snps
-significant_snps <- qqdf_GFMxKC %>%
+significant_snps <- qqdf_WMxKC %>%
   filter(-log10(P) > 7.301)
 
 # ── New Output 1: SNPs grouped and listed by chromosome ──────────────────────
-sink("/scratch/las80898/pcadapt_output_4/GFMxKC_outliers_by_chr.txt")
+sink("/scratch/las80898/pcadapt_output_4/WMxKC_outliers_by_chr.txt")
 
 cat("Significant SNPs grouped by chromosome\n")
 cat("Threshold: -log10(P) > 7.301\n")
@@ -106,7 +106,7 @@ sink()
 #
 cluster_gap <- 50000   # 50 kb — adjust to taste
 
-sink("/scratch/las80898/pcadapt_output_4/GFMxKC_outlier_clusters.txt")
+sink("/scratch/las80898/pcadapt_output_4/WMxKC_outlier_clusters.txt")
 
 cat("Inferred SNP clusters by chromosome\n")
 cat("Threshold : -log10(P) > 7.301\n")
