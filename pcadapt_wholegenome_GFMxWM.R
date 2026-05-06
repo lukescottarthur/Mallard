@@ -167,3 +167,28 @@ for (i in seq_len(nrow(summary_df))) {
 
 cat(sprintf("\nTotal clusters retained: %d\n", nrow(summary_df)))
 sink()
+
+# ── Output 3: filtered cluster summary table only ─────────────────────────────
+sink("/scratch/las80898/pcadapt_output_4/GFMxWM_outlier_clusters_filtered.txt")
+
+cat("Filtered SNP cluster summary\n")
+cat("Threshold  : -log10(P) > 7.301\n")
+cat(sprintf("Cluster gap: %s bp (%.0f kb)\n", format(cluster_gap, big.mark=","), cluster_gap/1e3))
+cat("Filter     : Span_BP > 0 (singletons excluded)\n")
+cat(sprintf("Total clusters: %d\n", nrow(summary_df)))
+cat(strrep("=", 70), "\n\n")
+
+cat(sprintf("%-6s %8s %8s %14s %14s %14s\n",
+            "CHR", "Cluster", "N_SNPs", "Start_BP", "End_BP", "Span_BP"))
+cat(strrep("-", 70), "\n")
+
+for (i in seq_len(nrow(summary_df))) {
+  r <- summary_df[i, ]
+  cat(sprintf("%-6s %8d %8d %14s %14s %14s\n",
+              r$CHR, r$cluster, r$n_snps,
+              format(r$start_bp, big.mark=","),
+              format(r$end_bp,   big.mark=","),
+              format(r$span_bp,  big.mark=",")))
+}
+
+sink()
