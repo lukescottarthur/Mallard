@@ -1,7 +1,4 @@
-# this is a script made to be submitted in bash, intended to analyze
-# whole genome data and output files along the way
-
-# GFMxWM
+# GFMxKC - pcadapt whole genome analysis
 
 # load libraries
 library(pcadapt)
@@ -10,33 +7,23 @@ library(qqman)
 library(ggrepel)
 library(dplyr)
 library(devtools)
-library(CMplot)
 
 # read data
 GFMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxKC.bed", type = "bed")
 
-# initial analysis
 x1 <- pcadapt(GFMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
 
-
-# plotting with qqman
-#make dataframe with values from pcadapt
-# Read bim
 bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxKC.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
-
-# Step 3: recode and filter scaffolds
 bim$CHR <- as.character(bim$CHR)
 bim$CHR[bim$CHR == "chrZ" | bim$CHR == "Z"] <- "30"
 bim$CHR <- suppressWarnings(as.numeric(bim$CHR))
 scaffold_keep <- !is.na(bim$CHR)
 
-# Step 4: filter bim AND pvalues with the same index
 bim_filtered   <- bim[scaffold_keep, ]
 pvals_filtered <- x1$pvalues[scaffold_keep]
 
-# Step 5: filter NAs and replace zero p-values
 pval_keep <- !is.na(pvals_filtered)
 SNP <- bim_filtered$SNP[pval_keep]
 CHR <- bim_filtered$CHR[pval_keep]
@@ -44,12 +31,11 @@ BP  <- bim_filtered$BP[pval_keep]
 P   <- pvals_filtered[pval_keep]
 P[P == 0] <- .Machine$double.xmin
 
-# Step 6: build qqdf — outlier_snps already set above, no renaming needed
 qqdf_GFMxKC <- data.frame(SNP, CHR, BP, P)
 
-
 # build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_4/GFMxKC_qqman_T2.png", width = 1800, height = 850, units = "px", pointsize = 14)
+png(filename = "/scratch/las80898/pcadapt_output_4/GFMxKC_qqman_T2.png", 
+    width = 1800, height = 850, units = "px", pointsize = 14)
 manhattan(qqdf_GFMxKC, 
           cex.axis = 0.8, 
           suggestiveline = FALSE,
@@ -64,7 +50,10 @@ dev.off()
 significant_snps <- qqdf_GFMxKC %>%
   filter(-log10(P) > 7.301)
 
-# ── New Output 1: SNPs grouped and listed by chromosome ──────────────────────
+# helper to relabel chr 30 back to Z in output
+chr_label <- function(chr) ifelse(chr == 30, "Z", as.character(chr))
+
+# ── Output 1: SNPs listed by chromosome ──────────────────────────────────────
 sink("/scratch/las80898/pcadapt_output_4/GFMxKC_outliers_by_chr.txt")
 
 cat("Significant SNPs grouped by chromosome\n")
@@ -72,17 +61,13 @@ cat("Threshold: -log10(P) > 7.301\n")
 cat("Total significant SNPs:", nrow(significant_snps), "\n")
 cat(strrep("=", 60), "\n\n")
 
-chr_list <- sort(unique(significant_snps$CHR))
-
-for (chr in chr_list) {
+for (chr in sort(unique(significant_snps$CHR))) {
   chr_snps <- significant_snps %>%
     filter(CHR == chr) %>%
     arrange(BP)
 
-  chr_label <- ifelse(chr == 30, "Z", as.character(chr))
-
   cat(sprintf("Chromosome %s  (%d SNP%s)\n",
-              chr_label, nrow(chr_snps), ifelse(nrow(chr_snps) == 1, "", "s")))
+              chr_label(chr), nrow(chr_snps), ifelse(nrow(chr_snps) == 1, "", "s")))
   cat(strrep("-", 40), "\n")
   cat(sprintf("  %-25s %12s %10s\n", "SNP", "BP", "-log10(P)"))
 
@@ -97,39 +82,23 @@ for (chr in chr_list) {
 
 sink()
 
-# ── New Output 2: inferred SNP clusters per chromosome ───────────────────────
+# ── Output 2: SNP clusters per chromosome (filtered, no top SNP/logP) ────────
 #
-# Clustering logic:
-#   SNPs are sorted by BP within each chromosome. A new cluster begins
-#   whenever the gap between consecutive SNPs exceeds `cluster_gap`.
-#   Each cluster is summarised by its start BP, end BP, span, and SNP count.
+# A new cluster begins whenever the gap between consecutive SNPs exceeds
+# cluster_gap bp. Clusters where start == end (span = 0) are excluded.
 #
 cluster_gap <- 50000   # 50 kb — adjust to taste
 
-sink("/scratch/las80898/pcadapt_output_4/GFMxKC_outlier_clusters.txt")
-
-cat("Inferred SNP clusters by chromosome\n")
-cat("Threshold : -log10(P) > 7.301\n")
-cat(sprintf("Cluster gap: %s bp (%.0f kb)\n", format(cluster_gap, big.mark=","), cluster_gap/1e3))
-cat("Total significant SNPs:", nrow(significant_snps), "\n")
-cat(strrep("=", 60), "\n\n")
-
-all_clusters <- list()   # collect for a summary table at the end
+all_clusters <- list()
 
 for (chr in sort(unique(significant_snps$CHR))) {
   chr_snps <- significant_snps %>%
     filter(CHR == chr) %>%
     arrange(BP)
 
-  chr_label <- ifelse(chr == 30, "Z", as.character(chr))
+  gaps       <- c(Inf, diff(chr_snps$BP))
+  chr_snps$cluster <- cumsum(gaps > cluster_gap)
 
-  # assign cluster IDs
-  gaps      <- c(Inf, diff(chr_snps$BP))   # Inf ensures first SNP starts cluster 1
-  cluster_id <- cumsum(gaps > cluster_gap)
-
-  chr_snps$cluster <- cluster_id
-
-  # summarise clusters
   cluster_summary <- chr_snps %>%
     group_by(cluster) %>%
     summarise(
@@ -137,56 +106,61 @@ for (chr in sort(unique(significant_snps$CHR))) {
       start_bp = min(BP),
       end_bp   = max(BP),
       span_bp  = max(BP) - min(BP),
-      top_snp  = SNP[which.min(P)],
-      top_neglogP = -log10(min(P)),
       .groups  = "drop"
     ) %>%
-    mutate(CHR = chr_label)
+    mutate(CHR = chr_label(chr)) %>%
+    filter(span_bp > 0)   # drop singleton clusters
 
-  all_clusters[[chr_label]] <- cluster_summary
+  all_clusters[[chr_label(chr)]] <- cluster_summary
+}
+
+summary_df <- bind_rows(all_clusters) %>%
+  select(CHR, cluster, n_snps, start_bp, end_bp, span_bp)
+
+# ── Write cluster output ──────────────────────────────────────────────────────
+sink("/scratch/las80898/pcadapt_output_4/GFMxKC_outlier_clusters.txt")
+
+cat("Inferred SNP clusters by chromosome\n")
+cat("Threshold  : -log10(P) > 7.301\n")
+cat(sprintf("Cluster gap: %s bp (%.0f kb)\n", format(cluster_gap, big.mark=","), cluster_gap/1e3))
+cat("Filter     : Span_BP > 0 (singletons excluded)\n")
+cat("Total significant SNPs:", nrow(significant_snps), "\n")
+cat(strrep("=", 60), "\n\n")
+
+# per-chromosome detail blocks
+for (chr in sort(unique(significant_snps$CHR))) {
+  label <- chr_label(chr)
+  cl    <- all_clusters[[label]]
+  if (is.null(cl) || nrow(cl) == 0) next
 
   cat(sprintf("Chromosome %s — %d cluster%s\n",
-              chr_label,
-              nrow(cluster_summary),
-              ifelse(nrow(cluster_summary) == 1, "", "s")))
+              label, nrow(cl), ifelse(nrow(cl) == 1, "", "s")))
   cat(strrep("-", 60), "\n")
 
-  for (i in seq_len(nrow(cluster_summary))) {
-    cl <- cluster_summary[i, ]
-    cat(sprintf("  Cluster %d\n", i))
-    cat(sprintf("    SNPs      : %d\n", cl$n_snps))
-    cat(sprintf("    Start BP  : %s\n", format(cl$start_bp, big.mark=",")))
-    cat(sprintf("    End BP    : %s\n", format(cl$end_bp,   big.mark=",")))
-    cat(sprintf("    Span      : %s bp (%.2f kb)\n",
-                format(cl$span_bp, big.mark=","), cl$span_bp / 1e3))
-    cat(sprintf("    Top SNP   : %s  (-log10P = %.3f)\n",
-                cl$top_snp, cl$top_neglogP))
+  for (i in seq_len(nrow(cl))) {
+    cat(sprintf("  Cluster %d\n",       cl$cluster[i]))
+    cat(sprintf("    SNPs    : %d\n",   cl$n_snps[i]))
+    cat(sprintf("    Start BP: %s\n",   format(cl$start_bp[i], big.mark=",")))
+    cat(sprintf("    End BP  : %s\n",   format(cl$end_bp[i],   big.mark=",")))
+    cat(sprintf("    Span    : %s bp (%.2f kb)\n",
+                format(cl$span_bp[i], big.mark=","), cl$span_bp[i] / 1e3))
     cat("\n")
   }
 }
 
-# ── Summary table across all chromosomes ─────────────────────────────────────
-cat(strrep("=", 60), "\n")
+# summary table
+cat(strrep("=", 70), "\n")
 cat("Summary table\n")
-cat(strrep("=", 60), "\n")
-
-summary_df <- bind_rows(all_clusters) %>%
-  select(CHR, cluster, n_snps, start_bp, end_bp, span_bp, top_snp, top_neglogP)
-
-cat(sprintf("%-6s %8s %8s %14s %14s %14s  %-25s %10s\n",
-            "CHR", "Cluster", "N_SNPs", "Start_BP", "End_BP", "Span_BP",
-            "Top_SNP", "-log10P"))
-cat(strrep("-", 100), "\n")
+cat(strrep("=", 70), "\n")
+cat(sprintf("%-6s %8s %8s %14s %14s %14s\n",
+            "CHR", "Cluster", "N_SNPs", "Start_BP", "End_BP", "Span_BP"))
+cat(strrep("-", 70), "\n")
 
 for (i in seq_len(nrow(summary_df))) {
   r <- summary_df[i, ]
-  cat(sprintf("%-6s %8d %8d %14s %14s %14s  %-25s %10.3f\n",
+  cat(sprintf("%-6s %8d %8d %14s %14s %14s\n",
               r$CHR, r$cluster, r$n_snps,
               format(r$start_bp, big.mark=","),
               format(r$end_bp,   big.mark=","),
-              format(r$span_bp,  big.mark=","),
-              r$top_snp,
-              r$top_neglogP))
+              format(r$span_bp,  big.mark=",")))
 }
-
-sink()

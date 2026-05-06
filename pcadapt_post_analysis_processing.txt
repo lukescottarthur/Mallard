@@ -1,0 +1,10 @@
+# this is code to extract putative selective sweeps from pcadapt results
+
+# copy txt files to working directory
+#cp /scratch/las80898/pcadapt_output_4/GFMxKC_outlier_clusters.txt .
+#cp /scratch/las80898/pcadapt_output_4/GFMxWM_outlier_clusters.txt .
+#cp /scratch/las80898/pcadapt_output_4/WMxGFM_outlier_clusters.txt .
+
+## make new files from bottom section
+# delete top section
+sed -i '1,18871d' GFMxKC_outlier_clusters.txt

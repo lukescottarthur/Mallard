@@ -1,4 +1,4 @@
-# WMxKC - pcadapt whole genome analysis
+# GFMxWM - pcadapt whole genome analysis
 
 # load libraries
 library(pcadapt)
@@ -8,12 +8,12 @@ library(ggrepel)
 library(dplyr)
 library(devtools)
 
-# read data
-WMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/WMxKC.bed", type = "bed")
+# ── Read and prepare data ─────────────────────────────────────────────────────
+GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
 
-x1 <- pcadapt(GFMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
+x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
 
-bim <- read.table("/home/las80898/mallard_wholegenome_data/WMxKC.bim",
+bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
 bim$CHR <- as.character(bim$CHR)
@@ -31,30 +31,30 @@ BP  <- bim_filtered$BP[pval_keep]
 P   <- pvals_filtered[pval_keep]
 P[P == 0] <- .Machine$double.xmin
 
-qqdf_GFMxKC <- data.frame(SNP, CHR, BP, P)
+qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
 
-# build manhattan qqman
-png(filename = "/scratch/las80898/pcadapt_output_4/WMxKC_qqman_T2.png", 
+# ── Manhattan plot ────────────────────────────────────────────────────────────
+png(filename = "/scratch/las80898/pcadapt_output_4/GFMxWM_qqman_T4.png",
     width = 1800, height = 850, units = "px", pointsize = 14)
-manhattan(qqdf_GFMxKC, 
-          cex.axis = 0.8, 
+manhattan(qqdf_GFMxWM,
+          cex.axis = 0.8,
           suggestiveline = FALSE,
-          annotateTop = FALSE, 
+          annotateTop = FALSE,
           genomewideline = FALSE,
-          xlab = "Chromosome number", 
-          cex = 0.6, 
-          ylim = c(0, 150))
+          xlab = "Chromosome number",
+          cex = 0.6,
+          ylim = c(0, 45))
 dev.off()
 
-# list of sig snps
-significant_snps <- qqdf_GFMxKC %>%
+# ── Filter significant SNPs ───────────────────────────────────────────────────
+significant_snps <- qqdf_GFMxWM %>%
   filter(-log10(P) > 7.301)
 
 # helper to relabel chr 30 back to Z in output
 chr_label <- function(chr) ifelse(chr == 30, "Z", as.character(chr))
 
 # ── Output 1: SNPs listed by chromosome ──────────────────────────────────────
-sink("/scratch/las80898/pcadapt_output_4/WMxKC_outliers_by_chr.txt")
+sink("/scratch/las80898/pcadapt_output_4/GFMxWM_outliers_by_chr.txt")
 
 cat("Significant SNPs grouped by chromosome\n")
 cat("Threshold: -log10(P) > 7.301\n")
@@ -118,7 +118,7 @@ summary_df <- bind_rows(all_clusters) %>%
   select(CHR, cluster, n_snps, start_bp, end_bp, span_bp)
 
 # ── Write cluster output ──────────────────────────────────────────────────────
-sink("/scratch/las80898/pcadapt_output_4/WMxKC_outlier_clusters.txt")
+sink("/scratch/las80898/pcadapt_output_4/GFMxWM_outlier_clusters.txt")
 
 cat("Inferred SNP clusters by chromosome\n")
 cat("Threshold  : -log10(P) > 7.301\n")
@@ -164,3 +164,6 @@ for (i in seq_len(nrow(summary_df))) {
               format(r$end_bp,   big.mark=","),
               format(r$span_bp,  big.mark=",")))
 }
+
+cat(sprintf("\nTotal clusters retained: %d\n", nrow(summary_df)))
+sink()

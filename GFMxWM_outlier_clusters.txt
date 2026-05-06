@@ -1,0 +1,5701 @@
+Inferred SNP clusters by chromosome
+Threshold : -log10(P) > 7.301
+Cluster gap: 50,000 bp (50 kb)
+Total significant SNPs: 7884 
+============================================================ 
+
+Chromosome 1 — 114 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 3
+    Start BP  : 6,883
+    End BP    : 8,543
+    Span      : 1,660 bp (1.66 kb)
+    Top SNP   : .  (-log10P = 12.728)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 331,329
+    End BP    : 331,329
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.387)
+
+  Cluster 3
+    SNPs      : 10
+    Start BP  : 2,276,693
+    End BP    : 2,299,716
+    Span      : 23,023 bp (23.02 kb)
+    Top SNP   : .  (-log10P = 9.439)
+
+  Cluster 4
+    SNPs      : 3
+    Start BP  : 2,422,924
+    End BP    : 2,449,882
+    Span      : 26,958 bp (26.96 kb)
+    Top SNP   : .  (-log10P = 11.245)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 3,499,629
+    End BP    : 3,499,629
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.604)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,137,363
+    End BP    : 4,137,363
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.541)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 4,573,874
+    End BP    : 4,573,874
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.703)
+
+  Cluster 8
+    SNPs      : 8
+    Start BP  : 5,266,615
+    End BP    : 5,267,158
+    Span      : 543 bp (0.54 kb)
+    Top SNP   : .  (-log10P = 7.977)
+
+  Cluster 9
+    SNPs      : 3
+    Start BP  : 5,349,803
+    End BP    : 5,352,579
+    Span      : 2,776 bp (2.78 kb)
+    Top SNP   : .  (-log10P = 10.952)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 5,463,827
+    End BP    : 5,463,827
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.537)
+
+  Cluster 11
+    SNPs      : 1
+    Start BP  : 5,827,773
+    End BP    : 5,827,773
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.650)
+
+  Cluster 12
+    SNPs      : 60
+    Start BP  : 7,106,737
+    End BP    : 7,402,092
+    Span      : 295,355 bp (295.36 kb)
+    Top SNP   : .  (-log10P = 16.708)
+
+  Cluster 13
+    SNPs      : 13
+    Start BP  : 7,493,946
+    End BP    : 7,670,190
+    Span      : 176,244 bp (176.24 kb)
+    Top SNP   : .  (-log10P = 7.796)
+
+  Cluster 14
+    SNPs      : 4
+    Start BP  : 7,817,795
+    End BP    : 7,909,539
+    Span      : 91,744 bp (91.74 kb)
+    Top SNP   : .  (-log10P = 7.574)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 10,320,880
+    End BP    : 10,320,880
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.662)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 12,607,905
+    End BP    : 12,607,905
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.524)
+
+  Cluster 17
+    SNPs      : 5
+    Start BP  : 13,363,172
+    End BP    : 13,407,921
+    Span      : 44,749 bp (44.75 kb)
+    Top SNP   : .  (-log10P = 7.848)
+
+  Cluster 18
+    SNPs      : 2
+    Start BP  : 13,479,364
+    End BP    : 13,508,994
+    Span      : 29,630 bp (29.63 kb)
+    Top SNP   : .  (-log10P = 7.616)
+
+  Cluster 19
+    SNPs      : 9
+    Start BP  : 13,561,985
+    End BP    : 13,621,101
+    Span      : 59,116 bp (59.12 kb)
+    Top SNP   : .  (-log10P = 7.820)
+
+  Cluster 20
+    SNPs      : 1
+    Start BP  : 13,853,305
+    End BP    : 13,853,305
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.398)
+
+  Cluster 21
+    SNPs      : 1
+    Start BP  : 18,280,480
+    End BP    : 18,280,480
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.365)
+
+  Cluster 22
+    SNPs      : 8
+    Start BP  : 20,262,120
+    End BP    : 20,326,147
+    Span      : 64,027 bp (64.03 kb)
+    Top SNP   : .  (-log10P = 12.151)
+
+  Cluster 23
+    SNPs      : 7
+    Start BP  : 26,822,811
+    End BP    : 26,844,240
+    Span      : 21,429 bp (21.43 kb)
+    Top SNP   : .  (-log10P = 14.905)
+
+  Cluster 24
+    SNPs      : 1
+    Start BP  : 27,192,408
+    End BP    : 27,192,408
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.393)
+
+  Cluster 25
+    SNPs      : 14
+    Start BP  : 27,523,624
+    End BP    : 27,536,358
+    Span      : 12,734 bp (12.73 kb)
+    Top SNP   : .  (-log10P = 8.116)
+
+  Cluster 26
+    SNPs      : 1
+    Start BP  : 27,708,143
+    End BP    : 27,708,143
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.990)
+
+  Cluster 27
+    SNPs      : 2
+    Start BP  : 28,740,022
+    End BP    : 28,777,453
+    Span      : 37,431 bp (37.43 kb)
+    Top SNP   : .  (-log10P = 7.416)
+
+  Cluster 28
+    SNPs      : 1
+    Start BP  : 29,346,152
+    End BP    : 29,346,152
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.371)
+
+  Cluster 29
+    SNPs      : 1
+    Start BP  : 32,889,423
+    End BP    : 32,889,423
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.635)
+
+  Cluster 30
+    SNPs      : 17
+    Start BP  : 32,963,467
+    End BP    : 33,047,924
+    Span      : 84,457 bp (84.46 kb)
+    Top SNP   : .  (-log10P = 9.649)
+
+  Cluster 31
+    SNPs      : 1
+    Start BP  : 33,622,026
+    End BP    : 33,622,026
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.858)
+
+  Cluster 32
+    SNPs      : 2
+    Start BP  : 39,243,388
+    End BP    : 39,243,865
+    Span      : 477 bp (0.48 kb)
+    Top SNP   : .  (-log10P = 8.796)
+
+  Cluster 33
+    SNPs      : 3
+    Start BP  : 39,359,466
+    End BP    : 39,377,039
+    Span      : 17,573 bp (17.57 kb)
+    Top SNP   : .  (-log10P = 9.207)
+
+  Cluster 34
+    SNPs      : 12
+    Start BP  : 39,765,054
+    End BP    : 39,810,214
+    Span      : 45,160 bp (45.16 kb)
+    Top SNP   : .  (-log10P = 23.918)
+
+  Cluster 35
+    SNPs      : 35
+    Start BP  : 41,267,411
+    End BP    : 41,397,893
+    Span      : 130,482 bp (130.48 kb)
+    Top SNP   : .  (-log10P = 17.426)
+
+  Cluster 36
+    SNPs      : 10
+    Start BP  : 42,558,222
+    End BP    : 42,604,117
+    Span      : 45,895 bp (45.90 kb)
+    Top SNP   : .  (-log10P = 10.203)
+
+  Cluster 37
+    SNPs      : 3
+    Start BP  : 45,959,817
+    End BP    : 46,044,083
+    Span      : 84,266 bp (84.27 kb)
+    Top SNP   : .  (-log10P = 10.389)
+
+  Cluster 38
+    SNPs      : 1
+    Start BP  : 46,202,931
+    End BP    : 46,202,931
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.252)
+
+  Cluster 39
+    SNPs      : 1
+    Start BP  : 49,568,721
+    End BP    : 49,568,721
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.418)
+
+  Cluster 40
+    SNPs      : 1
+    Start BP  : 66,131,402
+    End BP    : 66,131,402
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.912)
+
+  Cluster 41
+    SNPs      : 1
+    Start BP  : 73,816,383
+    End BP    : 73,816,383
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.347)
+
+  Cluster 42
+    SNPs      : 1
+    Start BP  : 75,457,130
+    End BP    : 75,457,130
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.105)
+
+  Cluster 43
+    SNPs      : 8
+    Start BP  : 90,050,934
+    End BP    : 90,130,909
+    Span      : 79,975 bp (79.97 kb)
+    Top SNP   : .  (-log10P = 9.894)
+
+  Cluster 44
+    SNPs      : 5
+    Start BP  : 109,078,198
+    End BP    : 109,103,724
+    Span      : 25,526 bp (25.53 kb)
+    Top SNP   : .  (-log10P = 8.705)
+
+  Cluster 45
+    SNPs      : 1
+    Start BP  : 112,920,149
+    End BP    : 112,920,149
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.898)
+
+  Cluster 46
+    SNPs      : 1
+    Start BP  : 114,460,378
+    End BP    : 114,460,378
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.460)
+
+  Cluster 47
+    SNPs      : 22
+    Start BP  : 114,713,500
+    End BP    : 114,825,069
+    Span      : 111,569 bp (111.57 kb)
+    Top SNP   : .  (-log10P = 10.991)
+
+  Cluster 48
+    SNPs      : 3
+    Start BP  : 116,395,300
+    End BP    : 116,431,344
+    Span      : 36,044 bp (36.04 kb)
+    Top SNP   : .  (-log10P = 9.788)
+
+  Cluster 49
+    SNPs      : 38
+    Start BP  : 116,507,865
+    End BP    : 116,564,627
+    Span      : 56,762 bp (56.76 kb)
+    Top SNP   : .  (-log10P = 27.576)
+
+  Cluster 50
+    SNPs      : 3
+    Start BP  : 116,621,996
+    End BP    : 116,666,883
+    Span      : 44,887 bp (44.89 kb)
+    Top SNP   : .  (-log10P = 8.394)
+
+  Cluster 51
+    SNPs      : 2
+    Start BP  : 117,379,800
+    End BP    : 117,379,866
+    Span      : 66 bp (0.07 kb)
+    Top SNP   : .  (-log10P = 10.594)
+
+  Cluster 52
+    SNPs      : 5
+    Start BP  : 117,601,980
+    End BP    : 117,608,356
+    Span      : 6,376 bp (6.38 kb)
+    Top SNP   : .  (-log10P = 10.128)
+
+  Cluster 53
+    SNPs      : 1
+    Start BP  : 117,658,566
+    End BP    : 117,658,566
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.633)
+
+  Cluster 54
+    SNPs      : 2
+    Start BP  : 118,639,642
+    End BP    : 118,651,794
+    Span      : 12,152 bp (12.15 kb)
+    Top SNP   : .  (-log10P = 8.634)
+
+  Cluster 55
+    SNPs      : 313
+    Start BP  : 118,934,828
+    End BP    : 119,450,718
+    Span      : 515,890 bp (515.89 kb)
+    Top SNP   : .  (-log10P = 39.045)
+
+  Cluster 56
+    SNPs      : 1
+    Start BP  : 119,567,442
+    End BP    : 119,567,442
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 15.146)
+
+  Cluster 57
+    SNPs      : 365
+    Start BP  : 119,683,917
+    End BP    : 121,117,997
+    Span      : 1,434,080 bp (1434.08 kb)
+    Top SNP   : .  (-log10P = 21.653)
+
+  Cluster 58
+    SNPs      : 96
+    Start BP  : 121,168,702
+    End BP    : 121,980,779
+    Span      : 812,077 bp (812.08 kb)
+    Top SNP   : .  (-log10P = 11.842)
+
+  Cluster 59
+    SNPs      : 2
+    Start BP  : 122,066,586
+    End BP    : 122,115,741
+    Span      : 49,155 bp (49.16 kb)
+    Top SNP   : .  (-log10P = 8.752)
+
+  Cluster 60
+    SNPs      : 2
+    Start BP  : 122,249,346
+    End BP    : 122,263,590
+    Span      : 14,244 bp (14.24 kb)
+    Top SNP   : .  (-log10P = 8.262)
+
+  Cluster 61
+    SNPs      : 3
+    Start BP  : 122,329,807
+    End BP    : 122,338,680
+    Span      : 8,873 bp (8.87 kb)
+    Top SNP   : .  (-log10P = 8.985)
+
+  Cluster 62
+    SNPs      : 51
+    Start BP  : 122,406,484
+    End BP    : 122,889,078
+    Span      : 482,594 bp (482.59 kb)
+    Top SNP   : .  (-log10P = 15.411)
+
+  Cluster 63
+    SNPs      : 14
+    Start BP  : 122,941,631
+    End BP    : 123,210,544
+    Span      : 268,913 bp (268.91 kb)
+    Top SNP   : .  (-log10P = 11.114)
+
+  Cluster 64
+    SNPs      : 9
+    Start BP  : 123,288,041
+    End BP    : 123,328,874
+    Span      : 40,833 bp (40.83 kb)
+    Top SNP   : .  (-log10P = 10.908)
+
+  Cluster 65
+    SNPs      : 9
+    Start BP  : 123,396,565
+    End BP    : 123,562,203
+    Span      : 165,638 bp (165.64 kb)
+    Top SNP   : .  (-log10P = 10.274)
+
+  Cluster 66
+    SNPs      : 8
+    Start BP  : 123,619,391
+    End BP    : 123,744,080
+    Span      : 124,689 bp (124.69 kb)
+    Top SNP   : .  (-log10P = 10.453)
+
+  Cluster 67
+    SNPs      : 1
+    Start BP  : 123,797,195
+    End BP    : 123,797,195
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.726)
+
+  Cluster 68
+    SNPs      : 5
+    Start BP  : 123,958,236
+    End BP    : 124,005,668
+    Span      : 47,432 bp (47.43 kb)
+    Top SNP   : .  (-log10P = 11.046)
+
+  Cluster 69
+    SNPs      : 1
+    Start BP  : 124,098,679
+    End BP    : 124,098,679
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.009)
+
+  Cluster 70
+    SNPs      : 5
+    Start BP  : 124,194,680
+    End BP    : 124,333,423
+    Span      : 138,743 bp (138.74 kb)
+    Top SNP   : .  (-log10P = 11.129)
+
+  Cluster 71
+    SNPs      : 3
+    Start BP  : 124,385,762
+    End BP    : 124,415,321
+    Span      : 29,559 bp (29.56 kb)
+    Top SNP   : .  (-log10P = 9.563)
+
+  Cluster 72
+    SNPs      : 4
+    Start BP  : 124,475,322
+    End BP    : 124,525,414
+    Span      : 50,092 bp (50.09 kb)
+    Top SNP   : .  (-log10P = 10.307)
+
+  Cluster 73
+    SNPs      : 18
+    Start BP  : 124,693,313
+    End BP    : 124,958,373
+    Span      : 265,060 bp (265.06 kb)
+    Top SNP   : .  (-log10P = 16.254)
+
+  Cluster 74
+    SNPs      : 1
+    Start BP  : 125,111,672
+    End BP    : 125,111,672
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.751)
+
+  Cluster 75
+    SNPs      : 2
+    Start BP  : 125,196,188
+    End BP    : 125,210,542
+    Span      : 14,354 bp (14.35 kb)
+    Top SNP   : .  (-log10P = 9.341)
+
+  Cluster 76
+    SNPs      : 1
+    Start BP  : 125,280,702
+    End BP    : 125,280,702
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.274)
+
+  Cluster 77
+    SNPs      : 2
+    Start BP  : 125,357,453
+    End BP    : 125,365,079
+    Span      : 7,626 bp (7.63 kb)
+    Top SNP   : .  (-log10P = 8.658)
+
+  Cluster 78
+    SNPs      : 7
+    Start BP  : 125,421,952
+    End BP    : 125,550,780
+    Span      : 128,828 bp (128.83 kb)
+    Top SNP   : .  (-log10P = 9.648)
+
+  Cluster 79
+    SNPs      : 3
+    Start BP  : 125,627,506
+    End BP    : 125,692,728
+    Span      : 65,222 bp (65.22 kb)
+    Top SNP   : .  (-log10P = 9.283)
+
+  Cluster 80
+    SNPs      : 3
+    Start BP  : 125,768,236
+    End BP    : 125,803,713
+    Span      : 35,477 bp (35.48 kb)
+    Top SNP   : .  (-log10P = 9.308)
+
+  Cluster 81
+    SNPs      : 14
+    Start BP  : 125,865,719
+    End BP    : 125,997,204
+    Span      : 131,485 bp (131.49 kb)
+    Top SNP   : .  (-log10P = 12.076)
+
+  Cluster 82
+    SNPs      : 7
+    Start BP  : 126,140,859
+    End BP    : 126,202,256
+    Span      : 61,397 bp (61.40 kb)
+    Top SNP   : .  (-log10P = 10.572)
+
+  Cluster 83
+    SNPs      : 10
+    Start BP  : 126,255,977
+    End BP    : 126,327,679
+    Span      : 71,702 bp (71.70 kb)
+    Top SNP   : .  (-log10P = 11.114)
+
+  Cluster 84
+    SNPs      : 16
+    Start BP  : 126,403,319
+    End BP    : 126,726,459
+    Span      : 323,140 bp (323.14 kb)
+    Top SNP   : .  (-log10P = 9.992)
+
+  Cluster 85
+    SNPs      : 1
+    Start BP  : 126,845,660
+    End BP    : 126,845,660
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.723)
+
+  Cluster 86
+    SNPs      : 1
+    Start BP  : 126,939,209
+    End BP    : 126,939,209
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.018)
+
+  Cluster 87
+    SNPs      : 2
+    Start BP  : 126,998,396
+    End BP    : 127,026,696
+    Span      : 28,300 bp (28.30 kb)
+    Top SNP   : .  (-log10P = 8.879)
+
+  Cluster 88
+    SNPs      : 4
+    Start BP  : 127,105,841
+    End BP    : 127,128,251
+    Span      : 22,410 bp (22.41 kb)
+    Top SNP   : .  (-log10P = 9.839)
+
+  Cluster 89
+    SNPs      : 81
+    Start BP  : 127,192,792
+    End BP    : 127,708,328
+    Span      : 515,536 bp (515.54 kb)
+    Top SNP   : .  (-log10P = 11.859)
+
+  Cluster 90
+    SNPs      : 29
+    Start BP  : 127,761,339
+    End BP    : 128,194,808
+    Span      : 433,469 bp (433.47 kb)
+    Top SNP   : .  (-log10P = 13.635)
+
+  Cluster 91
+    SNPs      : 4
+    Start BP  : 128,317,551
+    End BP    : 128,391,452
+    Span      : 73,901 bp (73.90 kb)
+    Top SNP   : .  (-log10P = 13.428)
+
+  Cluster 92
+    SNPs      : 2
+    Start BP  : 128,449,883
+    End BP    : 128,456,174
+    Span      : 6,291 bp (6.29 kb)
+    Top SNP   : .  (-log10P = 12.608)
+
+  Cluster 93
+    SNPs      : 12
+    Start BP  : 128,525,425
+    End BP    : 128,823,209
+    Span      : 297,784 bp (297.78 kb)
+    Top SNP   : .  (-log10P = 19.431)
+
+  Cluster 94
+    SNPs      : 93
+    Start BP  : 128,888,171
+    End BP    : 129,613,302
+    Span      : 725,131 bp (725.13 kb)
+    Top SNP   : .  (-log10P = 26.132)
+
+  Cluster 95
+    SNPs      : 169
+    Start BP  : 129,698,751
+    End BP    : 130,474,250
+    Span      : 775,499 bp (775.50 kb)
+    Top SNP   : .  (-log10P = 21.523)
+
+  Cluster 96
+    SNPs      : 21
+    Start BP  : 130,528,824
+    End BP    : 130,920,625
+    Span      : 391,801 bp (391.80 kb)
+    Top SNP   : .  (-log10P = 16.837)
+
+  Cluster 97
+    SNPs      : 551
+    Start BP  : 130,980,132
+    End BP    : 132,587,856
+    Span      : 1,607,724 bp (1607.72 kb)
+    Top SNP   : .  (-log10P = 22.108)
+
+  Cluster 98
+    SNPs      : 1
+    Start BP  : 132,684,351
+    End BP    : 132,684,351
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.897)
+
+  Cluster 99
+    SNPs      : 22
+    Start BP  : 132,809,720
+    End BP    : 132,912,202
+    Span      : 102,482 bp (102.48 kb)
+    Top SNP   : .  (-log10P = 13.168)
+
+  Cluster 100
+    SNPs      : 1
+    Start BP  : 135,393,798
+    End BP    : 135,393,798
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.377)
+
+  Cluster 101
+    SNPs      : 1
+    Start BP  : 135,446,468
+    End BP    : 135,446,468
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.974)
+
+  Cluster 102
+    SNPs      : 1
+    Start BP  : 135,519,658
+    End BP    : 135,519,658
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.332)
+
+  Cluster 103
+    SNPs      : 1
+    Start BP  : 135,735,099
+    End BP    : 135,735,099
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.629)
+
+  Cluster 104
+    SNPs      : 1
+    Start BP  : 144,746,533
+    End BP    : 144,746,533
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.598)
+
+  Cluster 105
+    SNPs      : 23
+    Start BP  : 156,339,461
+    End BP    : 156,448,661
+    Span      : 109,200 bp (109.20 kb)
+    Top SNP   : .  (-log10P = 8.966)
+
+  Cluster 106
+    SNPs      : 9
+    Start BP  : 156,591,327
+    End BP    : 156,643,119
+    Span      : 51,792 bp (51.79 kb)
+    Top SNP   : .  (-log10P = 9.031)
+
+  Cluster 107
+    SNPs      : 5
+    Start BP  : 161,827,436
+    End BP    : 161,907,629
+    Span      : 80,193 bp (80.19 kb)
+    Top SNP   : .  (-log10P = 8.394)
+
+  Cluster 108
+    SNPs      : 1
+    Start BP  : 162,008,767
+    End BP    : 162,008,767
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.962)
+
+  Cluster 109
+    SNPs      : 1
+    Start BP  : 162,975,171
+    End BP    : 162,975,171
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.326)
+
+  Cluster 110
+    SNPs      : 2
+    Start BP  : 163,068,996
+    End BP    : 163,112,154
+    Span      : 43,158 bp (43.16 kb)
+    Top SNP   : .  (-log10P = 7.898)
+
+  Cluster 111
+    SNPs      : 2
+    Start BP  : 194,626,370
+    End BP    : 194,629,303
+    Span      : 2,933 bp (2.93 kb)
+    Top SNP   : .  (-log10P = 8.687)
+
+  Cluster 112
+    SNPs      : 1
+    Start BP  : 194,768,063
+    End BP    : 194,768,063
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.377)
+
+  Cluster 113
+    SNPs      : 3
+    Start BP  : 194,930,487
+    End BP    : 194,935,708
+    Span      : 5,221 bp (5.22 kb)
+    Top SNP   : .  (-log10P = 11.295)
+
+  Cluster 114
+    SNPs      : 1
+    Start BP  : 195,102,824
+    End BP    : 195,102,824
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.500)
+
+Chromosome 2 — 123 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 4
+    Start BP  : 52,722
+    End BP    : 55,890
+    Span      : 3,168 bp (3.17 kb)
+    Top SNP   : .  (-log10P = 12.189)
+
+  Cluster 2
+    SNPs      : 10
+    Start BP  : 654,719
+    End BP    : 683,007
+    Span      : 28,288 bp (28.29 kb)
+    Top SNP   : .  (-log10P = 8.508)
+
+  Cluster 3
+    SNPs      : 15
+    Start BP  : 1,086,383
+    End BP    : 1,138,221
+    Span      : 51,838 bp (51.84 kb)
+    Top SNP   : .  (-log10P = 9.919)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 1,353,358
+    End BP    : 1,353,358
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.973)
+
+  Cluster 5
+    SNPs      : 27
+    Start BP  : 4,241,677
+    End BP    : 4,260,665
+    Span      : 18,988 bp (18.99 kb)
+    Top SNP   : .  (-log10P = 9.930)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,318,827
+    End BP    : 4,318,827
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.761)
+
+  Cluster 7
+    SNPs      : 2
+    Start BP  : 6,466,120
+    End BP    : 6,474,263
+    Span      : 8,143 bp (8.14 kb)
+    Top SNP   : .  (-log10P = 12.946)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 6,564,107
+    End BP    : 6,564,107
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 15.913)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 7,000,815
+    End BP    : 7,000,815
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.473)
+
+  Cluster 10
+    SNPs      : 7
+    Start BP  : 7,804,205
+    End BP    : 7,863,694
+    Span      : 59,489 bp (59.49 kb)
+    Top SNP   : .  (-log10P = 10.035)
+
+  Cluster 11
+    SNPs      : 2
+    Start BP  : 7,961,378
+    End BP    : 8,007,494
+    Span      : 46,116 bp (46.12 kb)
+    Top SNP   : .  (-log10P = 7.618)
+
+  Cluster 12
+    SNPs      : 2
+    Start BP  : 8,074,954
+    End BP    : 8,075,373
+    Span      : 419 bp (0.42 kb)
+    Top SNP   : .  (-log10P = 8.507)
+
+  Cluster 13
+    SNPs      : 8
+    Start BP  : 8,160,591
+    End BP    : 8,248,856
+    Span      : 88,265 bp (88.27 kb)
+    Top SNP   : .  (-log10P = 9.888)
+
+  Cluster 14
+    SNPs      : 11
+    Start BP  : 8,305,352
+    End BP    : 8,390,286
+    Span      : 84,934 bp (84.93 kb)
+    Top SNP   : .  (-log10P = 17.315)
+
+  Cluster 15
+    SNPs      : 4
+    Start BP  : 8,479,575
+    End BP    : 8,480,597
+    Span      : 1,022 bp (1.02 kb)
+    Top SNP   : .  (-log10P = 8.355)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 8,546,638
+    End BP    : 8,546,638
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.214)
+
+  Cluster 17
+    SNPs      : 3
+    Start BP  : 8,721,621
+    End BP    : 8,763,451
+    Span      : 41,830 bp (41.83 kb)
+    Top SNP   : .  (-log10P = 9.104)
+
+  Cluster 18
+    SNPs      : 39
+    Start BP  : 8,864,619
+    End BP    : 9,020,661
+    Span      : 156,042 bp (156.04 kb)
+    Top SNP   : .  (-log10P = 11.240)
+
+  Cluster 19
+    SNPs      : 11
+    Start BP  : 9,083,392
+    End BP    : 9,100,416
+    Span      : 17,024 bp (17.02 kb)
+    Top SNP   : .  (-log10P = 11.140)
+
+  Cluster 20
+    SNPs      : 1
+    Start BP  : 9,340,372
+    End BP    : 9,340,372
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.933)
+
+  Cluster 21
+    SNPs      : 1
+    Start BP  : 9,909,485
+    End BP    : 9,909,485
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.515)
+
+  Cluster 22
+    SNPs      : 1
+    Start BP  : 9,998,513
+    End BP    : 9,998,513
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.189)
+
+  Cluster 23
+    SNPs      : 5
+    Start BP  : 10,329,646
+    End BP    : 10,341,068
+    Span      : 11,422 bp (11.42 kb)
+    Top SNP   : .  (-log10P = 10.157)
+
+  Cluster 24
+    SNPs      : 5
+    Start BP  : 10,739,409
+    End BP    : 10,759,998
+    Span      : 20,589 bp (20.59 kb)
+    Top SNP   : .  (-log10P = 8.388)
+
+  Cluster 25
+    SNPs      : 1
+    Start BP  : 11,686,627
+    End BP    : 11,686,627
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.739)
+
+  Cluster 26
+    SNPs      : 6
+    Start BP  : 12,230,820
+    End BP    : 12,292,960
+    Span      : 62,140 bp (62.14 kb)
+    Top SNP   : .  (-log10P = 7.915)
+
+  Cluster 27
+    SNPs      : 6
+    Start BP  : 12,655,410
+    End BP    : 12,664,703
+    Span      : 9,293 bp (9.29 kb)
+    Top SNP   : .  (-log10P = 10.587)
+
+  Cluster 28
+    SNPs      : 2
+    Start BP  : 12,961,247
+    End BP    : 12,963,201
+    Span      : 1,954 bp (1.95 kb)
+    Top SNP   : .  (-log10P = 7.969)
+
+  Cluster 29
+    SNPs      : 7
+    Start BP  : 19,617,931
+    End BP    : 19,623,468
+    Span      : 5,537 bp (5.54 kb)
+    Top SNP   : .  (-log10P = 11.647)
+
+  Cluster 30
+    SNPs      : 1
+    Start BP  : 20,126,069
+    End BP    : 20,126,069
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.796)
+
+  Cluster 31
+    SNPs      : 1
+    Start BP  : 20,248,455
+    End BP    : 20,248,455
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.075)
+
+  Cluster 32
+    SNPs      : 1
+    Start BP  : 22,274,269
+    End BP    : 22,274,269
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.735)
+
+  Cluster 33
+    SNPs      : 11
+    Start BP  : 22,496,762
+    End BP    : 22,539,210
+    Span      : 42,448 bp (42.45 kb)
+    Top SNP   : .  (-log10P = 10.443)
+
+  Cluster 34
+    SNPs      : 9
+    Start BP  : 22,609,983
+    End BP    : 22,669,673
+    Span      : 59,690 bp (59.69 kb)
+    Top SNP   : .  (-log10P = 10.519)
+
+  Cluster 35
+    SNPs      : 183
+    Start BP  : 22,791,450
+    End BP    : 23,133,888
+    Span      : 342,438 bp (342.44 kb)
+    Top SNP   : .  (-log10P = 29.583)
+
+  Cluster 36
+    SNPs      : 1
+    Start BP  : 23,285,470
+    End BP    : 23,285,470
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.323)
+
+  Cluster 37
+    SNPs      : 1
+    Start BP  : 23,386,092
+    End BP    : 23,386,092
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.730)
+
+  Cluster 38
+    SNPs      : 40
+    Start BP  : 23,603,488
+    End BP    : 23,777,350
+    Span      : 173,862 bp (173.86 kb)
+    Top SNP   : .  (-log10P = 14.112)
+
+  Cluster 39
+    SNPs      : 115
+    Start BP  : 23,865,297
+    End BP    : 24,155,686
+    Span      : 290,389 bp (290.39 kb)
+    Top SNP   : .  (-log10P = 32.582)
+
+  Cluster 40
+    SNPs      : 1
+    Start BP  : 24,215,986
+    End BP    : 24,215,986
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 11.836)
+
+  Cluster 41
+    SNPs      : 1
+    Start BP  : 25,899,448
+    End BP    : 25,899,448
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.798)
+
+  Cluster 42
+    SNPs      : 6
+    Start BP  : 27,194,867
+    End BP    : 27,264,360
+    Span      : 69,493 bp (69.49 kb)
+    Top SNP   : .  (-log10P = 20.303)
+
+  Cluster 43
+    SNPs      : 24
+    Start BP  : 27,316,345
+    End BP    : 27,371,973
+    Span      : 55,628 bp (55.63 kb)
+    Top SNP   : .  (-log10P = 26.346)
+
+  Cluster 44
+    SNPs      : 90
+    Start BP  : 27,444,493
+    End BP    : 27,695,612
+    Span      : 251,119 bp (251.12 kb)
+    Top SNP   : .  (-log10P = 13.102)
+
+  Cluster 45
+    SNPs      : 5
+    Start BP  : 27,755,669
+    End BP    : 27,781,858
+    Span      : 26,189 bp (26.19 kb)
+    Top SNP   : .  (-log10P = 15.907)
+
+  Cluster 46
+    SNPs      : 26
+    Start BP  : 27,923,831
+    End BP    : 27,978,519
+    Span      : 54,688 bp (54.69 kb)
+    Top SNP   : .  (-log10P = 11.598)
+
+  Cluster 47
+    SNPs      : 1
+    Start BP  : 28,471,603
+    End BP    : 28,471,603
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.555)
+
+  Cluster 48
+    SNPs      : 5
+    Start BP  : 28,835,385
+    End BP    : 28,879,117
+    Span      : 43,732 bp (43.73 kb)
+    Top SNP   : .  (-log10P = 10.382)
+
+  Cluster 49
+    SNPs      : 15
+    Start BP  : 28,938,309
+    End BP    : 29,170,974
+    Span      : 232,665 bp (232.66 kb)
+    Top SNP   : .  (-log10P = 16.098)
+
+  Cluster 50
+    SNPs      : 4
+    Start BP  : 29,365,193
+    End BP    : 29,420,239
+    Span      : 55,046 bp (55.05 kb)
+    Top SNP   : .  (-log10P = 15.147)
+
+  Cluster 51
+    SNPs      : 3
+    Start BP  : 29,567,889
+    End BP    : 29,611,092
+    Span      : 43,203 bp (43.20 kb)
+    Top SNP   : .  (-log10P = 14.653)
+
+  Cluster 52
+    SNPs      : 3
+    Start BP  : 30,136,688
+    End BP    : 30,167,658
+    Span      : 30,970 bp (30.97 kb)
+    Top SNP   : .  (-log10P = 8.277)
+
+  Cluster 53
+    SNPs      : 2
+    Start BP  : 30,768,192
+    End BP    : 30,778,635
+    Span      : 10,443 bp (10.44 kb)
+    Top SNP   : .  (-log10P = 12.080)
+
+  Cluster 54
+    SNPs      : 1
+    Start BP  : 30,900,207
+    End BP    : 30,900,207
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.482)
+
+  Cluster 55
+    SNPs      : 5
+    Start BP  : 31,028,013
+    End BP    : 31,035,424
+    Span      : 7,411 bp (7.41 kb)
+    Top SNP   : .  (-log10P = 12.593)
+
+  Cluster 56
+    SNPs      : 4
+    Start BP  : 31,088,502
+    End BP    : 31,175,761
+    Span      : 87,259 bp (87.26 kb)
+    Top SNP   : .  (-log10P = 19.963)
+
+  Cluster 57
+    SNPs      : 6
+    Start BP  : 31,243,560
+    End BP    : 31,278,448
+    Span      : 34,888 bp (34.89 kb)
+    Top SNP   : .  (-log10P = 19.680)
+
+  Cluster 58
+    SNPs      : 15
+    Start BP  : 31,461,962
+    End BP    : 31,552,423
+    Span      : 90,461 bp (90.46 kb)
+    Top SNP   : .  (-log10P = 40.152)
+
+  Cluster 59
+    SNPs      : 3
+    Start BP  : 31,604,220
+    End BP    : 31,604,265
+    Span      : 45 bp (0.04 kb)
+    Top SNP   : .  (-log10P = 8.516)
+
+  Cluster 60
+    SNPs      : 9
+    Start BP  : 31,757,031
+    End BP    : 31,762,482
+    Span      : 5,451 bp (5.45 kb)
+    Top SNP   : .  (-log10P = 9.957)
+
+  Cluster 61
+    SNPs      : 1
+    Start BP  : 31,866,345
+    End BP    : 31,866,345
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.413)
+
+  Cluster 62
+    SNPs      : 40
+    Start BP  : 31,969,182
+    End BP    : 32,058,974
+    Span      : 89,792 bp (89.79 kb)
+    Top SNP   : .  (-log10P = 12.429)
+
+  Cluster 63
+    SNPs      : 197
+    Start BP  : 32,151,614
+    End BP    : 32,682,298
+    Span      : 530,684 bp (530.68 kb)
+    Top SNP   : .  (-log10P = 32.801)
+
+  Cluster 64
+    SNPs      : 1
+    Start BP  : 32,805,114
+    End BP    : 32,805,114
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.767)
+
+  Cluster 65
+    SNPs      : 261
+    Start BP  : 32,865,665
+    End BP    : 33,499,119
+    Span      : 633,454 bp (633.45 kb)
+    Top SNP   : .  (-log10P = 33.458)
+
+  Cluster 66
+    SNPs      : 20
+    Start BP  : 33,666,229
+    End BP    : 33,741,785
+    Span      : 75,556 bp (75.56 kb)
+    Top SNP   : .  (-log10P = 11.900)
+
+  Cluster 67
+    SNPs      : 1
+    Start BP  : 37,973,772
+    End BP    : 37,973,772
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.441)
+
+  Cluster 68
+    SNPs      : 3
+    Start BP  : 39,102,646
+    End BP    : 39,105,069
+    Span      : 2,423 bp (2.42 kb)
+    Top SNP   : .  (-log10P = 9.863)
+
+  Cluster 69
+    SNPs      : 1
+    Start BP  : 39,246,499
+    End BP    : 39,246,499
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.094)
+
+  Cluster 70
+    SNPs      : 30
+    Start BP  : 39,616,989
+    End BP    : 39,842,279
+    Span      : 225,290 bp (225.29 kb)
+    Top SNP   : .  (-log10P = 10.118)
+
+  Cluster 71
+    SNPs      : 41
+    Start BP  : 39,896,166
+    End BP    : 40,136,409
+    Span      : 240,243 bp (240.24 kb)
+    Top SNP   : .  (-log10P = 11.876)
+
+  Cluster 72
+    SNPs      : 17
+    Start BP  : 40,305,791
+    End BP    : 40,399,720
+    Span      : 93,929 bp (93.93 kb)
+    Top SNP   : .  (-log10P = 17.225)
+
+  Cluster 73
+    SNPs      : 3
+    Start BP  : 40,809,181
+    End BP    : 40,851,888
+    Span      : 42,707 bp (42.71 kb)
+    Top SNP   : .  (-log10P = 9.761)
+
+  Cluster 74
+    SNPs      : 6
+    Start BP  : 40,905,687
+    End BP    : 40,912,042
+    Span      : 6,355 bp (6.36 kb)
+    Top SNP   : .  (-log10P = 12.328)
+
+  Cluster 75
+    SNPs      : 1
+    Start BP  : 40,991,271
+    End BP    : 40,991,271
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.330)
+
+  Cluster 76
+    SNPs      : 20
+    Start BP  : 41,089,738
+    End BP    : 41,104,710
+    Span      : 14,972 bp (14.97 kb)
+    Top SNP   : .  (-log10P = 12.880)
+
+  Cluster 77
+    SNPs      : 2
+    Start BP  : 41,156,507
+    End BP    : 41,175,171
+    Span      : 18,664 bp (18.66 kb)
+    Top SNP   : .  (-log10P = 7.717)
+
+  Cluster 78
+    SNPs      : 26
+    Start BP  : 46,057,350
+    End BP    : 46,151,923
+    Span      : 94,573 bp (94.57 kb)
+    Top SNP   : .  (-log10P = 11.108)
+
+  Cluster 79
+    SNPs      : 4
+    Start BP  : 46,339,049
+    End BP    : 46,397,196
+    Span      : 58,147 bp (58.15 kb)
+    Top SNP   : .  (-log10P = 8.253)
+
+  Cluster 80
+    SNPs      : 1
+    Start BP  : 46,499,817
+    End BP    : 46,499,817
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.910)
+
+  Cluster 81
+    SNPs      : 3
+    Start BP  : 46,664,518
+    End BP    : 46,665,309
+    Span      : 791 bp (0.79 kb)
+    Top SNP   : .  (-log10P = 9.807)
+
+  Cluster 82
+    SNPs      : 1
+    Start BP  : 46,997,812
+    End BP    : 46,997,812
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.424)
+
+  Cluster 83
+    SNPs      : 1
+    Start BP  : 49,521,529
+    End BP    : 49,521,529
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.103)
+
+  Cluster 84
+    SNPs      : 2
+    Start BP  : 49,579,653
+    End BP    : 49,579,708
+    Span      : 55 bp (0.06 kb)
+    Top SNP   : .  (-log10P = 7.334)
+
+  Cluster 85
+    SNPs      : 8
+    Start BP  : 49,664,311
+    End BP    : 49,768,261
+    Span      : 103,950 bp (103.95 kb)
+    Top SNP   : .  (-log10P = 8.266)
+
+  Cluster 86
+    SNPs      : 2
+    Start BP  : 51,297,957
+    End BP    : 51,320,920
+    Span      : 22,963 bp (22.96 kb)
+    Top SNP   : .  (-log10P = 12.824)
+
+  Cluster 87
+    SNPs      : 1
+    Start BP  : 51,381,998
+    End BP    : 51,381,998
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.029)
+
+  Cluster 88
+    SNPs      : 1
+    Start BP  : 51,484,325
+    End BP    : 51,484,325
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.153)
+
+  Cluster 89
+    SNPs      : 26
+    Start BP  : 51,952,744
+    End BP    : 52,050,960
+    Span      : 98,216 bp (98.22 kb)
+    Top SNP   : .  (-log10P = 10.822)
+
+  Cluster 90
+    SNPs      : 1
+    Start BP  : 61,415,688
+    End BP    : 61,415,688
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.803)
+
+  Cluster 91
+    SNPs      : 3
+    Start BP  : 69,836,173
+    End BP    : 69,859,739
+    Span      : 23,566 bp (23.57 kb)
+    Top SNP   : .  (-log10P = 8.101)
+
+  Cluster 92
+    SNPs      : 1
+    Start BP  : 73,026,166
+    End BP    : 73,026,166
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.458)
+
+  Cluster 93
+    SNPs      : 2
+    Start BP  : 82,782,253
+    End BP    : 82,805,244
+    Span      : 22,991 bp (22.99 kb)
+    Top SNP   : .  (-log10P = 11.595)
+
+  Cluster 94
+    SNPs      : 1
+    Start BP  : 85,054,184
+    End BP    : 85,054,184
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.825)
+
+  Cluster 95
+    SNPs      : 1
+    Start BP  : 100,416,079
+    End BP    : 100,416,079
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.539)
+
+  Cluster 96
+    SNPs      : 1
+    Start BP  : 112,275,028
+    End BP    : 112,275,028
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.063)
+
+  Cluster 97
+    SNPs      : 1
+    Start BP  : 117,614,201
+    End BP    : 117,614,201
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.810)
+
+  Cluster 98
+    SNPs      : 4
+    Start BP  : 117,774,682
+    End BP    : 117,781,508
+    Span      : 6,826 bp (6.83 kb)
+    Top SNP   : .  (-log10P = 8.772)
+
+  Cluster 99
+    SNPs      : 1
+    Start BP  : 118,831,232
+    End BP    : 118,831,232
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.716)
+
+  Cluster 100
+    SNPs      : 11
+    Start BP  : 119,714,128
+    End BP    : 119,753,291
+    Span      : 39,163 bp (39.16 kb)
+    Top SNP   : .  (-log10P = 9.184)
+
+  Cluster 101
+    SNPs      : 4
+    Start BP  : 119,824,207
+    End BP    : 119,833,613
+    Span      : 9,406 bp (9.41 kb)
+    Top SNP   : .  (-log10P = 8.270)
+
+  Cluster 102
+    SNPs      : 1
+    Start BP  : 130,774,829
+    End BP    : 130,774,829
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.233)
+
+  Cluster 103
+    SNPs      : 2
+    Start BP  : 130,834,204
+    End BP    : 130,834,760
+    Span      : 556 bp (0.56 kb)
+    Top SNP   : .  (-log10P = 8.998)
+
+  Cluster 104
+    SNPs      : 1
+    Start BP  : 133,047,750
+    End BP    : 133,047,750
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.963)
+
+  Cluster 105
+    SNPs      : 3
+    Start BP  : 133,956,267
+    End BP    : 133,957,754
+    Span      : 1,487 bp (1.49 kb)
+    Top SNP   : .  (-log10P = 9.230)
+
+  Cluster 106
+    SNPs      : 7
+    Start BP  : 135,181,348
+    End BP    : 135,228,257
+    Span      : 46,909 bp (46.91 kb)
+    Top SNP   : .  (-log10P = 13.048)
+
+  Cluster 107
+    SNPs      : 53
+    Start BP  : 135,550,928
+    End BP    : 135,792,503
+    Span      : 241,575 bp (241.57 kb)
+    Top SNP   : .  (-log10P = 16.649)
+
+  Cluster 108
+    SNPs      : 5
+    Start BP  : 136,044,440
+    End BP    : 136,077,163
+    Span      : 32,723 bp (32.72 kb)
+    Top SNP   : .  (-log10P = 7.982)
+
+  Cluster 109
+    SNPs      : 352
+    Start BP  : 136,143,030
+    End BP    : 136,748,528
+    Span      : 605,498 bp (605.50 kb)
+    Top SNP   : .  (-log10P = 31.010)
+
+  Cluster 110
+    SNPs      : 6
+    Start BP  : 137,021,518
+    End BP    : 137,044,126
+    Span      : 22,608 bp (22.61 kb)
+    Top SNP   : .  (-log10P = 8.615)
+
+  Cluster 111
+    SNPs      : 3
+    Start BP  : 139,618,416
+    End BP    : 139,664,560
+    Span      : 46,144 bp (46.14 kb)
+    Top SNP   : .  (-log10P = 8.205)
+
+  Cluster 112
+    SNPs      : 22
+    Start BP  : 139,716,351
+    End BP    : 139,895,805
+    Span      : 179,454 bp (179.45 kb)
+    Top SNP   : .  (-log10P = 11.120)
+
+  Cluster 113
+    SNPs      : 4
+    Start BP  : 141,307,198
+    End BP    : 141,351,527
+    Span      : 44,329 bp (44.33 kb)
+    Top SNP   : .  (-log10P = 8.108)
+
+  Cluster 114
+    SNPs      : 1
+    Start BP  : 141,655,229
+    End BP    : 141,655,229
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.497)
+
+  Cluster 115
+    SNPs      : 1
+    Start BP  : 143,520,068
+    End BP    : 143,520,068
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.601)
+
+  Cluster 116
+    SNPs      : 1
+    Start BP  : 144,080,564
+    End BP    : 144,080,564
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.534)
+
+  Cluster 117
+    SNPs      : 1
+    Start BP  : 144,750,359
+    End BP    : 144,750,359
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.513)
+
+  Cluster 118
+    SNPs      : 2
+    Start BP  : 145,193,578
+    End BP    : 145,205,005
+    Span      : 11,427 bp (11.43 kb)
+    Top SNP   : .  (-log10P = 7.759)
+
+  Cluster 119
+    SNPs      : 1
+    Start BP  : 148,678,786
+    End BP    : 148,678,786
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.312)
+
+  Cluster 120
+    SNPs      : 2
+    Start BP  : 149,939,388
+    End BP    : 149,946,755
+    Span      : 7,367 bp (7.37 kb)
+    Top SNP   : .  (-log10P = 7.707)
+
+  Cluster 121
+    SNPs      : 14
+    Start BP  : 150,154,869
+    End BP    : 150,203,462
+    Span      : 48,593 bp (48.59 kb)
+    Top SNP   : .  (-log10P = 11.644)
+
+  Cluster 122
+    SNPs      : 1
+    Start BP  : 150,536,999
+    End BP    : 150,536,999
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.343)
+
+  Cluster 123
+    SNPs      : 1
+    Start BP  : 150,667,206
+    End BP    : 150,667,206
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.533)
+
+Chromosome 3 — 67 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 3
+    Start BP  : 4,844,528
+    End BP    : 4,859,524
+    Span      : 14,996 bp (15.00 kb)
+    Top SNP   : .  (-log10P = 8.595)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 9,526,248
+    End BP    : 9,526,248
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.734)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 9,630,742
+    End BP    : 9,630,742
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.123)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 9,800,304
+    End BP    : 9,800,304
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.256)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 11,629,642
+    End BP    : 11,629,642
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.992)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 12,021,978
+    End BP    : 12,021,978
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.888)
+
+  Cluster 7
+    SNPs      : 7
+    Start BP  : 20,788,605
+    End BP    : 20,858,188
+    Span      : 69,583 bp (69.58 kb)
+    Top SNP   : .  (-log10P = 8.422)
+
+  Cluster 8
+    SNPs      : 4
+    Start BP  : 21,753,911
+    End BP    : 21,772,012
+    Span      : 18,101 bp (18.10 kb)
+    Top SNP   : .  (-log10P = 11.076)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 22,289,056
+    End BP    : 22,289,056
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.425)
+
+  Cluster 10
+    SNPs      : 8
+    Start BP  : 23,294,301
+    End BP    : 23,349,625
+    Span      : 55,324 bp (55.32 kb)
+    Top SNP   : .  (-log10P = 9.960)
+
+  Cluster 11
+    SNPs      : 5
+    Start BP  : 23,476,048
+    End BP    : 23,478,143
+    Span      : 2,095 bp (2.10 kb)
+    Top SNP   : .  (-log10P = 9.831)
+
+  Cluster 12
+    SNPs      : 12
+    Start BP  : 24,060,518
+    End BP    : 24,157,154
+    Span      : 96,636 bp (96.64 kb)
+    Top SNP   : .  (-log10P = 13.028)
+
+  Cluster 13
+    SNPs      : 10
+    Start BP  : 31,768,170
+    End BP    : 31,788,153
+    Span      : 19,983 bp (19.98 kb)
+    Top SNP   : .  (-log10P = 8.382)
+
+  Cluster 14
+    SNPs      : 10
+    Start BP  : 32,123,607
+    End BP    : 32,184,317
+    Span      : 60,710 bp (60.71 kb)
+    Top SNP   : .  (-log10P = 9.107)
+
+  Cluster 15
+    SNPs      : 4
+    Start BP  : 32,847,286
+    End BP    : 32,895,747
+    Span      : 48,461 bp (48.46 kb)
+    Top SNP   : .  (-log10P = 10.736)
+
+  Cluster 16
+    SNPs      : 21
+    Start BP  : 36,417,099
+    End BP    : 36,470,980
+    Span      : 53,881 bp (53.88 kb)
+    Top SNP   : .  (-log10P = 17.183)
+
+  Cluster 17
+    SNPs      : 2
+    Start BP  : 36,805,161
+    End BP    : 36,809,566
+    Span      : 4,405 bp (4.41 kb)
+    Top SNP   : .  (-log10P = 8.151)
+
+  Cluster 18
+    SNPs      : 120
+    Start BP  : 36,980,604
+    End BP    : 37,208,562
+    Span      : 227,958 bp (227.96 kb)
+    Top SNP   : .  (-log10P = 17.831)
+
+  Cluster 19
+    SNPs      : 1
+    Start BP  : 37,395,141
+    End BP    : 37,395,141
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.238)
+
+  Cluster 20
+    SNPs      : 1
+    Start BP  : 37,779,973
+    End BP    : 37,779,973
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.755)
+
+  Cluster 21
+    SNPs      : 7
+    Start BP  : 38,471,500
+    End BP    : 38,503,702
+    Span      : 32,202 bp (32.20 kb)
+    Top SNP   : .  (-log10P = 8.835)
+
+  Cluster 22
+    SNPs      : 1
+    Start BP  : 38,761,088
+    End BP    : 38,761,088
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.469)
+
+  Cluster 23
+    SNPs      : 75
+    Start BP  : 38,977,646
+    End BP    : 39,372,175
+    Span      : 394,529 bp (394.53 kb)
+    Top SNP   : .  (-log10P = 10.375)
+
+  Cluster 24
+    SNPs      : 2
+    Start BP  : 39,493,851
+    End BP    : 39,495,584
+    Span      : 1,733 bp (1.73 kb)
+    Top SNP   : .  (-log10P = 7.902)
+
+  Cluster 25
+    SNPs      : 1
+    Start BP  : 39,693,627
+    End BP    : 39,693,627
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.760)
+
+  Cluster 26
+    SNPs      : 1
+    Start BP  : 39,750,102
+    End BP    : 39,750,102
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.176)
+
+  Cluster 27
+    SNPs      : 2
+    Start BP  : 39,811,810
+    End BP    : 39,815,654
+    Span      : 3,844 bp (3.84 kb)
+    Top SNP   : .  (-log10P = 8.541)
+
+  Cluster 28
+    SNPs      : 1
+    Start BP  : 39,922,681
+    End BP    : 39,922,681
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.382)
+
+  Cluster 29
+    SNPs      : 1
+    Start BP  : 40,120,166
+    End BP    : 40,120,166
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.780)
+
+  Cluster 30
+    SNPs      : 1
+    Start BP  : 40,171,109
+    End BP    : 40,171,109
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.308)
+
+  Cluster 31
+    SNPs      : 2
+    Start BP  : 40,234,500
+    End BP    : 40,256,963
+    Span      : 22,463 bp (22.46 kb)
+    Top SNP   : .  (-log10P = 9.933)
+
+  Cluster 32
+    SNPs      : 2
+    Start BP  : 40,317,729
+    End BP    : 40,320,300
+    Span      : 2,571 bp (2.57 kb)
+    Top SNP   : .  (-log10P = 8.196)
+
+  Cluster 33
+    SNPs      : 58
+    Start BP  : 40,401,039
+    End BP    : 40,481,338
+    Span      : 80,299 bp (80.30 kb)
+    Top SNP   : .  (-log10P = 17.024)
+
+  Cluster 34
+    SNPs      : 8
+    Start BP  : 40,537,721
+    End BP    : 40,544,458
+    Span      : 6,737 bp (6.74 kb)
+    Top SNP   : .  (-log10P = 12.126)
+
+  Cluster 35
+    SNPs      : 4
+    Start BP  : 41,563,131
+    End BP    : 41,584,588
+    Span      : 21,457 bp (21.46 kb)
+    Top SNP   : .  (-log10P = 9.461)
+
+  Cluster 36
+    SNPs      : 1
+    Start BP  : 51,153,931
+    End BP    : 51,153,931
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.263)
+
+  Cluster 37
+    SNPs      : 1
+    Start BP  : 56,281,220
+    End BP    : 56,281,220
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.530)
+
+  Cluster 38
+    SNPs      : 2
+    Start BP  : 85,216,517
+    End BP    : 85,229,526
+    Span      : 13,009 bp (13.01 kb)
+    Top SNP   : .  (-log10P = 8.027)
+
+  Cluster 39
+    SNPs      : 1
+    Start BP  : 88,432,831
+    End BP    : 88,432,831
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.305)
+
+  Cluster 40
+    SNPs      : 2
+    Start BP  : 94,332,632
+    End BP    : 94,333,831
+    Span      : 1,199 bp (1.20 kb)
+    Top SNP   : .  (-log10P = 8.551)
+
+  Cluster 41
+    SNPs      : 2
+    Start BP  : 94,604,470
+    End BP    : 94,605,292
+    Span      : 822 bp (0.82 kb)
+    Top SNP   : .  (-log10P = 7.823)
+
+  Cluster 42
+    SNPs      : 8
+    Start BP  : 94,925,720
+    End BP    : 94,954,716
+    Span      : 28,996 bp (29.00 kb)
+    Top SNP   : .  (-log10P = 8.563)
+
+  Cluster 43
+    SNPs      : 1
+    Start BP  : 99,799,231
+    End BP    : 99,799,231
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.430)
+
+  Cluster 44
+    SNPs      : 3
+    Start BP  : 99,966,262
+    End BP    : 100,012,629
+    Span      : 46,367 bp (46.37 kb)
+    Top SNP   : .  (-log10P = 8.367)
+
+  Cluster 45
+    SNPs      : 19
+    Start BP  : 100,078,683
+    End BP    : 100,162,989
+    Span      : 84,306 bp (84.31 kb)
+    Top SNP   : .  (-log10P = 11.472)
+
+  Cluster 46
+    SNPs      : 13
+    Start BP  : 100,245,017
+    End BP    : 100,308,031
+    Span      : 63,014 bp (63.01 kb)
+    Top SNP   : .  (-log10P = 10.685)
+
+  Cluster 47
+    SNPs      : 1
+    Start BP  : 100,364,432
+    End BP    : 100,364,432
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.596)
+
+  Cluster 48
+    SNPs      : 1
+    Start BP  : 100,511,949
+    End BP    : 100,511,949
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.884)
+
+  Cluster 49
+    SNPs      : 2
+    Start BP  : 102,578,046
+    End BP    : 102,597,358
+    Span      : 19,312 bp (19.31 kb)
+    Top SNP   : .  (-log10P = 7.981)
+
+  Cluster 50
+    SNPs      : 9
+    Start BP  : 103,028,754
+    End BP    : 103,130,060
+    Span      : 101,306 bp (101.31 kb)
+    Top SNP   : .  (-log10P = 12.007)
+
+  Cluster 51
+    SNPs      : 5
+    Start BP  : 103,191,751
+    End BP    : 103,242,814
+    Span      : 51,063 bp (51.06 kb)
+    Top SNP   : .  (-log10P = 11.281)
+
+  Cluster 52
+    SNPs      : 1
+    Start BP  : 103,296,761
+    End BP    : 103,296,761
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.718)
+
+  Cluster 53
+    SNPs      : 1
+    Start BP  : 103,347,537
+    End BP    : 103,347,537
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.420)
+
+  Cluster 54
+    SNPs      : 20
+    Start BP  : 103,410,921
+    End BP    : 103,574,190
+    Span      : 163,269 bp (163.27 kb)
+    Top SNP   : .  (-log10P = 14.381)
+
+  Cluster 55
+    SNPs      : 4
+    Start BP  : 103,680,369
+    End BP    : 103,722,823
+    Span      : 42,454 bp (42.45 kb)
+    Top SNP   : .  (-log10P = 8.039)
+
+  Cluster 56
+    SNPs      : 342
+    Start BP  : 103,776,179
+    End BP    : 105,038,300
+    Span      : 1,262,121 bp (1262.12 kb)
+    Top SNP   : .  (-log10P = 31.665)
+
+  Cluster 57
+    SNPs      : 3
+    Start BP  : 108,715,007
+    End BP    : 108,715,165
+    Span      : 158 bp (0.16 kb)
+    Top SNP   : .  (-log10P = 12.717)
+
+  Cluster 58
+    SNPs      : 10
+    Start BP  : 109,230,110
+    End BP    : 109,248,907
+    Span      : 18,797 bp (18.80 kb)
+    Top SNP   : .  (-log10P = 9.506)
+
+  Cluster 59
+    SNPs      : 14
+    Start BP  : 111,479,734
+    End BP    : 111,556,574
+    Span      : 76,840 bp (76.84 kb)
+    Top SNP   : .  (-log10P = 10.458)
+
+  Cluster 60
+    SNPs      : 22
+    Start BP  : 111,673,996
+    End BP    : 111,706,883
+    Span      : 32,887 bp (32.89 kb)
+    Top SNP   : .  (-log10P = 9.191)
+
+  Cluster 61
+    SNPs      : 1
+    Start BP  : 111,831,299
+    End BP    : 111,831,299
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.585)
+
+  Cluster 62
+    SNPs      : 7
+    Start BP  : 111,985,866
+    End BP    : 112,062,601
+    Span      : 76,735 bp (76.73 kb)
+    Top SNP   : .  (-log10P = 12.673)
+
+  Cluster 63
+    SNPs      : 2
+    Start BP  : 112,442,734
+    End BP    : 112,442,821
+    Span      : 87 bp (0.09 kb)
+    Top SNP   : .  (-log10P = 7.604)
+
+  Cluster 64
+    SNPs      : 6
+    Start BP  : 113,201,758
+    End BP    : 113,245,613
+    Span      : 43,855 bp (43.85 kb)
+    Top SNP   : .  (-log10P = 11.640)
+
+  Cluster 65
+    SNPs      : 1
+    Start BP  : 113,318,483
+    End BP    : 113,318,483
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.490)
+
+  Cluster 66
+    SNPs      : 1
+    Start BP  : 113,824,515
+    End BP    : 113,824,515
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.322)
+
+  Cluster 67
+    SNPs      : 1
+    Start BP  : 114,051,321
+    End BP    : 114,051,321
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.133)
+
+Chromosome 4 — 20 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 2
+    Start BP  : 269,790
+    End BP    : 271,253
+    Span      : 1,463 bp (1.46 kb)
+    Top SNP   : .  (-log10P = 8.040)
+
+  Cluster 2
+    SNPs      : 3
+    Start BP  : 1,031,285
+    End BP    : 1,040,808
+    Span      : 9,523 bp (9.52 kb)
+    Top SNP   : .  (-log10P = 7.701)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 2,556,090
+    End BP    : 2,556,090
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.961)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 7,610,965
+    End BP    : 7,610,965
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.510)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 23,834,729
+    End BP    : 23,834,729
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.388)
+
+  Cluster 6
+    SNPs      : 3
+    Start BP  : 26,426,996
+    End BP    : 26,431,928
+    Span      : 4,932 bp (4.93 kb)
+    Top SNP   : .  (-log10P = 12.027)
+
+  Cluster 7
+    SNPs      : 9
+    Start BP  : 26,594,475
+    End BP    : 26,652,155
+    Span      : 57,680 bp (57.68 kb)
+    Top SNP   : .  (-log10P = 13.890)
+
+  Cluster 8
+    SNPs      : 14
+    Start BP  : 27,460,646
+    End BP    : 27,502,620
+    Span      : 41,974 bp (41.97 kb)
+    Top SNP   : .  (-log10P = 15.033)
+
+  Cluster 9
+    SNPs      : 38
+    Start BP  : 27,659,761
+    End BP    : 27,788,916
+    Span      : 129,155 bp (129.16 kb)
+    Top SNP   : .  (-log10P = 13.863)
+
+  Cluster 10
+    SNPs      : 12
+    Start BP  : 28,593,609
+    End BP    : 28,641,015
+    Span      : 47,406 bp (47.41 kb)
+    Top SNP   : .  (-log10P = 8.780)
+
+  Cluster 11
+    SNPs      : 21
+    Start BP  : 32,221,305
+    End BP    : 32,367,183
+    Span      : 145,878 bp (145.88 kb)
+    Top SNP   : .  (-log10P = 12.306)
+
+  Cluster 12
+    SNPs      : 1
+    Start BP  : 60,246,173
+    End BP    : 60,246,173
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.473)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 60,359,170
+    End BP    : 60,359,170
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.867)
+
+  Cluster 14
+    SNPs      : 12
+    Start BP  : 60,498,481
+    End BP    : 60,563,740
+    Span      : 65,259 bp (65.26 kb)
+    Top SNP   : .  (-log10P = 11.140)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 60,630,816
+    End BP    : 60,630,816
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.523)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 61,649,308
+    End BP    : 61,649,308
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.329)
+
+  Cluster 17
+    SNPs      : 11
+    Start BP  : 62,435,054
+    End BP    : 62,477,980
+    Span      : 42,926 bp (42.93 kb)
+    Top SNP   : .  (-log10P = 10.394)
+
+  Cluster 18
+    SNPs      : 9
+    Start BP  : 62,551,224
+    End BP    : 62,571,203
+    Span      : 19,979 bp (19.98 kb)
+    Top SNP   : .  (-log10P = 7.872)
+
+  Cluster 19
+    SNPs      : 1
+    Start BP  : 66,701,216
+    End BP    : 66,701,216
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.545)
+
+  Cluster 20
+    SNPs      : 1
+    Start BP  : 69,822,250
+    End BP    : 69,822,250
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.432)
+
+Chromosome 5 — 63 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 9
+    Start BP  : 701,800
+    End BP    : 745,838
+    Span      : 44,038 bp (44.04 kb)
+    Top SNP   : .  (-log10P = 15.483)
+
+  Cluster 2
+    SNPs      : 4
+    Start BP  : 1,208,857
+    End BP    : 1,218,048
+    Span      : 9,191 bp (9.19 kb)
+    Top SNP   : .  (-log10P = 9.120)
+
+  Cluster 3
+    SNPs      : 9
+    Start BP  : 1,390,400
+    End BP    : 1,439,187
+    Span      : 48,787 bp (48.79 kb)
+    Top SNP   : .  (-log10P = 22.194)
+
+  Cluster 4
+    SNPs      : 7
+    Start BP  : 2,706,939
+    End BP    : 2,728,711
+    Span      : 21,772 bp (21.77 kb)
+    Top SNP   : .  (-log10P = 10.748)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 2,943,413
+    End BP    : 2,943,413
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.837)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,346,034
+    End BP    : 4,346,034
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.740)
+
+  Cluster 7
+    SNPs      : 2
+    Start BP  : 4,631,532
+    End BP    : 4,634,953
+    Span      : 3,421 bp (3.42 kb)
+    Top SNP   : .  (-log10P = 10.808)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 5,086,425
+    End BP    : 5,086,425
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.486)
+
+  Cluster 9
+    SNPs      : 12
+    Start BP  : 5,177,231
+    End BP    : 5,257,071
+    Span      : 79,840 bp (79.84 kb)
+    Top SNP   : .  (-log10P = 9.692)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 5,406,349
+    End BP    : 5,406,349
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.589)
+
+  Cluster 11
+    SNPs      : 73
+    Start BP  : 5,552,329
+    End BP    : 5,664,360
+    Span      : 112,031 bp (112.03 kb)
+    Top SNP   : .  (-log10P = 20.474)
+
+  Cluster 12
+    SNPs      : 31
+    Start BP  : 7,849,448
+    End BP    : 7,991,276
+    Span      : 141,828 bp (141.83 kb)
+    Top SNP   : .  (-log10P = 12.200)
+
+  Cluster 13
+    SNPs      : 2
+    Start BP  : 8,939,938
+    End BP    : 8,940,935
+    Span      : 997 bp (1.00 kb)
+    Top SNP   : .  (-log10P = 9.408)
+
+  Cluster 14
+    SNPs      : 3
+    Start BP  : 9,563,622
+    End BP    : 9,606,735
+    Span      : 43,113 bp (43.11 kb)
+    Top SNP   : .  (-log10P = 20.358)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 9,690,327
+    End BP    : 9,690,327
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.531)
+
+  Cluster 16
+    SNPs      : 7
+    Start BP  : 9,773,035
+    End BP    : 9,815,009
+    Span      : 41,974 bp (41.97 kb)
+    Top SNP   : .  (-log10P = 13.324)
+
+  Cluster 17
+    SNPs      : 13
+    Start BP  : 10,106,244
+    End BP    : 10,127,202
+    Span      : 20,958 bp (20.96 kb)
+    Top SNP   : .  (-log10P = 14.547)
+
+  Cluster 18
+    SNPs      : 62
+    Start BP  : 10,186,811
+    End BP    : 10,413,393
+    Span      : 226,582 bp (226.58 kb)
+    Top SNP   : .  (-log10P = 14.632)
+
+  Cluster 19
+    SNPs      : 3
+    Start BP  : 10,956,794
+    End BP    : 10,994,938
+    Span      : 38,144 bp (38.14 kb)
+    Top SNP   : .  (-log10P = 8.127)
+
+  Cluster 20
+    SNPs      : 1
+    Start BP  : 11,069,958
+    End BP    : 11,069,958
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.788)
+
+  Cluster 21
+    SNPs      : 4
+    Start BP  : 11,838,054
+    End BP    : 11,936,932
+    Span      : 98,878 bp (98.88 kb)
+    Top SNP   : .  (-log10P = 8.676)
+
+  Cluster 22
+    SNPs      : 1
+    Start BP  : 12,076,224
+    End BP    : 12,076,224
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.458)
+
+  Cluster 23
+    SNPs      : 1
+    Start BP  : 12,891,260
+    End BP    : 12,891,260
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.461)
+
+  Cluster 24
+    SNPs      : 48
+    Start BP  : 13,179,725
+    End BP    : 13,286,782
+    Span      : 107,057 bp (107.06 kb)
+    Top SNP   : .  (-log10P = 11.387)
+
+  Cluster 25
+    SNPs      : 1
+    Start BP  : 13,401,337
+    End BP    : 13,401,337
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 17.893)
+
+  Cluster 26
+    SNPs      : 14
+    Start BP  : 14,281,309
+    End BP    : 14,386,334
+    Span      : 105,025 bp (105.03 kb)
+    Top SNP   : .  (-log10P = 14.112)
+
+  Cluster 27
+    SNPs      : 1
+    Start BP  : 14,691,557
+    End BP    : 14,691,557
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.602)
+
+  Cluster 28
+    SNPs      : 2
+    Start BP  : 14,841,432
+    End BP    : 14,841,803
+    Span      : 371 bp (0.37 kb)
+    Top SNP   : .  (-log10P = 8.051)
+
+  Cluster 29
+    SNPs      : 1
+    Start BP  : 15,017,143
+    End BP    : 15,017,143
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 11.404)
+
+  Cluster 30
+    SNPs      : 1
+    Start BP  : 15,339,824
+    End BP    : 15,339,824
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.054)
+
+  Cluster 31
+    SNPs      : 1
+    Start BP  : 16,822,392
+    End BP    : 16,822,392
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.044)
+
+  Cluster 32
+    SNPs      : 1
+    Start BP  : 21,320,838
+    End BP    : 21,320,838
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.428)
+
+  Cluster 33
+    SNPs      : 11
+    Start BP  : 22,975,883
+    End BP    : 22,989,889
+    Span      : 14,006 bp (14.01 kb)
+    Top SNP   : .  (-log10P = 13.256)
+
+  Cluster 34
+    SNPs      : 1
+    Start BP  : 23,056,020
+    End BP    : 23,056,020
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.483)
+
+  Cluster 35
+    SNPs      : 1
+    Start BP  : 23,139,066
+    End BP    : 23,139,066
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.616)
+
+  Cluster 36
+    SNPs      : 13
+    Start BP  : 23,209,784
+    End BP    : 23,270,693
+    Span      : 60,909 bp (60.91 kb)
+    Top SNP   : .  (-log10P = 10.514)
+
+  Cluster 37
+    SNPs      : 4
+    Start BP  : 26,713,035
+    End BP    : 26,728,951
+    Span      : 15,916 bp (15.92 kb)
+    Top SNP   : .  (-log10P = 8.594)
+
+  Cluster 38
+    SNPs      : 72
+    Start BP  : 26,834,187
+    End BP    : 26,978,904
+    Span      : 144,717 bp (144.72 kb)
+    Top SNP   : .  (-log10P = 13.603)
+
+  Cluster 39
+    SNPs      : 1
+    Start BP  : 27,166,846
+    End BP    : 27,166,846
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.581)
+
+  Cluster 40
+    SNPs      : 1
+    Start BP  : 28,745,782
+    End BP    : 28,745,782
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.627)
+
+  Cluster 41
+    SNPs      : 2
+    Start BP  : 29,560,870
+    End BP    : 29,576,936
+    Span      : 16,066 bp (16.07 kb)
+    Top SNP   : .  (-log10P = 7.539)
+
+  Cluster 42
+    SNPs      : 1
+    Start BP  : 30,980,789
+    End BP    : 30,980,789
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.499)
+
+  Cluster 43
+    SNPs      : 1
+    Start BP  : 34,148,824
+    End BP    : 34,148,824
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.200)
+
+  Cluster 44
+    SNPs      : 1
+    Start BP  : 45,539,931
+    End BP    : 45,539,931
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.170)
+
+  Cluster 45
+    SNPs      : 2
+    Start BP  : 45,810,160
+    End BP    : 45,810,595
+    Span      : 435 bp (0.43 kb)
+    Top SNP   : .  (-log10P = 8.357)
+
+  Cluster 46
+    SNPs      : 12
+    Start BP  : 46,765,702
+    End BP    : 46,818,418
+    Span      : 52,716 bp (52.72 kb)
+    Top SNP   : .  (-log10P = 12.654)
+
+  Cluster 47
+    SNPs      : 2
+    Start BP  : 47,477,854
+    End BP    : 47,486,384
+    Span      : 8,530 bp (8.53 kb)
+    Top SNP   : .  (-log10P = 8.312)
+
+  Cluster 48
+    SNPs      : 1
+    Start BP  : 47,576,417
+    End BP    : 47,576,417
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.193)
+
+  Cluster 49
+    SNPs      : 1
+    Start BP  : 47,816,802
+    End BP    : 47,816,802
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.533)
+
+  Cluster 50
+    SNPs      : 3
+    Start BP  : 48,225,930
+    End BP    : 48,248,712
+    Span      : 22,782 bp (22.78 kb)
+    Top SNP   : .  (-log10P = 8.193)
+
+  Cluster 51
+    SNPs      : 4
+    Start BP  : 49,906,433
+    End BP    : 49,934,312
+    Span      : 27,879 bp (27.88 kb)
+    Top SNP   : .  (-log10P = 7.797)
+
+  Cluster 52
+    SNPs      : 20
+    Start BP  : 50,342,933
+    End BP    : 50,380,584
+    Span      : 37,651 bp (37.65 kb)
+    Top SNP   : .  (-log10P = 11.569)
+
+  Cluster 53
+    SNPs      : 1
+    Start BP  : 55,586,646
+    End BP    : 55,586,646
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.916)
+
+  Cluster 54
+    SNPs      : 1
+    Start BP  : 56,144,595
+    End BP    : 56,144,595
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.348)
+
+  Cluster 55
+    SNPs      : 35
+    Start BP  : 56,655,273
+    End BP    : 56,789,709
+    Span      : 134,436 bp (134.44 kb)
+    Top SNP   : .  (-log10P = 10.407)
+
+  Cluster 56
+    SNPs      : 13
+    Start BP  : 57,475,440
+    End BP    : 57,518,650
+    Span      : 43,210 bp (43.21 kb)
+    Top SNP   : .  (-log10P = 9.820)
+
+  Cluster 57
+    SNPs      : 2
+    Start BP  : 57,711,186
+    End BP    : 57,711,188
+    Span      : 2 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.327)
+
+  Cluster 58
+    SNPs      : 2
+    Start BP  : 58,352,495
+    End BP    : 58,368,178
+    Span      : 15,683 bp (15.68 kb)
+    Top SNP   : .  (-log10P = 8.565)
+
+  Cluster 59
+    SNPs      : 5
+    Start BP  : 58,434,738
+    End BP    : 58,442,301
+    Span      : 7,563 bp (7.56 kb)
+    Top SNP   : .  (-log10P = 15.408)
+
+  Cluster 60
+    SNPs      : 1
+    Start BP  : 58,535,972
+    End BP    : 58,535,972
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.095)
+
+  Cluster 61
+    SNPs      : 1
+    Start BP  : 59,227,959
+    End BP    : 59,227,959
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.611)
+
+  Cluster 62
+    SNPs      : 8
+    Start BP  : 61,548,616
+    End BP    : 61,597,083
+    Span      : 48,467 bp (48.47 kb)
+    Top SNP   : .  (-log10P = 10.436)
+
+  Cluster 63
+    SNPs      : 2
+    Start BP  : 61,811,853
+    End BP    : 61,821,560
+    Span      : 9,707 bp (9.71 kb)
+    Top SNP   : .  (-log10P = 8.065)
+
+Chromosome 6 — 14 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 2
+    Start BP  : 728,027
+    End BP    : 750,328
+    Span      : 22,301 bp (22.30 kb)
+    Top SNP   : .  (-log10P = 8.683)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 999,505
+    End BP    : 999,505
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.983)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 1,056,282
+    End BP    : 1,056,282
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.481)
+
+  Cluster 4
+    SNPs      : 10
+    Start BP  : 10,234,989
+    End BP    : 10,287,779
+    Span      : 52,790 bp (52.79 kb)
+    Top SNP   : .  (-log10P = 9.302)
+
+  Cluster 5
+    SNPs      : 8
+    Start BP  : 10,613,658
+    End BP    : 10,700,199
+    Span      : 86,541 bp (86.54 kb)
+    Top SNP   : .  (-log10P = 8.224)
+
+  Cluster 6
+    SNPs      : 2
+    Start BP  : 11,950,936
+    End BP    : 11,986,507
+    Span      : 35,571 bp (35.57 kb)
+    Top SNP   : .  (-log10P = 8.683)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 26,311,293
+    End BP    : 26,311,293
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.759)
+
+  Cluster 8
+    SNPs      : 2
+    Start BP  : 31,742,677
+    End BP    : 31,792,574
+    Span      : 49,897 bp (49.90 kb)
+    Top SNP   : .  (-log10P = 7.474)
+
+  Cluster 9
+    SNPs      : 4
+    Start BP  : 31,980,169
+    End BP    : 31,995,451
+    Span      : 15,282 bp (15.28 kb)
+    Top SNP   : .  (-log10P = 11.891)
+
+  Cluster 10
+    SNPs      : 25
+    Start BP  : 32,391,635
+    End BP    : 32,497,419
+    Span      : 105,784 bp (105.78 kb)
+    Top SNP   : .  (-log10P = 13.417)
+
+  Cluster 11
+    SNPs      : 1
+    Start BP  : 32,606,868
+    End BP    : 32,606,868
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.138)
+
+  Cluster 12
+    SNPs      : 14
+    Start BP  : 33,871,819
+    End BP    : 33,897,600
+    Span      : 25,781 bp (25.78 kb)
+    Top SNP   : .  (-log10P = 13.666)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 34,107,183
+    End BP    : 34,107,183
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.304)
+
+  Cluster 14
+    SNPs      : 2
+    Start BP  : 34,415,369
+    End BP    : 34,427,393
+    Span      : 12,024 bp (12.02 kb)
+    Top SNP   : .  (-log10P = 10.710)
+
+Chromosome 7 — 32 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 1,093,229
+    End BP    : 1,093,229
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.520)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 2,809,836
+    End BP    : 2,809,836
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.389)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 2,877,624
+    End BP    : 2,877,624
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.451)
+
+  Cluster 4
+    SNPs      : 35
+    Start BP  : 4,603,995
+    End BP    : 4,672,039
+    Span      : 68,044 bp (68.04 kb)
+    Top SNP   : .  (-log10P = 10.999)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 4,745,827
+    End BP    : 4,745,827
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.403)
+
+  Cluster 6
+    SNPs      : 21
+    Start BP  : 5,690,293
+    End BP    : 5,744,402
+    Span      : 54,109 bp (54.11 kb)
+    Top SNP   : .  (-log10P = 9.977)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 8,723,733
+    End BP    : 8,723,733
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.753)
+
+  Cluster 8
+    SNPs      : 7
+    Start BP  : 8,912,331
+    End BP    : 8,939,353
+    Span      : 27,022 bp (27.02 kb)
+    Top SNP   : .  (-log10P = 8.482)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 9,710,520
+    End BP    : 9,710,520
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.020)
+
+  Cluster 10
+    SNPs      : 5
+    Start BP  : 10,537,654
+    End BP    : 10,579,852
+    Span      : 42,198 bp (42.20 kb)
+    Top SNP   : .  (-log10P = 12.051)
+
+  Cluster 11
+    SNPs      : 3
+    Start BP  : 13,547,335
+    End BP    : 13,547,606
+    Span      : 271 bp (0.27 kb)
+    Top SNP   : .  (-log10P = 8.245)
+
+  Cluster 12
+    SNPs      : 3
+    Start BP  : 13,715,257
+    End BP    : 13,731,134
+    Span      : 15,877 bp (15.88 kb)
+    Top SNP   : .  (-log10P = 9.220)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 15,973,422
+    End BP    : 15,973,422
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.522)
+
+  Cluster 14
+    SNPs      : 1
+    Start BP  : 16,099,330
+    End BP    : 16,099,330
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.865)
+
+  Cluster 15
+    SNPs      : 3
+    Start BP  : 16,491,438
+    End BP    : 16,502,228
+    Span      : 10,790 bp (10.79 kb)
+    Top SNP   : .  (-log10P = 10.089)
+
+  Cluster 16
+    SNPs      : 21
+    Start BP  : 16,564,331
+    End BP    : 16,814,560
+    Span      : 250,229 bp (250.23 kb)
+    Top SNP   : .  (-log10P = 12.374)
+
+  Cluster 17
+    SNPs      : 11
+    Start BP  : 16,874,955
+    End BP    : 16,970,342
+    Span      : 95,387 bp (95.39 kb)
+    Top SNP   : .  (-log10P = 9.843)
+
+  Cluster 18
+    SNPs      : 4
+    Start BP  : 17,083,403
+    End BP    : 17,142,615
+    Span      : 59,212 bp (59.21 kb)
+    Top SNP   : .  (-log10P = 9.149)
+
+  Cluster 19
+    SNPs      : 8
+    Start BP  : 17,206,894
+    End BP    : 17,319,444
+    Span      : 112,550 bp (112.55 kb)
+    Top SNP   : .  (-log10P = 8.560)
+
+  Cluster 20
+    SNPs      : 50
+    Start BP  : 17,548,688
+    End BP    : 17,983,304
+    Span      : 434,616 bp (434.62 kb)
+    Top SNP   : .  (-log10P = 16.336)
+
+  Cluster 21
+    SNPs      : 1
+    Start BP  : 18,042,782
+    End BP    : 18,042,782
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.306)
+
+  Cluster 22
+    SNPs      : 1
+    Start BP  : 18,152,545
+    End BP    : 18,152,545
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.781)
+
+  Cluster 23
+    SNPs      : 3
+    Start BP  : 18,240,229
+    End BP    : 18,253,288
+    Span      : 13,059 bp (13.06 kb)
+    Top SNP   : .  (-log10P = 7.904)
+
+  Cluster 24
+    SNPs      : 1
+    Start BP  : 18,388,945
+    End BP    : 18,388,945
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.829)
+
+  Cluster 25
+    SNPs      : 2
+    Start BP  : 18,500,952
+    End BP    : 18,507,443
+    Span      : 6,491 bp (6.49 kb)
+    Top SNP   : .  (-log10P = 8.151)
+
+  Cluster 26
+    SNPs      : 1
+    Start BP  : 18,561,627
+    End BP    : 18,561,627
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.306)
+
+  Cluster 27
+    SNPs      : 1
+    Start BP  : 18,832,428
+    End BP    : 18,832,428
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.461)
+
+  Cluster 28
+    SNPs      : 1
+    Start BP  : 18,946,134
+    End BP    : 18,946,134
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.829)
+
+  Cluster 29
+    SNPs      : 4
+    Start BP  : 18,996,608
+    End BP    : 19,018,077
+    Span      : 21,469 bp (21.47 kb)
+    Top SNP   : .  (-log10P = 8.558)
+
+  Cluster 30
+    SNPs      : 1
+    Start BP  : 28,579,249
+    End BP    : 28,579,249
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.405)
+
+  Cluster 31
+    SNPs      : 17
+    Start BP  : 36,767,689
+    End BP    : 36,825,775
+    Span      : 58,086 bp (58.09 kb)
+    Top SNP   : .  (-log10P = 11.930)
+
+  Cluster 32
+    SNPs      : 1
+    Start BP  : 38,234,422
+    End BP    : 38,234,422
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.390)
+
+Chromosome 8 — 25 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 51
+    Start BP  : 38,611
+    End BP    : 257,120
+    Span      : 218,509 bp (218.51 kb)
+    Top SNP   : .  (-log10P = 16.828)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 1,305,375
+    End BP    : 1,305,375
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.375)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 1,462,694
+    End BP    : 1,462,694
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.479)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 1,573,194
+    End BP    : 1,573,194
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.568)
+
+  Cluster 5
+    SNPs      : 2
+    Start BP  : 2,594,435
+    End BP    : 2,594,479
+    Span      : 44 bp (0.04 kb)
+    Top SNP   : .  (-log10P = 7.938)
+
+  Cluster 6
+    SNPs      : 3
+    Start BP  : 4,565,673
+    End BP    : 4,591,950
+    Span      : 26,277 bp (26.28 kb)
+    Top SNP   : .  (-log10P = 12.045)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 4,972,770
+    End BP    : 4,972,770
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.435)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 20,908,250
+    End BP    : 20,908,250
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 12.149)
+
+  Cluster 9
+    SNPs      : 11
+    Start BP  : 21,789,618
+    End BP    : 21,804,287
+    Span      : 14,669 bp (14.67 kb)
+    Top SNP   : .  (-log10P = 10.138)
+
+  Cluster 10
+    SNPs      : 2
+    Start BP  : 22,085,664
+    End BP    : 22,086,816
+    Span      : 1,152 bp (1.15 kb)
+    Top SNP   : .  (-log10P = 8.341)
+
+  Cluster 11
+    SNPs      : 30
+    Start BP  : 22,167,217
+    End BP    : 22,218,589
+    Span      : 51,372 bp (51.37 kb)
+    Top SNP   : .  (-log10P = 13.067)
+
+  Cluster 12
+    SNPs      : 1
+    Start BP  : 22,276,479
+    End BP    : 22,276,479
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.471)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 23,754,443
+    End BP    : 23,754,443
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.298)
+
+  Cluster 14
+    SNPs      : 7
+    Start BP  : 24,042,797
+    End BP    : 24,081,633
+    Span      : 38,836 bp (38.84 kb)
+    Top SNP   : .  (-log10P = 9.152)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 24,155,329
+    End BP    : 24,155,329
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.495)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 24,319,131
+    End BP    : 24,319,131
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.929)
+
+  Cluster 17
+    SNPs      : 1
+    Start BP  : 24,733,000
+    End BP    : 24,733,000
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.989)
+
+  Cluster 18
+    SNPs      : 1
+    Start BP  : 24,795,449
+    End BP    : 24,795,449
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 13.105)
+
+  Cluster 19
+    SNPs      : 1
+    Start BP  : 24,855,363
+    End BP    : 24,855,363
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.386)
+
+  Cluster 20
+    SNPs      : 7
+    Start BP  : 25,655,346
+    End BP    : 25,701,243
+    Span      : 45,897 bp (45.90 kb)
+    Top SNP   : .  (-log10P = 12.268)
+
+  Cluster 21
+    SNPs      : 1
+    Start BP  : 27,014,599
+    End BP    : 27,014,599
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.785)
+
+  Cluster 22
+    SNPs      : 1
+    Start BP  : 28,217,401
+    End BP    : 28,217,401
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.535)
+
+  Cluster 23
+    SNPs      : 25
+    Start BP  : 28,304,571
+    End BP    : 28,468,646
+    Span      : 164,075 bp (164.07 kb)
+    Top SNP   : .  (-log10P = 15.690)
+
+  Cluster 24
+    SNPs      : 4
+    Start BP  : 28,857,796
+    End BP    : 28,866,989
+    Span      : 9,193 bp (9.19 kb)
+    Top SNP   : .  (-log10P = 8.811)
+
+  Cluster 25
+    SNPs      : 14
+    Start BP  : 29,000,126
+    End BP    : 29,076,877
+    Span      : 76,751 bp (76.75 kb)
+    Top SNP   : .  (-log10P = 9.954)
+
+Chromosome 9 — 26 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 527,325
+    End BP    : 527,325
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.785)
+
+  Cluster 2
+    SNPs      : 5
+    Start BP  : 953,252
+    End BP    : 968,707
+    Span      : 15,455 bp (15.46 kb)
+    Top SNP   : .  (-log10P = 8.836)
+
+  Cluster 3
+    SNPs      : 3
+    Start BP  : 1,212,581
+    End BP    : 1,213,338
+    Span      : 757 bp (0.76 kb)
+    Top SNP   : .  (-log10P = 8.346)
+
+  Cluster 4
+    SNPs      : 7
+    Start BP  : 3,654,226
+    End BP    : 3,676,639
+    Span      : 22,413 bp (22.41 kb)
+    Top SNP   : .  (-log10P = 8.219)
+
+  Cluster 5
+    SNPs      : 7
+    Start BP  : 3,730,463
+    End BP    : 3,770,291
+    Span      : 39,828 bp (39.83 kb)
+    Top SNP   : .  (-log10P = 10.781)
+
+  Cluster 6
+    SNPs      : 2
+    Start BP  : 4,009,763
+    End BP    : 4,012,361
+    Span      : 2,598 bp (2.60 kb)
+    Top SNP   : .  (-log10P = 8.458)
+
+  Cluster 7
+    SNPs      : 12
+    Start BP  : 4,065,703
+    End BP    : 4,155,275
+    Span      : 89,572 bp (89.57 kb)
+    Top SNP   : .  (-log10P = 12.396)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 7,538,289
+    End BP    : 7,538,289
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.124)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 7,624,732
+    End BP    : 7,624,732
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.718)
+
+  Cluster 10
+    SNPs      : 2
+    Start BP  : 9,736,707
+    End BP    : 9,746,696
+    Span      : 9,989 bp (9.99 kb)
+    Top SNP   : .  (-log10P = 8.669)
+
+  Cluster 11
+    SNPs      : 2
+    Start BP  : 9,895,114
+    End BP    : 9,938,969
+    Span      : 43,855 bp (43.85 kb)
+    Top SNP   : .  (-log10P = 10.126)
+
+  Cluster 12
+    SNPs      : 6
+    Start BP  : 11,512,372
+    End BP    : 11,522,398
+    Span      : 10,026 bp (10.03 kb)
+    Top SNP   : .  (-log10P = 10.158)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 13,284,340
+    End BP    : 13,284,340
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.542)
+
+  Cluster 14
+    SNPs      : 1
+    Start BP  : 13,372,751
+    End BP    : 13,372,751
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.576)
+
+  Cluster 15
+    SNPs      : 2
+    Start BP  : 16,160,654
+    End BP    : 16,200,947
+    Span      : 40,293 bp (40.29 kb)
+    Top SNP   : .  (-log10P = 8.231)
+
+  Cluster 16
+    SNPs      : 49
+    Start BP  : 16,292,463
+    End BP    : 16,451,633
+    Span      : 159,170 bp (159.17 kb)
+    Top SNP   : .  (-log10P = 12.361)
+
+  Cluster 17
+    SNPs      : 16
+    Start BP  : 16,610,983
+    End BP    : 16,656,403
+    Span      : 45,420 bp (45.42 kb)
+    Top SNP   : .  (-log10P = 11.785)
+
+  Cluster 18
+    SNPs      : 1
+    Start BP  : 20,426,912
+    End BP    : 20,426,912
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.441)
+
+  Cluster 19
+    SNPs      : 5
+    Start BP  : 20,867,434
+    End BP    : 20,890,562
+    Span      : 23,128 bp (23.13 kb)
+    Top SNP   : .  (-log10P = 11.510)
+
+  Cluster 20
+    SNPs      : 2
+    Start BP  : 21,503,335
+    End BP    : 21,518,604
+    Span      : 15,269 bp (15.27 kb)
+    Top SNP   : .  (-log10P = 8.019)
+
+  Cluster 21
+    SNPs      : 1
+    Start BP  : 21,777,546
+    End BP    : 21,777,546
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.568)
+
+  Cluster 22
+    SNPs      : 4
+    Start BP  : 23,176,605
+    End BP    : 23,237,949
+    Span      : 61,344 bp (61.34 kb)
+    Top SNP   : .  (-log10P = 13.230)
+
+  Cluster 23
+    SNPs      : 4
+    Start BP  : 23,373,841
+    End BP    : 23,377,292
+    Span      : 3,451 bp (3.45 kb)
+    Top SNP   : .  (-log10P = 10.041)
+
+  Cluster 24
+    SNPs      : 4
+    Start BP  : 23,496,502
+    End BP    : 23,507,014
+    Span      : 10,512 bp (10.51 kb)
+    Top SNP   : .  (-log10P = 11.038)
+
+  Cluster 25
+    SNPs      : 32
+    Start BP  : 24,241,894
+    End BP    : 24,320,976
+    Span      : 79,082 bp (79.08 kb)
+    Top SNP   : .  (-log10P = 21.297)
+
+  Cluster 26
+    SNPs      : 3
+    Start BP  : 24,515,969
+    End BP    : 24,520,683
+    Span      : 4,714 bp (4.71 kb)
+    Top SNP   : .  (-log10P = 8.387)
+
+Chromosome 10 — 11 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 21
+    Start BP  : 7,072,000
+    End BP    : 7,128,701
+    Span      : 56,701 bp (56.70 kb)
+    Top SNP   : .  (-log10P = 11.163)
+
+  Cluster 2
+    SNPs      : 3
+    Start BP  : 7,324,856
+    End BP    : 7,342,927
+    Span      : 18,071 bp (18.07 kb)
+    Top SNP   : .  (-log10P = 8.977)
+
+  Cluster 3
+    SNPs      : 10
+    Start BP  : 9,415,989
+    End BP    : 9,430,817
+    Span      : 14,828 bp (14.83 kb)
+    Top SNP   : .  (-log10P = 10.350)
+
+  Cluster 4
+    SNPs      : 9
+    Start BP  : 9,510,439
+    End BP    : 9,532,694
+    Span      : 22,255 bp (22.25 kb)
+    Top SNP   : .  (-log10P = 14.558)
+
+  Cluster 5
+    SNPs      : 2
+    Start BP  : 11,658,390
+    End BP    : 11,658,713
+    Span      : 323 bp (0.32 kb)
+    Top SNP   : .  (-log10P = 9.686)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 12,626,887
+    End BP    : 12,626,887
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.303)
+
+  Cluster 7
+    SNPs      : 4
+    Start BP  : 12,722,177
+    End BP    : 12,755,261
+    Span      : 33,084 bp (33.08 kb)
+    Top SNP   : .  (-log10P = 15.872)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 15,845,755
+    End BP    : 15,845,755
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.422)
+
+  Cluster 9
+    SNPs      : 22
+    Start BP  : 16,582,300
+    End BP    : 16,626,126
+    Span      : 43,826 bp (43.83 kb)
+    Top SNP   : .  (-log10P = 14.729)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 18,258,229
+    End BP    : 18,258,229
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 23.572)
+
+  Cluster 11
+    SNPs      : 4
+    Start BP  : 18,434,438
+    End BP    : 18,444,313
+    Span      : 9,875 bp (9.88 kb)
+    Top SNP   : .  (-log10P = 8.238)
+
+Chromosome 11 — 15 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 412,947
+    End BP    : 412,947
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.535)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 476,723
+    End BP    : 476,723
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.699)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 542,517
+    End BP    : 542,517
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.720)
+
+  Cluster 4
+    SNPs      : 19
+    Start BP  : 5,190,118
+    End BP    : 5,273,333
+    Span      : 83,215 bp (83.22 kb)
+    Top SNP   : .  (-log10P = 9.000)
+
+  Cluster 5
+    SNPs      : 5
+    Start BP  : 6,285,695
+    End BP    : 6,292,024
+    Span      : 6,329 bp (6.33 kb)
+    Top SNP   : .  (-log10P = 10.571)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 7,105,496
+    End BP    : 7,105,496
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.740)
+
+  Cluster 7
+    SNPs      : 50
+    Start BP  : 8,251,067
+    End BP    : 8,389,289
+    Span      : 138,222 bp (138.22 kb)
+    Top SNP   : .  (-log10P = 14.811)
+
+  Cluster 8
+    SNPs      : 5
+    Start BP  : 8,572,756
+    End BP    : 8,573,303
+    Span      : 547 bp (0.55 kb)
+    Top SNP   : .  (-log10P = 10.435)
+
+  Cluster 9
+    SNPs      : 7
+    Start BP  : 8,809,014
+    End BP    : 8,849,046
+    Span      : 40,032 bp (40.03 kb)
+    Top SNP   : .  (-log10P = 24.027)
+
+  Cluster 10
+    SNPs      : 3
+    Start BP  : 8,899,049
+    End BP    : 8,911,052
+    Span      : 12,003 bp (12.00 kb)
+    Top SNP   : .  (-log10P = 8.649)
+
+  Cluster 11
+    SNPs      : 4
+    Start BP  : 10,073,816
+    End BP    : 10,086,235
+    Span      : 12,419 bp (12.42 kb)
+    Top SNP   : .  (-log10P = 8.056)
+
+  Cluster 12
+    SNPs      : 3
+    Start BP  : 10,855,558
+    End BP    : 10,869,411
+    Span      : 13,853 bp (13.85 kb)
+    Top SNP   : .  (-log10P = 8.065)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 11,406,711
+    End BP    : 11,406,711
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.195)
+
+  Cluster 14
+    SNPs      : 56
+    Start BP  : 17,277,187
+    End BP    : 17,516,151
+    Span      : 238,964 bp (238.96 kb)
+    Top SNP   : .  (-log10P = 26.594)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 19,224,091
+    End BP    : 19,224,091
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.435)
+
+Chromosome 12 — 10 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 88
+    Start BP  : 1,560,319
+    End BP    : 1,724,741
+    Span      : 164,422 bp (164.42 kb)
+    Top SNP   : .  (-log10P = 19.691)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 2,732,998
+    End BP    : 2,732,998
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.945)
+
+  Cluster 3
+    SNPs      : 3
+    Start BP  : 8,071,689
+    End BP    : 8,077,902
+    Span      : 6,213 bp (6.21 kb)
+    Top SNP   : .  (-log10P = 7.934)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 8,541,884
+    End BP    : 8,541,884
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.151)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 10,682,917
+    End BP    : 10,682,917
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.348)
+
+  Cluster 6
+    SNPs      : 2
+    Start BP  : 18,899,563
+    End BP    : 18,906,167
+    Span      : 6,604 bp (6.60 kb)
+    Top SNP   : .  (-log10P = 9.474)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 19,091,132
+    End BP    : 19,091,132
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.684)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 19,510,868
+    End BP    : 19,510,868
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.782)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 19,929,777
+    End BP    : 19,929,777
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.494)
+
+  Cluster 10
+    SNPs      : 3
+    Start BP  : 20,727,329
+    End BP    : 20,727,694
+    Span      : 365 bp (0.36 kb)
+    Top SNP   : .  (-log10P = 7.927)
+
+Chromosome 13 — 17 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 2,929,589
+    End BP    : 2,929,589
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.627)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 4,630,004
+    End BP    : 4,630,004
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.394)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 6,041,833
+    End BP    : 6,041,833
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 11.159)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 8,573,506
+    End BP    : 8,573,506
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.327)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 14,466,044
+    End BP    : 14,466,044
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.563)
+
+  Cluster 6
+    SNPs      : 3
+    Start BP  : 14,779,298
+    End BP    : 14,807,199
+    Span      : 27,901 bp (27.90 kb)
+    Top SNP   : .  (-log10P = 9.295)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 15,117,687
+    End BP    : 15,117,687
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.929)
+
+  Cluster 8
+    SNPs      : 5
+    Start BP  : 16,581,878
+    End BP    : 16,591,460
+    Span      : 9,582 bp (9.58 kb)
+    Top SNP   : .  (-log10P = 10.155)
+
+  Cluster 9
+    SNPs      : 6
+    Start BP  : 16,857,077
+    End BP    : 16,887,470
+    Span      : 30,393 bp (30.39 kb)
+    Top SNP   : .  (-log10P = 10.068)
+
+  Cluster 10
+    SNPs      : 5
+    Start BP  : 17,007,383
+    End BP    : 17,037,591
+    Span      : 30,208 bp (30.21 kb)
+    Top SNP   : .  (-log10P = 10.025)
+
+  Cluster 11
+    SNPs      : 1
+    Start BP  : 18,928,813
+    End BP    : 18,928,813
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.612)
+
+  Cluster 12
+    SNPs      : 3
+    Start BP  : 18,996,951
+    End BP    : 19,028,464
+    Span      : 31,513 bp (31.51 kb)
+    Top SNP   : .  (-log10P = 8.269)
+
+  Cluster 13
+    SNPs      : 66
+    Start BP  : 19,326,551
+    End BP    : 19,513,776
+    Span      : 187,225 bp (187.22 kb)
+    Top SNP   : .  (-log10P = 15.619)
+
+  Cluster 14
+    SNPs      : 12
+    Start BP  : 19,655,572
+    End BP    : 19,682,348
+    Span      : 26,776 bp (26.78 kb)
+    Top SNP   : .  (-log10P = 10.362)
+
+  Cluster 15
+    SNPs      : 3
+    Start BP  : 19,793,292
+    End BP    : 19,794,170
+    Span      : 878 bp (0.88 kb)
+    Top SNP   : .  (-log10P = 14.244)
+
+  Cluster 16
+    SNPs      : 9
+    Start BP  : 19,851,199
+    End BP    : 19,905,938
+    Span      : 54,739 bp (54.74 kb)
+    Top SNP   : .  (-log10P = 14.805)
+
+  Cluster 17
+    SNPs      : 1
+    Start BP  : 20,546,039
+    End BP    : 20,546,039
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.191)
+
+Chromosome 14 — 27 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 2,844,582
+    End BP    : 2,844,582
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.505)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 3,448,143
+    End BP    : 3,448,143
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.524)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 3,970,188
+    End BP    : 3,970,188
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.433)
+
+  Cluster 4
+    SNPs      : 37
+    Start BP  : 6,089,909
+    End BP    : 6,192,200
+    Span      : 102,291 bp (102.29 kb)
+    Top SNP   : .  (-log10P = 12.613)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 6,327,596
+    End BP    : 6,327,596
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.660)
+
+  Cluster 6
+    SNPs      : 59
+    Start BP  : 6,378,846
+    End BP    : 6,499,727
+    Span      : 120,881 bp (120.88 kb)
+    Top SNP   : .  (-log10P = 12.724)
+
+  Cluster 7
+    SNPs      : 30
+    Start BP  : 6,626,451
+    End BP    : 6,715,667
+    Span      : 89,216 bp (89.22 kb)
+    Top SNP   : .  (-log10P = 12.653)
+
+  Cluster 8
+    SNPs      : 37
+    Start BP  : 6,772,221
+    End BP    : 6,851,891
+    Span      : 79,670 bp (79.67 kb)
+    Top SNP   : .  (-log10P = 21.400)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 7,366,772
+    End BP    : 7,366,772
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 12.388)
+
+  Cluster 10
+    SNPs      : 2
+    Start BP  : 7,775,219
+    End BP    : 7,788,691
+    Span      : 13,472 bp (13.47 kb)
+    Top SNP   : .  (-log10P = 8.031)
+
+  Cluster 11
+    SNPs      : 2
+    Start BP  : 7,957,536
+    End BP    : 7,996,912
+    Span      : 39,376 bp (39.38 kb)
+    Top SNP   : .  (-log10P = 9.893)
+
+  Cluster 12
+    SNPs      : 1
+    Start BP  : 8,071,206
+    End BP    : 8,071,206
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 11.829)
+
+  Cluster 13
+    SNPs      : 2
+    Start BP  : 8,682,654
+    End BP    : 8,699,531
+    Span      : 16,877 bp (16.88 kb)
+    Top SNP   : .  (-log10P = 8.482)
+
+  Cluster 14
+    SNPs      : 1
+    Start BP  : 9,288,094
+    End BP    : 9,288,094
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.568)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 12,157,200
+    End BP    : 12,157,200
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.507)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 12,941,419
+    End BP    : 12,941,419
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.428)
+
+  Cluster 17
+    SNPs      : 1
+    Start BP  : 13,209,501
+    End BP    : 13,209,501
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.701)
+
+  Cluster 18
+    SNPs      : 8
+    Start BP  : 13,392,955
+    End BP    : 13,404,950
+    Span      : 11,995 bp (11.99 kb)
+    Top SNP   : .  (-log10P = 10.095)
+
+  Cluster 19
+    SNPs      : 23
+    Start BP  : 13,460,564
+    End BP    : 13,478,274
+    Span      : 17,710 bp (17.71 kb)
+    Top SNP   : .  (-log10P = 17.126)
+
+  Cluster 20
+    SNPs      : 12
+    Start BP  : 13,649,506
+    End BP    : 13,771,299
+    Span      : 121,793 bp (121.79 kb)
+    Top SNP   : .  (-log10P = 8.790)
+
+  Cluster 21
+    SNPs      : 3
+    Start BP  : 14,112,494
+    End BP    : 14,138,838
+    Span      : 26,344 bp (26.34 kb)
+    Top SNP   : .  (-log10P = 7.737)
+
+  Cluster 22
+    SNPs      : 9
+    Start BP  : 14,772,603
+    End BP    : 14,844,338
+    Span      : 71,735 bp (71.73 kb)
+    Top SNP   : .  (-log10P = 10.120)
+
+  Cluster 23
+    SNPs      : 1
+    Start BP  : 15,487,578
+    End BP    : 15,487,578
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.925)
+
+  Cluster 24
+    SNPs      : 1
+    Start BP  : 15,818,648
+    End BP    : 15,818,648
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.546)
+
+  Cluster 25
+    SNPs      : 1
+    Start BP  : 15,929,298
+    End BP    : 15,929,298
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.355)
+
+  Cluster 26
+    SNPs      : 2
+    Start BP  : 16,136,153
+    End BP    : 16,136,728
+    Span      : 575 bp (0.57 kb)
+    Top SNP   : .  (-log10P = 10.894)
+
+  Cluster 27
+    SNPs      : 5
+    Start BP  : 17,168,635
+    End BP    : 17,176,668
+    Span      : 8,033 bp (8.03 kb)
+    Top SNP   : .  (-log10P = 8.933)
+
+Chromosome 15 — 10 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 714,179
+    End BP    : 714,179
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.998)
+
+  Cluster 2
+    SNPs      : 5
+    Start BP  : 893,103
+    End BP    : 943,080
+    Span      : 49,977 bp (49.98 kb)
+    Top SNP   : .  (-log10P = 12.684)
+
+  Cluster 3
+    SNPs      : 2
+    Start BP  : 2,723,147
+    End BP    : 2,723,157
+    Span      : 10 bp (0.01 kb)
+    Top SNP   : .  (-log10P = 7.618)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 2,840,283
+    End BP    : 2,840,283
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.072)
+
+  Cluster 5
+    SNPs      : 3
+    Start BP  : 3,694,028
+    End BP    : 3,705,068
+    Span      : 11,040 bp (11.04 kb)
+    Top SNP   : .  (-log10P = 8.738)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 5,112,732
+    End BP    : 5,112,732
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.554)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 12,140,228
+    End BP    : 12,140,228
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.506)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 12,223,110
+    End BP    : 12,223,110
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.243)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 12,381,845
+    End BP    : 12,381,845
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 42.143)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 15,134,757
+    End BP    : 15,134,757
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.564)
+
+Chromosome 16 — 15 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 2
+    Start BP  : 1,278,242
+    End BP    : 1,278,728
+    Span      : 486 bp (0.49 kb)
+    Top SNP   : .  (-log10P = 7.636)
+
+  Cluster 2
+    SNPs      : 2
+    Start BP  : 1,375,094
+    End BP    : 1,376,117
+    Span      : 1,023 bp (1.02 kb)
+    Top SNP   : .  (-log10P = 8.074)
+
+  Cluster 3
+    SNPs      : 2
+    Start BP  : 5,568,112
+    End BP    : 5,568,768
+    Span      : 656 bp (0.66 kb)
+    Top SNP   : .  (-log10P = 8.075)
+
+  Cluster 4
+    SNPs      : 68
+    Start BP  : 7,343,517
+    End BP    : 7,589,660
+    Span      : 246,143 bp (246.14 kb)
+    Top SNP   : .  (-log10P = 14.879)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 7,998,066
+    End BP    : 7,998,066
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.602)
+
+  Cluster 6
+    SNPs      : 2
+    Start BP  : 10,859,792
+    End BP    : 10,861,347
+    Span      : 1,555 bp (1.55 kb)
+    Top SNP   : .  (-log10P = 9.848)
+
+  Cluster 7
+    SNPs      : 8
+    Start BP  : 10,917,527
+    End BP    : 10,982,687
+    Span      : 65,160 bp (65.16 kb)
+    Top SNP   : .  (-log10P = 10.951)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 11,046,796
+    End BP    : 11,046,796
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.337)
+
+  Cluster 9
+    SNPs      : 2
+    Start BP  : 11,113,954
+    End BP    : 11,121,004
+    Span      : 7,050 bp (7.05 kb)
+    Top SNP   : .  (-log10P = 8.640)
+
+  Cluster 10
+    SNPs      : 4
+    Start BP  : 11,203,030
+    End BP    : 11,207,234
+    Span      : 4,204 bp (4.20 kb)
+    Top SNP   : .  (-log10P = 9.793)
+
+  Cluster 11
+    SNPs      : 25
+    Start BP  : 11,643,358
+    End BP    : 11,804,809
+    Span      : 161,451 bp (161.45 kb)
+    Top SNP   : .  (-log10P = 17.708)
+
+  Cluster 12
+    SNPs      : 6
+    Start BP  : 13,053,231
+    End BP    : 13,056,943
+    Span      : 3,712 bp (3.71 kb)
+    Top SNP   : .  (-log10P = 10.786)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 13,270,292
+    End BP    : 13,270,292
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.505)
+
+  Cluster 14
+    SNPs      : 2
+    Start BP  : 13,331,174
+    End BP    : 13,331,735
+    Span      : 561 bp (0.56 kb)
+    Top SNP   : .  (-log10P = 7.948)
+
+  Cluster 15
+    SNPs      : 1
+    Start BP  : 13,904,047
+    End BP    : 13,904,047
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 12.546)
+
+Chromosome 18 — 11 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 1,466,087
+    End BP    : 1,466,087
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 14.396)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 1,591,537
+    End BP    : 1,591,537
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.606)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 3,047,184
+    End BP    : 3,047,184
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.351)
+
+  Cluster 4
+    SNPs      : 4
+    Start BP  : 4,300,670
+    End BP    : 4,343,709
+    Span      : 43,039 bp (43.04 kb)
+    Top SNP   : .  (-log10P = 15.118)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 4,426,817
+    End BP    : 4,426,817
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.397)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 5,521,875
+    End BP    : 5,521,875
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.505)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 6,584,621
+    End BP    : 6,584,621
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.908)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 8,877,524
+    End BP    : 8,877,524
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.310)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 10,446,565
+    End BP    : 10,446,565
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.030)
+
+  Cluster 10
+    SNPs      : 2
+    Start BP  : 10,960,315
+    End BP    : 10,969,050
+    Span      : 8,735 bp (8.73 kb)
+    Top SNP   : .  (-log10P = 8.249)
+
+  Cluster 11
+    SNPs      : 7
+    Start BP  : 11,024,176
+    End BP    : 11,026,946
+    Span      : 2,770 bp (2.77 kb)
+    Top SNP   : .  (-log10P = 14.173)
+
+Chromosome 19 — 8 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 11,704
+    End BP    : 11,704
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.347)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 1,322,133
+    End BP    : 1,322,133
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.367)
+
+  Cluster 3
+    SNPs      : 14
+    Start BP  : 1,454,002
+    End BP    : 1,498,077
+    Span      : 44,075 bp (44.08 kb)
+    Top SNP   : .  (-log10P = 11.287)
+
+  Cluster 4
+    SNPs      : 16
+    Start BP  : 6,699,517
+    End BP    : 6,730,161
+    Span      : 30,644 bp (30.64 kb)
+    Top SNP   : .  (-log10P = 12.013)
+
+  Cluster 5
+    SNPs      : 27
+    Start BP  : 8,119,521
+    End BP    : 8,145,082
+    Span      : 25,561 bp (25.56 kb)
+    Top SNP   : .  (-log10P = 13.096)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 8,369,485
+    End BP    : 8,369,485
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.881)
+
+  Cluster 7
+    SNPs      : 2
+    Start BP  : 8,792,015
+    End BP    : 8,839,560
+    Span      : 47,545 bp (47.55 kb)
+    Top SNP   : .  (-log10P = 7.928)
+
+  Cluster 8
+    SNPs      : 2
+    Start BP  : 9,969,892
+    End BP    : 9,971,164
+    Span      : 1,272 bp (1.27 kb)
+    Top SNP   : .  (-log10P = 8.933)
+
+Chromosome 20 — 13 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 2
+    Start BP  : 1,192
+    End BP    : 1,206
+    Span      : 14 bp (0.01 kb)
+    Top SNP   : .  (-log10P = 8.734)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 311,038
+    End BP    : 311,038
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.058)
+
+  Cluster 3
+    SNPs      : 5
+    Start BP  : 562,502
+    End BP    : 566,698
+    Span      : 4,196 bp (4.20 kb)
+    Top SNP   : .  (-log10P = 10.996)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 901,165
+    End BP    : 901,165
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.107)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 1,461,643
+    End BP    : 1,461,643
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.277)
+
+  Cluster 6
+    SNPs      : 2
+    Start BP  : 1,693,926
+    End BP    : 1,694,754
+    Span      : 828 bp (0.83 kb)
+    Top SNP   : .  (-log10P = 8.391)
+
+  Cluster 7
+    SNPs      : 22
+    Start BP  : 2,231,579
+    End BP    : 2,290,387
+    Span      : 58,808 bp (58.81 kb)
+    Top SNP   : .  (-log10P = 13.013)
+
+  Cluster 8
+    SNPs      : 3
+    Start BP  : 2,800,774
+    End BP    : 2,801,324
+    Span      : 550 bp (0.55 kb)
+    Top SNP   : .  (-log10P = 7.757)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 2,922,254
+    End BP    : 2,922,254
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.898)
+
+  Cluster 10
+    SNPs      : 4
+    Start BP  : 4,269,861
+    End BP    : 4,271,636
+    Span      : 1,775 bp (1.77 kb)
+    Top SNP   : .  (-log10P = 15.272)
+
+  Cluster 11
+    SNPs      : 1
+    Start BP  : 4,574,453
+    End BP    : 4,574,453
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.328)
+
+  Cluster 12
+    SNPs      : 2
+    Start BP  : 4,878,140
+    End BP    : 4,904,489
+    Span      : 26,349 bp (26.35 kb)
+    Top SNP   : .  (-log10P = 8.690)
+
+  Cluster 13
+    SNPs      : 1
+    Start BP  : 9,371,190
+    End BP    : 9,371,190
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.718)
+
+Chromosome 21 — 8 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 390,500
+    End BP    : 390,500
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.458)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 3,422,127
+    End BP    : 3,422,127
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.392)
+
+  Cluster 3
+    SNPs      : 4
+    Start BP  : 4,349,826
+    End BP    : 4,355,647
+    Span      : 5,821 bp (5.82 kb)
+    Top SNP   : .  (-log10P = 8.200)
+
+  Cluster 4
+    SNPs      : 7
+    Start BP  : 4,438,333
+    End BP    : 4,537,944
+    Span      : 99,611 bp (99.61 kb)
+    Top SNP   : .  (-log10P = 9.558)
+
+  Cluster 5
+    SNPs      : 5
+    Start BP  : 4,649,472
+    End BP    : 4,712,530
+    Span      : 63,058 bp (63.06 kb)
+    Top SNP   : .  (-log10P = 7.662)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 8,568,268
+    End BP    : 8,568,268
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 10.577)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 12,754,405
+    End BP    : 12,754,405
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.665)
+
+  Cluster 8
+    SNPs      : 2
+    Start BP  : 13,551,635
+    End BP    : 13,552,965
+    Span      : 1,330 bp (1.33 kb)
+    Top SNP   : .  (-log10P = 8.085)
+
+Chromosome 22 — 7 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 4
+    Start BP  : 1,819,095
+    End BP    : 1,858,379
+    Span      : 39,284 bp (39.28 kb)
+    Top SNP   : .  (-log10P = 8.375)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 2,219,574
+    End BP    : 2,219,574
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.823)
+
+  Cluster 3
+    SNPs      : 15
+    Start BP  : 4,009,618
+    End BP    : 4,129,477
+    Span      : 119,859 bp (119.86 kb)
+    Top SNP   : .  (-log10P = 10.045)
+
+  Cluster 4
+    SNPs      : 5
+    Start BP  : 5,085,220
+    End BP    : 5,088,383
+    Span      : 3,163 bp (3.16 kb)
+    Top SNP   : .  (-log10P = 11.835)
+
+  Cluster 5
+    SNPs      : 7
+    Start BP  : 6,767,866
+    End BP    : 6,823,276
+    Span      : 55,410 bp (55.41 kb)
+    Top SNP   : .  (-log10P = 21.716)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 6,959,367
+    End BP    : 6,959,367
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.375)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 7,156,024
+    End BP    : 7,156,024
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.475)
+
+Chromosome 23 — 10 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 20
+    Start BP  : 230,762
+    End BP    : 312,109
+    Span      : 81,347 bp (81.35 kb)
+    Top SNP   : .  (-log10P = 13.799)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 379,849
+    End BP    : 379,849
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.326)
+
+  Cluster 3
+    SNPs      : 5
+    Start BP  : 648,454
+    End BP    : 667,652
+    Span      : 19,198 bp (19.20 kb)
+    Top SNP   : .  (-log10P = 9.148)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 1,036,015
+    End BP    : 1,036,015
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.054)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 1,129,026
+    End BP    : 1,129,026
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.751)
+
+  Cluster 6
+    SNPs      : 3
+    Start BP  : 1,798,086
+    End BP    : 1,835,591
+    Span      : 37,505 bp (37.51 kb)
+    Top SNP   : .  (-log10P = 11.039)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 2,814,230
+    End BP    : 2,814,230
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 19.878)
+
+  Cluster 8
+    SNPs      : 3
+    Start BP  : 3,334,120
+    End BP    : 3,342,481
+    Span      : 8,361 bp (8.36 kb)
+    Top SNP   : .  (-log10P = 7.961)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 3,424,134
+    End BP    : 3,424,134
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.574)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 3,549,312
+    End BP    : 3,549,312
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.022)
+
+Chromosome 24 — 8 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 1,529,515
+    End BP    : 1,529,515
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.524)
+
+  Cluster 2
+    SNPs      : 2
+    Start BP  : 3,791,982
+    End BP    : 3,798,726
+    Span      : 6,744 bp (6.74 kb)
+    Top SNP   : .  (-log10P = 9.117)
+
+  Cluster 3
+    SNPs      : 3
+    Start BP  : 3,872,839
+    End BP    : 3,881,559
+    Span      : 8,720 bp (8.72 kb)
+    Top SNP   : .  (-log10P = 9.851)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 4,053,184
+    End BP    : 4,053,184
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.207)
+
+  Cluster 5
+    SNPs      : 13
+    Start BP  : 4,401,096
+    End BP    : 4,427,441
+    Span      : 26,345 bp (26.34 kb)
+    Top SNP   : .  (-log10P = 10.428)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,681,082
+    End BP    : 4,681,082
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.296)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 5,234,552
+    End BP    : 5,234,552
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.376)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 6,254,017
+    End BP    : 6,254,017
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.778)
+
+Chromosome 25 — 8 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 20
+    Start BP  : 2,218,153
+    End BP    : 2,299,099
+    Span      : 80,946 bp (80.95 kb)
+    Top SNP   : .  (-log10P = 10.008)
+
+  Cluster 2
+    SNPs      : 3
+    Start BP  : 2,440,170
+    End BP    : 2,442,480
+    Span      : 2,310 bp (2.31 kb)
+    Top SNP   : .  (-log10P = 9.011)
+
+  Cluster 3
+    SNPs      : 5
+    Start BP  : 2,697,027
+    End BP    : 2,711,966
+    Span      : 14,939 bp (14.94 kb)
+    Top SNP   : .  (-log10P = 9.168)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 2,811,400
+    End BP    : 2,811,400
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.566)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 4,001,591
+    End BP    : 4,001,591
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.698)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,193,402
+    End BP    : 4,193,402
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.067)
+
+  Cluster 7
+    SNPs      : 3
+    Start BP  : 4,977,466
+    End BP    : 4,983,749
+    Span      : 6,283 bp (6.28 kb)
+    Top SNP   : .  (-log10P = 11.909)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 6,239,128
+    End BP    : 6,239,128
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.528)
+
+Chromosome 26 — 1 cluster
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 1,218,780
+    End BP    : 1,218,780
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.324)
+
+Chromosome 27 — 11 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 3,334,747
+    End BP    : 3,334,747
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.209)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 3,553,532
+    End BP    : 3,553,532
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.301)
+
+  Cluster 3
+    SNPs      : 28
+    Start BP  : 3,613,519
+    End BP    : 3,694,322
+    Span      : 80,803 bp (80.80 kb)
+    Top SNP   : .  (-log10P = 30.721)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 3,750,780
+    End BP    : 3,750,780
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.587)
+
+  Cluster 5
+    SNPs      : 2
+    Start BP  : 3,807,547
+    End BP    : 3,810,034
+    Span      : 2,487 bp (2.49 kb)
+    Top SNP   : .  (-log10P = 9.111)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 4,187,180
+    End BP    : 4,187,180
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.742)
+
+  Cluster 7
+    SNPs      : 13
+    Start BP  : 4,250,207
+    End BP    : 4,308,132
+    Span      : 57,925 bp (57.92 kb)
+    Top SNP   : .  (-log10P = 9.934)
+
+  Cluster 8
+    SNPs      : 2
+    Start BP  : 5,017,058
+    End BP    : 5,017,152
+    Span      : 94 bp (0.09 kb)
+    Top SNP   : .  (-log10P = 8.858)
+
+  Cluster 9
+    SNPs      : 2
+    Start BP  : 5,192,495
+    End BP    : 5,220,697
+    Span      : 28,202 bp (28.20 kb)
+    Top SNP   : .  (-log10P = 8.563)
+
+  Cluster 10
+    SNPs      : 1
+    Start BP  : 5,886,771
+    End BP    : 5,886,771
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.659)
+
+  Cluster 11
+    SNPs      : 1
+    Start BP  : 6,116,354
+    End BP    : 6,116,354
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.805)
+
+Chromosome 28 — 8 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 955,502
+    End BP    : 955,502
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.394)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 1,891,089
+    End BP    : 1,891,089
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.250)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 2,045,623
+    End BP    : 2,045,623
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.761)
+
+  Cluster 4
+    SNPs      : 3
+    Start BP  : 2,172,343
+    End BP    : 2,199,510
+    Span      : 27,167 bp (27.17 kb)
+    Top SNP   : .  (-log10P = 8.021)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 2,250,052
+    End BP    : 2,250,052
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.852)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 2,380,927
+    End BP    : 2,380,927
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.407)
+
+  Cluster 7
+    SNPs      : 1
+    Start BP  : 2,618,412
+    End BP    : 2,618,412
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.266)
+
+  Cluster 8
+    SNPs      : 18
+    Start BP  : 3,804,755
+    End BP    : 3,837,098
+    Span      : 32,343 bp (32.34 kb)
+    Top SNP   : .  (-log10P = 14.774)
+
+Chromosome 29 — 5 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 1
+    Start BP  : 149,921
+    End BP    : 149,921
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.437)
+
+  Cluster 2
+    SNPs      : 1
+    Start BP  : 1,914,004
+    End BP    : 1,914,004
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.359)
+
+  Cluster 3
+    SNPs      : 2
+    Start BP  : 2,188,907
+    End BP    : 2,188,912
+    Span      : 5 bp (0.01 kb)
+    Top SNP   : .  (-log10P = 8.819)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 3,874,120
+    End BP    : 3,874,120
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.221)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 4,044,378
+    End BP    : 4,044,378
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.766)
+
+Chromosome Z — 17 clusters
+------------------------------------------------------------ 
+  Cluster 1
+    SNPs      : 9
+    Start BP  : 3,483,340
+    End BP    : 3,569,628
+    Span      : 86,288 bp (86.29 kb)
+    Top SNP   : .  (-log10P = 16.225)
+
+  Cluster 2
+    SNPs      : 36
+    Start BP  : 3,898,413
+    End BP    : 4,059,038
+    Span      : 160,625 bp (160.62 kb)
+    Top SNP   : .  (-log10P = 12.961)
+
+  Cluster 3
+    SNPs      : 1
+    Start BP  : 16,958,706
+    End BP    : 16,958,706
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.070)
+
+  Cluster 4
+    SNPs      : 1
+    Start BP  : 17,041,789
+    End BP    : 17,041,789
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.032)
+
+  Cluster 5
+    SNPs      : 1
+    Start BP  : 17,421,623
+    End BP    : 17,421,623
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.442)
+
+  Cluster 6
+    SNPs      : 1
+    Start BP  : 19,205,753
+    End BP    : 19,205,753
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.018)
+
+  Cluster 7
+    SNPs      : 4
+    Start BP  : 19,769,576
+    End BP    : 19,823,696
+    Span      : 54,120 bp (54.12 kb)
+    Top SNP   : .  (-log10P = 9.335)
+
+  Cluster 8
+    SNPs      : 1
+    Start BP  : 20,030,767
+    End BP    : 20,030,767
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.321)
+
+  Cluster 9
+    SNPs      : 1
+    Start BP  : 20,294,612
+    End BP    : 20,294,612
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.582)
+
+  Cluster 10
+    SNPs      : 3
+    Start BP  : 20,594,667
+    End BP    : 20,595,480
+    Span      : 813 bp (0.81 kb)
+    Top SNP   : .  (-log10P = 15.703)
+
+  Cluster 11
+    SNPs      : 6
+    Start BP  : 20,838,800
+    End BP    : 20,844,898
+    Span      : 6,098 bp (6.10 kb)
+    Top SNP   : .  (-log10P = 9.714)
+
+  Cluster 12
+    SNPs      : 1
+    Start BP  : 27,685,878
+    End BP    : 27,685,878
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 11.417)
+
+  Cluster 13
+    SNPs      : 4
+    Start BP  : 27,991,758
+    End BP    : 27,994,122
+    Span      : 2,364 bp (2.36 kb)
+    Top SNP   : .  (-log10P = 8.333)
+
+  Cluster 14
+    SNPs      : 1
+    Start BP  : 33,844,270
+    End BP    : 33,844,270
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 7.386)
+
+  Cluster 15
+    SNPs      : 13
+    Start BP  : 69,375,907
+    End BP    : 69,404,517
+    Span      : 28,610 bp (28.61 kb)
+    Top SNP   : .  (-log10P = 12.932)
+
+  Cluster 16
+    SNPs      : 1
+    Start BP  : 75,377,154
+    End BP    : 75,377,154
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 8.823)
+
+  Cluster 17
+    SNPs      : 1
+    Start BP  : 75,812,920
+    End BP    : 75,812,920
+    Span      : 0 bp (0.00 kb)
+    Top SNP   : .  (-log10P = 9.905)
+
+============================================================ 
+Summary table
+============================================================ 
+CHR     Cluster   N_SNPs       Start_BP         End_BP        Span_BP  Top_SNP                      -log10P
+---------------------------------------------------------------------------------------------------- 
+1             1        3          6,883          8,543          1,660  .                             12.728
+1             2        1        331,329        331,329              0  .                              7.387
+1             3       10      2,276,693      2,299,716         23,023  .                              9.439
+1             4        3      2,422,924      2,449,882         26,958  .                             11.245
+1             5        1      3,499,629      3,499,629              0  .                              7.604
+1             6        1      4,137,363      4,137,363              0  .                              7.541
+1             7        1      4,573,874      4,573,874              0  .                              7.703
+1             8        8      5,266,615      5,267,158            543  .                              7.977
+1             9        3      5,349,803      5,352,579          2,776  .                             10.952
+1            10        1      5,463,827      5,463,827              0  .                              7.537
+1            11        1      5,827,773      5,827,773              0  .                              7.650
+1            12       60      7,106,737      7,402,092        295,355  .                             16.708
+1            13       13      7,493,946      7,670,190        176,244  .                              7.796
+1            14        4      7,817,795      7,909,539         91,744  .                              7.574
+1            15        1     10,320,880     10,320,880              0  .                              7.662
+1            16        1     12,607,905     12,607,905              0  .                              7.524
+1            17        5     13,363,172     13,407,921         44,749  .                              7.848
+1            18        2     13,479,364     13,508,994         29,630  .                              7.616
+1            19        9     13,561,985     13,621,101         59,116  .                              7.820
+1            20        1     13,853,305     13,853,305              0  .                              7.398
+1            21        1     18,280,480     18,280,480              0  .                              8.365
+1            22        8     20,262,120     20,326,147         64,027  .                             12.151
+1            23        7     26,822,811     26,844,240         21,429  .                             14.905
+1            24        1     27,192,408     27,192,408              0  .                              8.393
+1            25       14     27,523,624     27,536,358         12,734  .                              8.116
+1            26        1     27,708,143     27,708,143              0  .                              7.990
+1            27        2     28,740,022     28,777,453         37,431  .                              7.416
+1            28        1     29,346,152     29,346,152              0  .                             10.371
+1            29        1     32,889,423     32,889,423              0  .                              7.635
+1            30       17     32,963,467     33,047,924         84,457  .                              9.649
+1            31        1     33,622,026     33,622,026              0  .                              7.858
+1            32        2     39,243,388     39,243,865            477  .                              8.796
+1            33        3     39,359,466     39,377,039         17,573  .                              9.207
+1            34       12     39,765,054     39,810,214         45,160  .                             23.918
+1            35       35     41,267,411     41,397,893        130,482  .                             17.426
+1            36       10     42,558,222     42,604,117         45,895  .                             10.203
+1            37        3     45,959,817     46,044,083         84,266  .                             10.389
+1            38        1     46,202,931     46,202,931              0  .                              8.252
+1            39        1     49,568,721     49,568,721              0  .                             10.418
+1            40        1     66,131,402     66,131,402              0  .                              8.912
+1            41        1     73,816,383     73,816,383              0  .                              8.347
+1            42        1     75,457,130     75,457,130              0  .                              8.105
+1            43        8     90,050,934     90,130,909         79,975  .                              9.894
+1            44        5    109,078,198    109,103,724         25,526  .                              8.705
+1            45        1    112,920,149    112,920,149              0  .                              9.898
+1            46        1    114,460,378    114,460,378              0  .                             10.460
+1            47       22    114,713,500    114,825,069        111,569  .                             10.991
+1            48        3    116,395,300    116,431,344         36,044  .                              9.788
+1            49       38    116,507,865    116,564,627         56,762  .                             27.576
+1            50        3    116,621,996    116,666,883         44,887  .                              8.394
+1            51        2    117,379,800    117,379,866             66  .                             10.594
+1            52        5    117,601,980    117,608,356          6,376  .                             10.128
+1            53        1    117,658,566    117,658,566              0  .                              7.633
+1            54        2    118,639,642    118,651,794         12,152  .                              8.634
+1            55      313    118,934,828    119,450,718        515,890  .                             39.045
+1            56        1    119,567,442    119,567,442              0  .                             15.146
+1            57      365    119,683,917    121,117,997      1,434,080  .                             21.653
+1            58       96    121,168,702    121,980,779        812,077  .                             11.842
+1            59        2    122,066,586    122,115,741         49,155  .                              8.752
+1            60        2    122,249,346    122,263,590         14,244  .                              8.262
+1            61        3    122,329,807    122,338,680          8,873  .                              8.985
+1            62       51    122,406,484    122,889,078        482,594  .                             15.411
+1            63       14    122,941,631    123,210,544        268,913  .                             11.114
+1            64        9    123,288,041    123,328,874         40,833  .                             10.908
+1            65        9    123,396,565    123,562,203        165,638  .                             10.274
+1            66        8    123,619,391    123,744,080        124,689  .                             10.453
+1            67        1    123,797,195    123,797,195              0  .                             10.726
+1            68        5    123,958,236    124,005,668         47,432  .                             11.046
+1            69        1    124,098,679    124,098,679              0  .                              9.009
+1            70        5    124,194,680    124,333,423        138,743  .                             11.129
+1            71        3    124,385,762    124,415,321         29,559  .                              9.563
+1            72        4    124,475,322    124,525,414         50,092  .                             10.307
+1            73       18    124,693,313    124,958,373        265,060  .                             16.254
+1            74        1    125,111,672    125,111,672              0  .                              8.751
+1            75        2    125,196,188    125,210,542         14,354  .                              9.341
+1            76        1    125,280,702    125,280,702              0  .                              8.274
+1            77        2    125,357,453    125,365,079          7,626  .                              8.658
+1            78        7    125,421,952    125,550,780        128,828  .                              9.648
+1            79        3    125,627,506    125,692,728         65,222  .                              9.283
+1            80        3    125,768,236    125,803,713         35,477  .                              9.308
+1            81       14    125,865,719    125,997,204        131,485  .                             12.076
+1            82        7    126,140,859    126,202,256         61,397  .                             10.572
+1            83       10    126,255,977    126,327,679         71,702  .                             11.114
+1            84       16    126,403,319    126,726,459        323,140  .                              9.992
+1            85        1    126,845,660    126,845,660              0  .                              9.723
+1            86        1    126,939,209    126,939,209              0  .                              9.018
+1            87        2    126,998,396    127,026,696         28,300  .                              8.879
+1            88        4    127,105,841    127,128,251         22,410  .                              9.839
+1            89       81    127,192,792    127,708,328        515,536  .                             11.859
+1            90       29    127,761,339    128,194,808        433,469  .                             13.635
+1            91        4    128,317,551    128,391,452         73,901  .                             13.428
+1            92        2    128,449,883    128,456,174          6,291  .                             12.608
+1            93       12    128,525,425    128,823,209        297,784  .                             19.431
+1            94       93    128,888,171    129,613,302        725,131  .                             26.132
+1            95      169    129,698,751    130,474,250        775,499  .                             21.523
+1            96       21    130,528,824    130,920,625        391,801  .                             16.837
+1            97      551    130,980,132    132,587,856      1,607,724  .                             22.108
+1            98        1    132,684,351    132,684,351              0  .                              7.897
+1            99       22    132,809,720    132,912,202        102,482  .                             13.168
+1           100        1    135,393,798    135,393,798              0  .                              7.377
+1           101        1    135,446,468    135,446,468              0  .                              7.974
+1           102        1    135,519,658    135,519,658              0  .                              7.332
+1           103        1    135,735,099    135,735,099              0  .                              7.629
+1           104        1    144,746,533    144,746,533              0  .                              7.598
+1           105       23    156,339,461    156,448,661        109,200  .                              8.966
+1           106        9    156,591,327    156,643,119         51,792  .                              9.031
+1           107        5    161,827,436    161,907,629         80,193  .                              8.394
+1           108        1    162,008,767    162,008,767              0  .                              8.962
+1           109        1    162,975,171    162,975,171              0  .                              7.326
+1           110        2    163,068,996    163,112,154         43,158  .                              7.898
+1           111        2    194,626,370    194,629,303          2,933  .                              8.687
+1           112        1    194,768,063    194,768,063              0  .                              7.377
+1           113        3    194,930,487    194,935,708          5,221  .                             11.295
+1           114        1    195,102,824    195,102,824              0  .                              7.500
+2             1        4         52,722         55,890          3,168  .                             12.189
+2             2       10        654,719        683,007         28,288  .                              8.508
+2             3       15      1,086,383      1,138,221         51,838  .                              9.919
+2             4        1      1,353,358      1,353,358              0  .                              8.973
+2             5       27      4,241,677      4,260,665         18,988  .                              9.930
+2             6        1      4,318,827      4,318,827              0  .                              8.761
+2             7        2      6,466,120      6,474,263          8,143  .                             12.946
+2             8        1      6,564,107      6,564,107              0  .                             15.913
+2             9        1      7,000,815      7,000,815              0  .                              7.473
+2            10        7      7,804,205      7,863,694         59,489  .                             10.035
+2            11        2      7,961,378      8,007,494         46,116  .                              7.618
+2            12        2      8,074,954      8,075,373            419  .                              8.507
+2            13        8      8,160,591      8,248,856         88,265  .                              9.888
+2            14       11      8,305,352      8,390,286         84,934  .                             17.315
+2            15        4      8,479,575      8,480,597          1,022  .                              8.355
+2            16        1      8,546,638      8,546,638              0  .                              8.214
+2            17        3      8,721,621      8,763,451         41,830  .                              9.104
+2            18       39      8,864,619      9,020,661        156,042  .                             11.240
+2            19       11      9,083,392      9,100,416         17,024  .                             11.140
+2            20        1      9,340,372      9,340,372              0  .                              7.933
+2            21        1      9,909,485      9,909,485              0  .                              8.515
+2            22        1      9,998,513      9,998,513              0  .                              8.189
+2            23        5     10,329,646     10,341,068         11,422  .                             10.157
+2            24        5     10,739,409     10,759,998         20,589  .                              8.388
+2            25        1     11,686,627     11,686,627              0  .                              7.739
+2            26        6     12,230,820     12,292,960         62,140  .                              7.915
+2            27        6     12,655,410     12,664,703          9,293  .                             10.587
+2            28        2     12,961,247     12,963,201          1,954  .                              7.969
+2            29        7     19,617,931     19,623,468          5,537  .                             11.647
+2            30        1     20,126,069     20,126,069              0  .                              7.796
+2            31        1     20,248,455     20,248,455              0  .                              8.075
+2            32        1     22,274,269     22,274,269              0  .                              9.735
+2            33       11     22,496,762     22,539,210         42,448  .                             10.443
+2            34        9     22,609,983     22,669,673         59,690  .                             10.519
+2            35      183     22,791,450     23,133,888        342,438  .                             29.583
+2            36        1     23,285,470     23,285,470              0  .                              7.323
+2            37        1     23,386,092     23,386,092              0  .                              7.730
+2            38       40     23,603,488     23,777,350        173,862  .                             14.112
+2            39      115     23,865,297     24,155,686        290,389  .                             32.582
+2            40        1     24,215,986     24,215,986              0  .                             11.836
+2            41        1     25,899,448     25,899,448              0  .                              8.798
+2            42        6     27,194,867     27,264,360         69,493  .                             20.303
+2            43       24     27,316,345     27,371,973         55,628  .                             26.346
+2            44       90     27,444,493     27,695,612        251,119  .                             13.102
+2            45        5     27,755,669     27,781,858         26,189  .                             15.907
+2            46       26     27,923,831     27,978,519         54,688  .                             11.598
+2            47        1     28,471,603     28,471,603              0  .                              7.555
+2            48        5     28,835,385     28,879,117         43,732  .                             10.382
+2            49       15     28,938,309     29,170,974        232,665  .                             16.098
+2            50        4     29,365,193     29,420,239         55,046  .                             15.147
+2            51        3     29,567,889     29,611,092         43,203  .                             14.653
+2            52        3     30,136,688     30,167,658         30,970  .                              8.277
+2            53        2     30,768,192     30,778,635         10,443  .                             12.080
+2            54        1     30,900,207     30,900,207              0  .                              7.482
+2            55        5     31,028,013     31,035,424          7,411  .                             12.593
+2            56        4     31,088,502     31,175,761         87,259  .                             19.963
+2            57        6     31,243,560     31,278,448         34,888  .                             19.680
+2            58       15     31,461,962     31,552,423         90,461  .                             40.152
+2            59        3     31,604,220     31,604,265             45  .                              8.516
+2            60        9     31,757,031     31,762,482          5,451  .                              9.957
+2            61        1     31,866,345     31,866,345              0  .                              7.413
+2            62       40     31,969,182     32,058,974         89,792  .                             12.429
+2            63      197     32,151,614     32,682,298        530,684  .                             32.801
+2            64        1     32,805,114     32,805,114              0  .                              9.767
+2            65      261     32,865,665     33,499,119        633,454  .                             33.458
+2            66       20     33,666,229     33,741,785         75,556  .                             11.900
+2            67        1     37,973,772     37,973,772              0  .                              7.441
+2            68        3     39,102,646     39,105,069          2,423  .                              9.863
+2            69        1     39,246,499     39,246,499              0  .                              8.094
+2            70       30     39,616,989     39,842,279        225,290  .                             10.118
+2            71       41     39,896,166     40,136,409        240,243  .                             11.876
+2            72       17     40,305,791     40,399,720         93,929  .                             17.225
+2            73        3     40,809,181     40,851,888         42,707  .                              9.761
+2            74        6     40,905,687     40,912,042          6,355  .                             12.328
+2            75        1     40,991,271     40,991,271              0  .                              7.330
+2            76       20     41,089,738     41,104,710         14,972  .                             12.880
+2            77        2     41,156,507     41,175,171         18,664  .                              7.717
+2            78       26     46,057,350     46,151,923         94,573  .                             11.108
+2            79        4     46,339,049     46,397,196         58,147  .                              8.253
+2            80        1     46,499,817     46,499,817              0  .                              7.910
+2            81        3     46,664,518     46,665,309            791  .                              9.807
+2            82        1     46,997,812     46,997,812              0  .                              7.424
+2            83        1     49,521,529     49,521,529              0  .                              8.103
+2            84        2     49,579,653     49,579,708             55  .                              7.334
+2            85        8     49,664,311     49,768,261        103,950  .                              8.266
+2            86        2     51,297,957     51,320,920         22,963  .                             12.824
+2            87        1     51,381,998     51,381,998              0  .                              8.029
+2            88        1     51,484,325     51,484,325              0  .                              8.153
+2            89       26     51,952,744     52,050,960         98,216  .                             10.822
+2            90        1     61,415,688     61,415,688              0  .                              7.803
+2            91        3     69,836,173     69,859,739         23,566  .                              8.101
+2            92        1     73,026,166     73,026,166              0  .                              8.458
+2            93        2     82,782,253     82,805,244         22,991  .                             11.595
+2            94        1     85,054,184     85,054,184              0  .                              7.825
+2            95        1    100,416,079    100,416,079              0  .                              8.539
+2            96        1    112,275,028    112,275,028              0  .                              8.063
+2            97        1    117,614,201    117,614,201              0  .                              7.810
+2            98        4    117,774,682    117,781,508          6,826  .                              8.772
+2            99        1    118,831,232    118,831,232              0  .                              8.716
+2           100       11    119,714,128    119,753,291         39,163  .                              9.184
+2           101        4    119,824,207    119,833,613          9,406  .                              8.270
+2           102        1    130,774,829    130,774,829              0  .                             10.233
+2           103        2    130,834,204    130,834,760            556  .                              8.998
+2           104        1    133,047,750    133,047,750              0  .                              9.963
+2           105        3    133,956,267    133,957,754          1,487  .                              9.230
+2           106        7    135,181,348    135,228,257         46,909  .                             13.048
+2           107       53    135,550,928    135,792,503        241,575  .                             16.649
+2           108        5    136,044,440    136,077,163         32,723  .                              7.982
+2           109      352    136,143,030    136,748,528        605,498  .                             31.010
+2           110        6    137,021,518    137,044,126         22,608  .                              8.615
+2           111        3    139,618,416    139,664,560         46,144  .                              8.205
+2           112       22    139,716,351    139,895,805        179,454  .                             11.120
+2           113        4    141,307,198    141,351,527         44,329  .                              8.108
+2           114        1    141,655,229    141,655,229              0  .                              8.497
+2           115        1    143,520,068    143,520,068              0  .                              7.601
+2           116        1    144,080,564    144,080,564              0  .                              9.534
+2           117        1    144,750,359    144,750,359              0  .                              7.513
+2           118        2    145,193,578    145,205,005         11,427  .                              7.759
+2           119        1    148,678,786    148,678,786              0  .                              7.312
+2           120        2    149,939,388    149,946,755          7,367  .                              7.707
+2           121       14    150,154,869    150,203,462         48,593  .                             11.644
+2           122        1    150,536,999    150,536,999              0  .                              7.343
+2           123        1    150,667,206    150,667,206              0  .                              9.533
+3             1        3      4,844,528      4,859,524         14,996  .                              8.595
+3             2        1      9,526,248      9,526,248              0  .                              7.734
+3             3        1      9,630,742      9,630,742              0  .                             10.123
+3             4        1      9,800,304      9,800,304              0  .                              9.256
+3             5        1     11,629,642     11,629,642              0  .                              7.992
+3             6        1     12,021,978     12,021,978              0  .                              7.888
+3             7        7     20,788,605     20,858,188         69,583  .                              8.422
+3             8        4     21,753,911     21,772,012         18,101  .                             11.076
+3             9        1     22,289,056     22,289,056              0  .                             10.425
+3            10        8     23,294,301     23,349,625         55,324  .                              9.960
+3            11        5     23,476,048     23,478,143          2,095  .                              9.831
+3            12       12     24,060,518     24,157,154         96,636  .                             13.028
+3            13       10     31,768,170     31,788,153         19,983  .                              8.382
+3            14       10     32,123,607     32,184,317         60,710  .                              9.107
+3            15        4     32,847,286     32,895,747         48,461  .                             10.736
+3            16       21     36,417,099     36,470,980         53,881  .                             17.183
+3            17        2     36,805,161     36,809,566          4,405  .                              8.151
+3            18      120     36,980,604     37,208,562        227,958  .                             17.831
+3            19        1     37,395,141     37,395,141              0  .                              8.238
+3            20        1     37,779,973     37,779,973              0  .                              7.755
+3            21        7     38,471,500     38,503,702         32,202  .                              8.835
+3            22        1     38,761,088     38,761,088              0  .                              7.469
+3            23       75     38,977,646     39,372,175        394,529  .                             10.375
+3            24        2     39,493,851     39,495,584          1,733  .                              7.902
+3            25        1     39,693,627     39,693,627              0  .                             10.760
+3            26        1     39,750,102     39,750,102              0  .                              8.176
+3            27        2     39,811,810     39,815,654          3,844  .                              8.541
+3            28        1     39,922,681     39,922,681              0  .                              7.382
+3            29        1     40,120,166     40,120,166              0  .                              7.780
+3            30        1     40,171,109     40,171,109              0  .                              9.308
+3            31        2     40,234,500     40,256,963         22,463  .                              9.933
+3            32        2     40,317,729     40,320,300          2,571  .                              8.196
+3            33       58     40,401,039     40,481,338         80,299  .                             17.024
+3            34        8     40,537,721     40,544,458          6,737  .                             12.126
+3            35        4     41,563,131     41,584,588         21,457  .                              9.461
+3            36        1     51,153,931     51,153,931              0  .                              8.263
+3            37        1     56,281,220     56,281,220              0  .                              8.530
+3            38        2     85,216,517     85,229,526         13,009  .                              8.027
+3            39        1     88,432,831     88,432,831              0  .                              9.305
+3            40        2     94,332,632     94,333,831          1,199  .                              8.551
+3            41        2     94,604,470     94,605,292            822  .                              7.823
+3            42        8     94,925,720     94,954,716         28,996  .                              8.563
+3            43        1     99,799,231     99,799,231              0  .                              7.430
+3            44        3     99,966,262    100,012,629         46,367  .                              8.367
+3            45       19    100,078,683    100,162,989         84,306  .                             11.472
+3            46       13    100,245,017    100,308,031         63,014  .                             10.685
+3            47        1    100,364,432    100,364,432              0  .                              7.596
+3            48        1    100,511,949    100,511,949              0  .                              7.884
+3            49        2    102,578,046    102,597,358         19,312  .                              7.981
+3            50        9    103,028,754    103,130,060        101,306  .                             12.007
+3            51        5    103,191,751    103,242,814         51,063  .                             11.281
+3            52        1    103,296,761    103,296,761              0  .                              7.718
+3            53        1    103,347,537    103,347,537              0  .                              7.420
+3            54       20    103,410,921    103,574,190        163,269  .                             14.381
+3            55        4    103,680,369    103,722,823         42,454  .                              8.039
+3            56      342    103,776,179    105,038,300      1,262,121  .                             31.665
+3            57        3    108,715,007    108,715,165            158  .                             12.717
+3            58       10    109,230,110    109,248,907         18,797  .                              9.506
+3            59       14    111,479,734    111,556,574         76,840  .                             10.458
+3            60       22    111,673,996    111,706,883         32,887  .                              9.191
+3            61        1    111,831,299    111,831,299              0  .                              8.585
+3            62        7    111,985,866    112,062,601         76,735  .                             12.673
+3            63        2    112,442,734    112,442,821             87  .                              7.604
+3            64        6    113,201,758    113,245,613         43,855  .                             11.640
+3            65        1    113,318,483    113,318,483              0  .                              8.490
+3            66        1    113,824,515    113,824,515              0  .                              7.322
+3            67        1    114,051,321    114,051,321              0  .                              9.133
+4             1        2        269,790        271,253          1,463  .                              8.040
+4             2        3      1,031,285      1,040,808          9,523  .                              7.701
+4             3        1      2,556,090      2,556,090              0  .                              9.961
+4             4        1      7,610,965      7,610,965              0  .                              7.510
+4             5        1     23,834,729     23,834,729              0  .                              7.388
+4             6        3     26,426,996     26,431,928          4,932  .                             12.027
+4             7        9     26,594,475     26,652,155         57,680  .                             13.890
+4             8       14     27,460,646     27,502,620         41,974  .                             15.033
+4             9       38     27,659,761     27,788,916        129,155  .                             13.863
+4            10       12     28,593,609     28,641,015         47,406  .                              8.780
+4            11       21     32,221,305     32,367,183        145,878  .                             12.306
+4            12        1     60,246,173     60,246,173              0  .                              7.473
+4            13        1     60,359,170     60,359,170              0  .                              7.867
+4            14       12     60,498,481     60,563,740         65,259  .                             11.140
+4            15        1     60,630,816     60,630,816              0  .                              7.523
+4            16        1     61,649,308     61,649,308              0  .                              7.329
+4            17       11     62,435,054     62,477,980         42,926  .                             10.394
+4            18        9     62,551,224     62,571,203         19,979  .                              7.872
+4            19        1     66,701,216     66,701,216              0  .                              7.545
+4            20        1     69,822,250     69,822,250              0  .                              7.432
+5             1        9        701,800        745,838         44,038  .                             15.483
+5             2        4      1,208,857      1,218,048          9,191  .                              9.120
+5             3        9      1,390,400      1,439,187         48,787  .                             22.194
+5             4        7      2,706,939      2,728,711         21,772  .                             10.748
+5             5        1      2,943,413      2,943,413              0  .                              7.837
+5             6        1      4,346,034      4,346,034              0  .                              8.740
+5             7        2      4,631,532      4,634,953          3,421  .                             10.808
+5             8        1      5,086,425      5,086,425              0  .                              8.486
+5             9       12      5,177,231      5,257,071         79,840  .                              9.692
+5            10        1      5,406,349      5,406,349              0  .                              7.589
+5            11       73      5,552,329      5,664,360        112,031  .                             20.474
+5            12       31      7,849,448      7,991,276        141,828  .                             12.200
+5            13        2      8,939,938      8,940,935            997  .                              9.408
+5            14        3      9,563,622      9,606,735         43,113  .                             20.358
+5            15        1      9,690,327      9,690,327              0  .                              7.531
+5            16        7      9,773,035      9,815,009         41,974  .                             13.324
+5            17       13     10,106,244     10,127,202         20,958  .                             14.547
+5            18       62     10,186,811     10,413,393        226,582  .                             14.632
+5            19        3     10,956,794     10,994,938         38,144  .                              8.127
+5            20        1     11,069,958     11,069,958              0  .                             10.788
+5            21        4     11,838,054     11,936,932         98,878  .                              8.676
+5            22        1     12,076,224     12,076,224              0  .                              7.458
+5            23        1     12,891,260     12,891,260              0  .                              7.461
+5            24       48     13,179,725     13,286,782        107,057  .                             11.387
+5            25        1     13,401,337     13,401,337              0  .                             17.893
+5            26       14     14,281,309     14,386,334        105,025  .                             14.112
+5            27        1     14,691,557     14,691,557              0  .                              7.602
+5            28        2     14,841,432     14,841,803            371  .                              8.051
+5            29        1     15,017,143     15,017,143              0  .                             11.404
+5            30        1     15,339,824     15,339,824              0  .                              8.054
+5            31        1     16,822,392     16,822,392              0  .                              9.044
+5            32        1     21,320,838     21,320,838              0  .                              7.428
+5            33       11     22,975,883     22,989,889         14,006  .                             13.256
+5            34        1     23,056,020     23,056,020              0  .                              8.483
+5            35        1     23,139,066     23,139,066              0  .                              7.616
+5            36       13     23,209,784     23,270,693         60,909  .                             10.514
+5            37        4     26,713,035     26,728,951         15,916  .                              8.594
+5            38       72     26,834,187     26,978,904        144,717  .                             13.603
+5            39        1     27,166,846     27,166,846              0  .                              8.581
+5            40        1     28,745,782     28,745,782              0  .                              7.627
+5            41        2     29,560,870     29,576,936         16,066  .                              7.539
+5            42        1     30,980,789     30,980,789              0  .                              7.499
+5            43        1     34,148,824     34,148,824              0  .                              8.200
+5            44        1     45,539,931     45,539,931              0  .                              8.170
+5            45        2     45,810,160     45,810,595            435  .                              8.357
+5            46       12     46,765,702     46,818,418         52,716  .                             12.654
+5            47        2     47,477,854     47,486,384          8,530  .                              8.312
+5            48        1     47,576,417     47,576,417              0  .                              8.193
+5            49        1     47,816,802     47,816,802              0  .                              7.533
+5            50        3     48,225,930     48,248,712         22,782  .                              8.193
+5            51        4     49,906,433     49,934,312         27,879  .                              7.797
+5            52       20     50,342,933     50,380,584         37,651  .                             11.569
+5            53        1     55,586,646     55,586,646              0  .                             10.916
+5            54        1     56,144,595     56,144,595              0  .                              7.348
+5            55       35     56,655,273     56,789,709        134,436  .                             10.407
+5            56       13     57,475,440     57,518,650         43,210  .                              9.820
+5            57        2     57,711,186     57,711,188              2  .                              8.327
+5            58        2     58,352,495     58,368,178         15,683  .                              8.565
+5            59        5     58,434,738     58,442,301          7,563  .                             15.408
+5            60        1     58,535,972     58,535,972              0  .                              9.095
+5            61        1     59,227,959     59,227,959              0  .                              7.611
+5            62        8     61,548,616     61,597,083         48,467  .                             10.436
+5            63        2     61,811,853     61,821,560          9,707  .                              8.065
+6             1        2        728,027        750,328         22,301  .                              8.683
+6             2        1        999,505        999,505              0  .                              8.983
+6             3        1      1,056,282      1,056,282              0  .                              7.481
+6             4       10     10,234,989     10,287,779         52,790  .                              9.302
+6             5        8     10,613,658     10,700,199         86,541  .                              8.224
+6             6        2     11,950,936     11,986,507         35,571  .                              8.683
+6             7        1     26,311,293     26,311,293              0  .                              7.759
+6             8        2     31,742,677     31,792,574         49,897  .                              7.474
+6             9        4     31,980,169     31,995,451         15,282  .                             11.891
+6            10       25     32,391,635     32,497,419        105,784  .                             13.417
+6            11        1     32,606,868     32,606,868              0  .                              8.138
+6            12       14     33,871,819     33,897,600         25,781  .                             13.666
+6            13        1     34,107,183     34,107,183              0  .                              8.304
+6            14        2     34,415,369     34,427,393         12,024  .                             10.710
+7             1        1      1,093,229      1,093,229              0  .                              7.520
+7             2        1      2,809,836      2,809,836              0  .                              8.389
+7             3        1      2,877,624      2,877,624              0  .                              8.451
+7             4       35      4,603,995      4,672,039         68,044  .                             10.999
+7             5        1      4,745,827      4,745,827              0  .                              7.403
+7             6       21      5,690,293      5,744,402         54,109  .                              9.977
+7             7        1      8,723,733      8,723,733              0  .                              7.753
+7             8        7      8,912,331      8,939,353         27,022  .                              8.482
+7             9        1      9,710,520      9,710,520              0  .                              8.020
+7            10        5     10,537,654     10,579,852         42,198  .                             12.051
+7            11        3     13,547,335     13,547,606            271  .                              8.245
+7            12        3     13,715,257     13,731,134         15,877  .                              9.220
+7            13        1     15,973,422     15,973,422              0  .                              7.522
+7            14        1     16,099,330     16,099,330              0  .                              7.865
+7            15        3     16,491,438     16,502,228         10,790  .                             10.089
+7            16       21     16,564,331     16,814,560        250,229  .                             12.374
+7            17       11     16,874,955     16,970,342         95,387  .                              9.843
+7            18        4     17,083,403     17,142,615         59,212  .                              9.149
+7            19        8     17,206,894     17,319,444        112,550  .                              8.560
+7            20       50     17,548,688     17,983,304        434,616  .                             16.336
+7            21        1     18,042,782     18,042,782              0  .                              7.306
+7            22        1     18,152,545     18,152,545              0  .                              7.781
+7            23        3     18,240,229     18,253,288         13,059  .                              7.904
+7            24        1     18,388,945     18,388,945              0  .                              7.829
+7            25        2     18,500,952     18,507,443          6,491  .                              8.151
+7            26        1     18,561,627     18,561,627              0  .                              7.306
+7            27        1     18,832,428     18,832,428              0  .                              7.461
+7            28        1     18,946,134     18,946,134              0  .                              7.829
+7            29        4     18,996,608     19,018,077         21,469  .                              8.558
+7            30        1     28,579,249     28,579,249              0  .                              7.405
+7            31       17     36,767,689     36,825,775         58,086  .                             11.930
+7            32        1     38,234,422     38,234,422              0  .                              7.390
+8             1       51         38,611        257,120        218,509  .                             16.828
+8             2        1      1,305,375      1,305,375              0  .                              8.375
+8             3        1      1,462,694      1,462,694              0  .                              7.479
+8             4        1      1,573,194      1,573,194              0  .                              7.568
+8             5        2      2,594,435      2,594,479             44  .                              7.938
+8             6        3      4,565,673      4,591,950         26,277  .                             12.045
+8             7        1      4,972,770      4,972,770              0  .                              7.435
+8             8        1     20,908,250     20,908,250              0  .                             12.149
+8             9       11     21,789,618     21,804,287         14,669  .                             10.138
+8            10        2     22,085,664     22,086,816          1,152  .                              8.341
+8            11       30     22,167,217     22,218,589         51,372  .                             13.067
+8            12        1     22,276,479     22,276,479              0  .                              7.471
+8            13        1     23,754,443     23,754,443              0  .                              8.298
+8            14        7     24,042,797     24,081,633         38,836  .                              9.152
+8            15        1     24,155,329     24,155,329              0  .                              8.495
+8            16        1     24,319,131     24,319,131              0  .                              8.929
+8            17        1     24,733,000     24,733,000              0  .                              8.989
+8            18        1     24,795,449     24,795,449              0  .                             13.105
+8            19        1     24,855,363     24,855,363              0  .                              7.386
+8            20        7     25,655,346     25,701,243         45,897  .                             12.268
+8            21        1     27,014,599     27,014,599              0  .                             10.785
+8            22        1     28,217,401     28,217,401              0  .                             10.535
+8            23       25     28,304,571     28,468,646        164,075  .                             15.690
+8            24        4     28,857,796     28,866,989          9,193  .                              8.811
+8            25       14     29,000,126     29,076,877         76,751  .                              9.954
+9             1        1        527,325        527,325              0  .                              7.785
+9             2        5        953,252        968,707         15,455  .                              8.836
+9             3        3      1,212,581      1,213,338            757  .                              8.346
+9             4        7      3,654,226      3,676,639         22,413  .                              8.219
+9             5        7      3,730,463      3,770,291         39,828  .                             10.781
+9             6        2      4,009,763      4,012,361          2,598  .                              8.458
+9             7       12      4,065,703      4,155,275         89,572  .                             12.396
+9             8        1      7,538,289      7,538,289              0  .                              8.124
+9             9        1      7,624,732      7,624,732              0  .                              7.718
+9            10        2      9,736,707      9,746,696          9,989  .                              8.669
+9            11        2      9,895,114      9,938,969         43,855  .                             10.126
+9            12        6     11,512,372     11,522,398         10,026  .                             10.158
+9            13        1     13,284,340     13,284,340              0  .                              8.542
+9            14        1     13,372,751     13,372,751              0  .                              7.576
+9            15        2     16,160,654     16,200,947         40,293  .                              8.231
+9            16       49     16,292,463     16,451,633        159,170  .                             12.361
+9            17       16     16,610,983     16,656,403         45,420  .                             11.785
+9            18        1     20,426,912     20,426,912              0  .                              9.441
+9            19        5     20,867,434     20,890,562         23,128  .                             11.510
+9            20        2     21,503,335     21,518,604         15,269  .                              8.019
+9            21        1     21,777,546     21,777,546              0  .                              7.568
+9            22        4     23,176,605     23,237,949         61,344  .                             13.230
+9            23        4     23,373,841     23,377,292          3,451  .                             10.041
+9            24        4     23,496,502     23,507,014         10,512  .                             11.038
+9            25       32     24,241,894     24,320,976         79,082  .                             21.297
+9            26        3     24,515,969     24,520,683          4,714  .                              8.387
+10            1       21      7,072,000      7,128,701         56,701  .                             11.163
+10            2        3      7,324,856      7,342,927         18,071  .                              8.977
+10            3       10      9,415,989      9,430,817         14,828  .                             10.350
+10            4        9      9,510,439      9,532,694         22,255  .                             14.558
+10            5        2     11,658,390     11,658,713            323  .                              9.686
+10            6        1     12,626,887     12,626,887              0  .                              7.303
+10            7        4     12,722,177     12,755,261         33,084  .                             15.872
+10            8        1     15,845,755     15,845,755              0  .                              9.422
+10            9       22     16,582,300     16,626,126         43,826  .                             14.729
+10           10        1     18,258,229     18,258,229              0  .                             23.572
+10           11        4     18,434,438     18,444,313          9,875  .                              8.238
+11            1        1        412,947        412,947              0  .                              8.535
+11            2        1        476,723        476,723              0  .                              8.699
+11            3        1        542,517        542,517              0  .                              8.720
+11            4       19      5,190,118      5,273,333         83,215  .                              9.000
+11            5        5      6,285,695      6,292,024          6,329  .                             10.571
+11            6        1      7,105,496      7,105,496              0  .                              7.740
+11            7       50      8,251,067      8,389,289        138,222  .                             14.811
+11            8        5      8,572,756      8,573,303            547  .                             10.435
+11            9        7      8,809,014      8,849,046         40,032  .                             24.027
+11           10        3      8,899,049      8,911,052         12,003  .                              8.649
+11           11        4     10,073,816     10,086,235         12,419  .                              8.056
+11           12        3     10,855,558     10,869,411         13,853  .                              8.065
+11           13        1     11,406,711     11,406,711              0  .                              9.195
+11           14       56     17,277,187     17,516,151        238,964  .                             26.594
+11           15        1     19,224,091     19,224,091              0  .                              7.435
+12            1       88      1,560,319      1,724,741        164,422  .                             19.691
+12            2        1      2,732,998      2,732,998              0  .                              7.945
+12            3        3      8,071,689      8,077,902          6,213  .                              7.934
+12            4        1      8,541,884      8,541,884              0  .                              8.151
+12            5        1     10,682,917     10,682,917              0  .                              7.348
+12            6        2     18,899,563     18,906,167          6,604  .                              9.474
+12            7        1     19,091,132     19,091,132              0  .                              9.684
+12            8        1     19,510,868     19,510,868              0  .                              9.782
+12            9        1     19,929,777     19,929,777              0  .                              7.494
+12           10        3     20,727,329     20,727,694            365  .                              7.927
+13            1        1      2,929,589      2,929,589              0  .                              7.627
+13            2        1      4,630,004      4,630,004              0  .                              8.394
+13            3        1      6,041,833      6,041,833              0  .                             11.159
+13            4        1      8,573,506      8,573,506              0  .                              7.327
+13            5        1     14,466,044     14,466,044              0  .                              7.563
+13            6        3     14,779,298     14,807,199         27,901  .                              9.295
+13            7        1     15,117,687     15,117,687              0  .                              7.929
+13            8        5     16,581,878     16,591,460          9,582  .                             10.155
+13            9        6     16,857,077     16,887,470         30,393  .                             10.068
+13           10        5     17,007,383     17,037,591         30,208  .                             10.025
+13           11        1     18,928,813     18,928,813              0  .                              8.612
+13           12        3     18,996,951     19,028,464         31,513  .                              8.269
+13           13       66     19,326,551     19,513,776        187,225  .                             15.619
+13           14       12     19,655,572     19,682,348         26,776  .                             10.362
+13           15        3     19,793,292     19,794,170            878  .                             14.244
+13           16        9     19,851,199     19,905,938         54,739  .                             14.805
+13           17        1     20,546,039     20,546,039              0  .                              8.191
+14            1        1      2,844,582      2,844,582              0  .                              7.505
+14            2        1      3,448,143      3,448,143              0  .                             10.524
+14            3        1      3,970,188      3,970,188              0  .                              7.433
+14            4       37      6,089,909      6,192,200        102,291  .                             12.613
+14            5        1      6,327,596      6,327,596              0  .                              7.660
+14            6       59      6,378,846      6,499,727        120,881  .                             12.724
+14            7       30      6,626,451      6,715,667         89,216  .                             12.653
+14            8       37      6,772,221      6,851,891         79,670  .                             21.400
+14            9        1      7,366,772      7,366,772              0  .                             12.388
+14           10        2      7,775,219      7,788,691         13,472  .                              8.031
+14           11        2      7,957,536      7,996,912         39,376  .                              9.893
+14           12        1      8,071,206      8,071,206              0  .                             11.829
+14           13        2      8,682,654      8,699,531         16,877  .                              8.482
+14           14        1      9,288,094      9,288,094              0  .                              8.568
+14           15        1     12,157,200     12,157,200              0  .                              7.507
+14           16        1     12,941,419     12,941,419              0  .                              7.428
+14           17        1     13,209,501     13,209,501              0  .                              7.701
+14           18        8     13,392,955     13,404,950         11,995  .                             10.095
+14           19       23     13,460,564     13,478,274         17,710  .                             17.126
+14           20       12     13,649,506     13,771,299        121,793  .                              8.790
+14           21        3     14,112,494     14,138,838         26,344  .                              7.737
+14           22        9     14,772,603     14,844,338         71,735  .                             10.120
+14           23        1     15,487,578     15,487,578              0  .                              7.925
+14           24        1     15,818,648     15,818,648              0  .                              7.546
+14           25        1     15,929,298     15,929,298              0  .                              7.355
+14           26        2     16,136,153     16,136,728            575  .                             10.894
+14           27        5     17,168,635     17,176,668          8,033  .                              8.933
+15            1        1        714,179        714,179              0  .                              7.998
+15            2        5        893,103        943,080         49,977  .                             12.684
+15            3        2      2,723,147      2,723,157             10  .                              7.618
+15            4        1      2,840,283      2,840,283              0  .                              9.072
+15            5        3      3,694,028      3,705,068         11,040  .                              8.738
+15            6        1      5,112,732      5,112,732              0  .                              7.554
+15            7        1     12,140,228     12,140,228              0  .                              7.506
+15            8        1     12,223,110     12,223,110              0  .                             10.243
+15            9        1     12,381,845     12,381,845              0  .                             42.143
+15           10        1     15,134,757     15,134,757              0  .                              7.564
+16            1        2      1,278,242      1,278,728            486  .                              7.636
+16            2        2      1,375,094      1,376,117          1,023  .                              8.074
+16            3        2      5,568,112      5,568,768            656  .                              8.075
+16            4       68      7,343,517      7,589,660        246,143  .                             14.879
+16            5        1      7,998,066      7,998,066              0  .                              8.602
+16            6        2     10,859,792     10,861,347          1,555  .                              9.848
+16            7        8     10,917,527     10,982,687         65,160  .                             10.951
+16            8        1     11,046,796     11,046,796              0  .                              7.337
+16            9        2     11,113,954     11,121,004          7,050  .                              8.640
+16           10        4     11,203,030     11,207,234          4,204  .                              9.793
+16           11       25     11,643,358     11,804,809        161,451  .                             17.708
+16           12        6     13,053,231     13,056,943          3,712  .                             10.786
+16           13        1     13,270,292     13,270,292              0  .                              7.505
+16           14        2     13,331,174     13,331,735            561  .                              7.948
+16           15        1     13,904,047     13,904,047              0  .                             12.546
+18            1        1      1,466,087      1,466,087              0  .                             14.396
+18            2        1      1,591,537      1,591,537              0  .                              8.606
+18            3        1      3,047,184      3,047,184              0  .                              7.351
+18            4        4      4,300,670      4,343,709         43,039  .                             15.118
+18            5        1      4,426,817      4,426,817              0  .                              7.397
+18            6        1      5,521,875      5,521,875              0  .                              7.505
+18            7        1      6,584,621      6,584,621              0  .                              9.908
+18            8        1      8,877,524      8,877,524              0  .                              7.310
+18            9        1     10,446,565     10,446,565              0  .                              9.030
+18           10        2     10,960,315     10,969,050          8,735  .                              8.249
+18           11        7     11,024,176     11,026,946          2,770  .                             14.173
+19            1        1         11,704         11,704              0  .                              7.347
+19            2        1      1,322,133      1,322,133              0  .                              7.367
+19            3       14      1,454,002      1,498,077         44,075  .                             11.287
+19            4       16      6,699,517      6,730,161         30,644  .                             12.013
+19            5       27      8,119,521      8,145,082         25,561  .                             13.096
+19            6        1      8,369,485      8,369,485              0  .                              7.881
+19            7        2      8,792,015      8,839,560         47,545  .                              7.928
+19            8        2      9,969,892      9,971,164          1,272  .                              8.933
+20            1        2          1,192          1,206             14  .                              8.734
+20            2        1        311,038        311,038              0  .                             10.058
+20            3        5        562,502        566,698          4,196  .                             10.996
+20            4        1        901,165        901,165              0  .                              9.107
+20            5        1      1,461,643      1,461,643              0  .                              8.277
+20            6        2      1,693,926      1,694,754            828  .                              8.391
+20            7       22      2,231,579      2,290,387         58,808  .                             13.013
+20            8        3      2,800,774      2,801,324            550  .                              7.757
+20            9        1      2,922,254      2,922,254              0  .                              7.898
+20           10        4      4,269,861      4,271,636          1,775  .                             15.272
+20           11        1      4,574,453      4,574,453              0  .                              7.328
+20           12        2      4,878,140      4,904,489         26,349  .                              8.690
+20           13        1      9,371,190      9,371,190              0  .                              7.718
+21            1        1        390,500        390,500              0  .                              7.458
+21            2        1      3,422,127      3,422,127              0  .                              7.392
+21            3        4      4,349,826      4,355,647          5,821  .                              8.200
+21            4        7      4,438,333      4,537,944         99,611  .                              9.558
+21            5        5      4,649,472      4,712,530         63,058  .                              7.662
+21            6        1      8,568,268      8,568,268              0  .                             10.577
+21            7        1     12,754,405     12,754,405              0  .                              7.665
+21            8        2     13,551,635     13,552,965          1,330  .                              8.085
+22            1        4      1,819,095      1,858,379         39,284  .                              8.375
+22            2        1      2,219,574      2,219,574              0  .                              7.823
+22            3       15      4,009,618      4,129,477        119,859  .                             10.045
+22            4        5      5,085,220      5,088,383          3,163  .                             11.835
+22            5        7      6,767,866      6,823,276         55,410  .                             21.716
+22            6        1      6,959,367      6,959,367              0  .                              7.375
+22            7        1      7,156,024      7,156,024              0  .                              7.475
+23            1       20        230,762        312,109         81,347  .                             13.799
+23            2        1        379,849        379,849              0  .                              7.326
+23            3        5        648,454        667,652         19,198  .                              9.148
+23            4        1      1,036,015      1,036,015              0  .                              8.054
+23            5        1      1,129,026      1,129,026              0  .                              7.751
+23            6        3      1,798,086      1,835,591         37,505  .                             11.039
+23            7        1      2,814,230      2,814,230              0  .                             19.878
+23            8        3      3,334,120      3,342,481          8,361  .                              7.961
+23            9        1      3,424,134      3,424,134              0  .                              7.574
+23           10        1      3,549,312      3,549,312              0  .                              8.022
+24            1        1      1,529,515      1,529,515              0  .                              7.524
+24            2        2      3,791,982      3,798,726          6,744  .                              9.117
+24            3        3      3,872,839      3,881,559          8,720  .                              9.851
+24            4        1      4,053,184      4,053,184              0  .                              8.207
+24            5       13      4,401,096      4,427,441         26,345  .                             10.428
+24            6        1      4,681,082      4,681,082              0  .                              9.296
+24            7        1      5,234,552      5,234,552              0  .                              7.376
+24            8        1      6,254,017      6,254,017              0  .                              7.778
+25            1       20      2,218,153      2,299,099         80,946  .                             10.008
+25            2        3      2,440,170      2,442,480          2,310  .                              9.011
+25            3        5      2,697,027      2,711,966         14,939  .                              9.168
+25            4        1      2,811,400      2,811,400              0  .                              7.566
+25            5        1      4,001,591      4,001,591              0  .                              7.698
+25            6        1      4,193,402      4,193,402              0  .                              8.067
+25            7        3      4,977,466      4,983,749          6,283  .                             11.909
+25            8        1      6,239,128      6,239,128              0  .                              7.528
+26            1        1      1,218,780      1,218,780              0  .                              7.324
+27            1        1      3,334,747      3,334,747              0  .                              8.209
+27            2        1      3,553,532      3,553,532              0  .                              8.301
+27            3       28      3,613,519      3,694,322         80,803  .                             30.721
+27            4        1      3,750,780      3,750,780              0  .                              8.587
+27            5        2      3,807,547      3,810,034          2,487  .                              9.111
+27            6        1      4,187,180      4,187,180              0  .                              7.742
+27            7       13      4,250,207      4,308,132         57,925  .                              9.934
+27            8        2      5,017,058      5,017,152             94  .                              8.858
+27            9        2      5,192,495      5,220,697         28,202  .                              8.563
+27           10        1      5,886,771      5,886,771              0  .                              9.659
+27           11        1      6,116,354      6,116,354              0  .                              9.805
+28            1        1        955,502        955,502              0  .                              9.394
+28            2        1      1,891,089      1,891,089              0  .                              9.250
+28            3        1      2,045,623      2,045,623              0  .                              7.761
+28            4        3      2,172,343      2,199,510         27,167  .                              8.021
+28            5        1      2,250,052      2,250,052              0  .                              8.852
+28            6        1      2,380,927      2,380,927              0  .                              7.407
+28            7        1      2,618,412      2,618,412              0  .                              8.266
+28            8       18      3,804,755      3,837,098         32,343  .                             14.774
+29            1        1        149,921        149,921              0  .                              7.437
+29            2        1      1,914,004      1,914,004              0  .                              7.359
+29            3        2      2,188,907      2,188,912              5  .                              8.819
+29            4        1      3,874,120      3,874,120              0  .                              8.221
+29            5        1      4,044,378      4,044,378              0  .                              8.766
+Z             1        9      3,483,340      3,569,628         86,288  .                             16.225
+Z             2       36      3,898,413      4,059,038        160,625  .                             12.961
+Z             3        1     16,958,706     16,958,706              0  .                              9.070
+Z             4        1     17,041,789     17,041,789              0  .                              8.032
+Z             5        1     17,421,623     17,421,623              0  .                              7.442
+Z             6        1     19,205,753     19,205,753              0  .                              8.018
+Z             7        4     19,769,576     19,823,696         54,120  .                              9.335
+Z             8        1     20,030,767     20,030,767              0  .                              9.321
+Z             9        1     20,294,612     20,294,612              0  .                              7.582
+Z            10        3     20,594,667     20,595,480            813  .                             15.703
+Z            11        6     20,838,800     20,844,898          6,098  .                              9.714
+Z            12        1     27,685,878     27,685,878              0  .                             11.417
+Z            13        4     27,991,758     27,994,122          2,364  .                              8.333
+Z            14        1     33,844,270     33,844,270              0  .                              7.386
+Z            15       13     69,375,907     69,404,517         28,610  .                             12.932
+Z            16        1     75,377,154     75,377,154              0  .                              8.823
+Z            17        1     75,812,920     75,812,920              0  .                              9.905

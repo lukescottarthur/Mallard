@@ -112,7 +112,11 @@ manhattan(filtered_data2,
           genomewideline = FALSE,
           xlab = "GFMxKC - Chromosome Number", 
           cex = 0.6, 
-          ylim = c(0, 250))
+          ylim = c(0, 250),
+          chr = "CHR2",
+          bp ="BP2",
+          snp = "SNP2",
+          p = "P2")
 dev.off()
 
 png(filename = "/scratch/las80898/pcadapt_output_4/GFMxWM_subset.png", width = 1800, height = 850, units = "px", pointsize = 14)
@@ -123,5 +127,9 @@ manhattan(filtered_data3,
           genomewideline = FALSE,
           xlab = "GFMxWM - Chromosome Number", 
           cex = 0.6, 
-          ylim = c(0, 50))
+          ylim = c(0, 50),
+          chr = "CHR3",
+          bp ="BP3",
+          snp = "SNP3",
+          p = "P3")
 dev.off()
