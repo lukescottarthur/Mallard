@@ -15,3 +15,21 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+> # load libraries
+> library(pcadapt)
+> library(ggplot2)
+> library(qqman)
+> library(ggrepel)
+> library(dplyr)
+> library(devtools)
+> library(CMplot)
+> 
+> # read data
+> WMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/WMxKC.bed", type = "bed")
+> 
+> GFMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxKC.bed", type = "bed")
+> 
+> GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
+> 
+> # initial analysis
+> x1 <- pcadapt(WMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))

@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=pcadapt_subset_WMxKC
+#SBATCH --job-name=pcadapt_subset
 #SBATCH --partition=batch
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64gb
 #SBATCH --time=1:00:00
-#SBATCH --error=/home/las80898/Mallard/pcadapt_subset_WMxKC.%j.err
-#SBATCH --output=/home/las80898/Mallard/pcadapt_subset_WMxKC.%j.out
+#SBATCH --error=/home/las80898/Mallard/pcadapt_subset.%j.err
+#SBATCH --output=/home/las80898/Mallard/pcadapt_subset.%j.out
 #SBATCH --mail-user=las80898@uga.edu
 #SBATCH --mail-type=END,FAIL
 
