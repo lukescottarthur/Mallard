@@ -15,7 +15,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> # GFMxWM - pcadapt whole genome analysis
+> # WMxKC - pcadapt whole genome analysis
 > 
 > # load libraries
 > library(pcadapt)
@@ -25,7 +25,7 @@ Type 'q()' to quit R.
 > library(dplyr)
 > library(devtools)
 > 
-> # ── Read and prepare data ─────────────────────────────────────────────────────
-> GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
+> # read data
+> WMxKC <- read.pcadapt("/home/las80898/mallard_wholegenome_data/WMxKC.bed", type = "bed")
 > 
-> x1 <- pcadapt(GFMxWM, K = 2, LD.clumping = list(size = 5000, thr = 0.1))
+> x1 <- pcadapt(WMxKC, K = 2, LD.clumping = list(size = 5000, thr = 0.1))

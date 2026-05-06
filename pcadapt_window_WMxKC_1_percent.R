@@ -40,10 +40,9 @@ qqdf_WMxKC <- data.frame(SNP, CHR, BP, P)
 #
 window_size <- 50000   # 50 kb
 step_size   <-   5000   #   5 kb
-threshold   <-   7.301
 
+# helper to relabel chr 30 back to Z in output
 chr_label <- function(chr) ifelse(chr == 30, "Z", as.character(chr))
-
 
 window_results <- list()
 
@@ -58,11 +57,10 @@ for (chr in sort(unique(qqdf_WMxKC$CHR))) {
   bp_min <- min(chr_snps$BP)
   bp_max <- max(chr_snps$BP)
 
-  # generate window start positions
   starts <- seq(bp_min, bp_max, by = step_size)
 
   chr_windows <- data.frame(
-    CHR         = character(),
+    CHR          = character(),
     window_start = integer(),
     window_end   = integer(),
     mean_neglogP = numeric()
@@ -78,14 +76,12 @@ for (chr in sort(unique(qqdf_WMxKC$CHR))) {
 
     mean_neglogP <- mean(-log10(snps_in_window$P))
 
-    if (mean_neglogP > threshold) {
-      chr_windows <- rbind(chr_windows, data.frame(
-        CHR          = chr_label(chr),
-        window_start = w_start,
-        window_end   = w_end,
-        mean_neglogP = round(mean_neglogP, 4)
-      ))
-    }
+    chr_windows <- rbind(chr_windows, data.frame(
+      CHR          = chr_label(chr),
+      window_start = w_start,
+      window_end   = w_end,
+      mean_neglogP = round(mean_neglogP, 4)
+    ))
   }
 
   if (nrow(chr_windows) > 0) {
@@ -93,13 +89,21 @@ for (chr in sort(unique(qqdf_WMxKC$CHR))) {
   }
 }
 
-# combine and write to CSV
+# combine all windows across chromosomes
 window_df <- bind_rows(window_results)
 
-write.csv(window_df,
-          file = "/scratch/las80898/pcadapt_output_4/WMxKC_sliding_windows.csv",
+# calculate top 1% threshold across all non-empty windows and filter
+top1_threshold <- quantile(window_df$mean_neglogP, probs = 0.99)
+
+window_df_filtered <- window_df %>%
+  filter(mean_neglogP >= top1_threshold)
+
+write.csv(window_df_filtered,
+          file = "/scratch/las80898/pcadapt_output_4/WMxKC_sliding_windows_1_percent.csv",
           row.names = FALSE,
           quote = FALSE)
 
-cat(sprintf("Sliding window analysis complete: %d windows retained (threshold: -log10P > %.3f)\n",
-            nrow(window_df), threshold))
+cat(sprintf("Sliding window analysis complete\n"))
+cat(sprintf("  Total windows scored  : %d\n", nrow(window_df)))
+cat(sprintf("  Top 1%% threshold      : %.4f\n", top1_threshold))
+cat(sprintf("  Windows retained      : %d\n", nrow(window_df_filtered)))

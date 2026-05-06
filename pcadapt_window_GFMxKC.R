@@ -36,12 +36,15 @@ qqdf_GFMxKC <- data.frame(SNP, CHR, BP, P)
 
 # ── Sliding window analysis on pcadapt results ────────────────────────────────
 #
-# For each chromosome, a 500 kb window slides in 5 kb steps across all SNPs.
+# For each chromosome, a 50 kb window slides in 5 kb steps across all SNPs.
 # Windows with mean -log10(P) > 7.301 are retained and written to CSV.
 #
-window_size <- 500000   # 500 kb
+window_size <- 50000   # 50 kb
 step_size   <-   5000   #   5 kb
 threshold   <-   7.301
+
+chr_label <- function(chr) ifelse(chr == 30, "Z", as.character(chr))
+
 
 window_results <- list()
 
