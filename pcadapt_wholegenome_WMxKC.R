@@ -31,12 +31,12 @@ BP  <- bim_filtered$BP[pval_keep]
 P   <- pvals_filtered[pval_keep]
 P[P == 0] <- .Machine$double.xmin
 
-qqdf_GFMxKC <- data.frame(SNP, CHR, BP, P)
+qqdf_WMxKC <- data.frame(SNP, CHR, BP, P)
 
 # build manhattan qqman
 png(filename = "/scratch/las80898/pcadapt_output_4/WMxKC_qqman_T2.png", 
     width = 1800, height = 850, units = "px", pointsize = 14)
-manhattan(qqdf_GFMxKC, 
+manhattan(qqdf_WMxKC, 
           cex.axis = 0.8, 
           suggestiveline = FALSE,
           annotateTop = FALSE, 
@@ -47,7 +47,7 @@ manhattan(qqdf_GFMxKC,
 dev.off()
 
 # list of sig snps
-significant_snps <- qqdf_GFMxKC %>%
+significant_snps <- qqdf_WMxKC %>%
   filter(-log10(P) > 7.301)
 
 # helper to relabel chr 30 back to Z in output
