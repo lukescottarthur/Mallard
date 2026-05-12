@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=pcadapt_window_GFMxKC_1percent
+#SBATCH --job-name=pcadapt_GFMxWM_writecsv
 #SBATCH --partition=batch
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64gb
 #SBATCH --time=12:00:00
-#SBATCH --error=/home/las80898/Mallard/pcadapt_window_GFMxKC_1percent.%j.err
-#SBATCH --output=/home/las80898/Mallard/pcadapt_window_GFMxKC_1percent.%j.out
+#SBATCH --error=/home/las80898/Mallard/pcadapt_GFMxWM_writecsv.%j.err
+#SBATCH --output=/home/las80898/Mallard/pcadapt_GFMxWM_writecsv.%j.out
 #SBATCH --mail-user=las80898@uga.edu
 #SBATCH --mail-type=END,FAIL
 
@@ -25,4 +25,4 @@ then
 fi
 
 # run R script
-R --no-save < /home/las80898/Mallard/pcadapt_window_GFMxKC_1_percent.R
+R --no-save < /home/las80898/Mallard/pcadapt_GFMxWM_writecsv.R
