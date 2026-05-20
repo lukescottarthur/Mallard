@@ -29,6 +29,3 @@ Loading required package: usethis
 Warning messages:
 1: package ‘devtools’ was built under R version 4.4.3 
 2: package ‘usethis’ was built under R version 4.4.3 
-Error in manhattan(window_df, cex.axis = 0.8, suggestiveline = FALSE,  : 
-  Column BP not found!
-Execution halted

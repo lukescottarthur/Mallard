@@ -15,7 +15,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> # GFMxWM - pcadapt whole genome analysis - revised for cross analysis comparison. This script calculates pcadapt p-values across sliding windows and outputs them into a csv file.
+> # GFMxKC - pcadapt whole genome analysis - revised for cross analysis comparison. This script calculates pcadapt p-values across sliding windows and outputs them into a csv file.
 > 
 > # load libraries
 > library(pcadapt)
@@ -27,11 +27,11 @@ Type 'q()' to quit R.
 > 
 > 
 > # Read and prepare data
-> bed <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
+> bed <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxKC.bed", type = "bed")
 > 
 > x1 <- pcadapt(bed, K = 2, min.maf = 0.02)
 > 
-> bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
+> bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxKC.bim",
 +                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 > 
 > bim$CHR <- as.character(bim$CHR)
@@ -53,7 +53,7 @@ Type 'q()' to quit R.
 > 
 > # print number of rows in dataframe ie number of SNPs
 > cat(sprintf("  Number of SNPs  : %d\n", nrow(df_prepped)))
-  Number of SNPs  : 19381618
+  Number of SNPs  : 15201675
 > 
 > # Sliding window analysis on pcadapt results
 > # For each chromosome, a 50 kb window slides in 5 kb steps across all SNPs.
@@ -108,29 +108,3 @@ Type 'q()' to quit R.
 +     window_results[[chr_label(chr)]] <- chr_windows
 +   }
 + }
-> 
-> # combine all windows across chromosomes
-> window_df <- bind_rows(window_results)
-> 
-> 
-> write.csv(window_df,
-+           file = "/scratch/las80898/pcadapt_output_5/GFMxWM_revised_windows.csv",
-+           row.names = FALSE,
-+           quote = FALSE)
-> 
-> 
-> cat(sprintf("  Total windows scored  : %d\n", nrow(window_df)))
-  Total windows scored  : 207614
-> 
-> # manhattan plot
-> 
-> png(filename = "/scratch/las80898/pcadapt_output_5/GFMxWM_revised_plot.png",
-+     width = 1800, height = 850, units = "px", pointsize = 14)
-> manhattan(window_df,
-+           cex.axis = 0.8,
-+           suggestiveline = FALSE,
-+           annotateTop = FALSE,
-+           genomewideline = FALSE,
-+           xlab = "Chromosome number",
-+           cex = 0.6,
-+           ylim = c(0, 45))

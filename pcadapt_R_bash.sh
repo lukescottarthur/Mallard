@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=Revised_GFMxWMA_1
+#SBATCH --job-name=Revised_WMAxKC_1
 #SBATCH --partition=batch
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64gb
 #SBATCH --time=4:00:00
-#SBATCH --error=/home/las80898/Mallard/Revised_GFMxWMA_1.%j.err
-#SBATCH --output=/home/las80898/Mallard/Revised_GFMxWMA_1.%j.out
+#SBATCH --error=/home/las80898/Mallard/Revised_WMAxKC_1.%j.err
+#SBATCH --output=/home/las80898/Mallard/Revised_WMAxKC_1.%j.out
 #SBATCH --mail-user=las80898@uga.edu
 #SBATCH --mail-type=START,END,FAIL
 
@@ -25,4 +25,4 @@ then
 fi
 
 # run R script
-R --no-save < /home/las80898/Mallard/ZZZ_pcadapt_GFMxWMA_revised.R
+R --no-save < /home/las80898/Mallard/ZZZ_pcadapt_WMAxKC_revised.R

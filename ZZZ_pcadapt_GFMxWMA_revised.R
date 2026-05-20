@@ -103,16 +103,3 @@ write.csv(window_df,
 
 cat(sprintf("  Total windows scored  : %d\n", nrow(window_df)))
 
-# manhattan plot
-
-png(filename = "/scratch/las80898/pcadapt_output_5/GFMxWM_revised_plot.png",
-    width = 1800, height = 850, units = "px", pointsize = 14)
-manhattan(window_df,
-          cex.axis = 0.8,
-          suggestiveline = FALSE,
-          annotateTop = FALSE,
-          genomewideline = FALSE,
-          xlab = "Chromosome number",
-          cex = 0.6,
-          ylim = c(0, 45))
-dev.off()
