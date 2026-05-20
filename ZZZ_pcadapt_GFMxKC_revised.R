@@ -1,5 +1,4 @@
-# GFMxWM - pcadapt whole genome analysis - revised for cross analysis comparison.
-# This calculates pcadapt p-values across sliding windows and outputs them into a csv file.
+# GFMxKC - pcadapt whole genome analysis - revised for cross analysis comparison. This script calculates pcadapt p-values across sliding windows and outputs them into a csv file.
 
 # load libraries
 library(pcadapt)
@@ -9,12 +8,13 @@ library(ggrepel)
 library(dplyr)
 library(devtools)
 
-# ── Read and prepare data ─────────────────────────────────────────────────────
-GFMxWM <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxWM.bed", type = "bed")
 
-x1 <- pcadapt(GFMxWM, K = 2, min.maf = 0.02)
+# Read and prepare data
+bed <- read.pcadapt("/home/las80898/mallard_wholegenome_data/GFMxKC.bed", type = "bed")
 
-bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxWM.bim",
+x1 <- pcadapt(bed, K = 2, min.maf = 0.02)
+
+bim <- read.table("/home/las80898/mallard_wholegenome_data/GFMxKC.bim",
                   header = FALSE, col.names = c("CHR","SNP","CM","BP","A1","A2"))
 
 bim$CHR <- as.character(bim$CHR)
@@ -32,24 +32,25 @@ BP  <- bim_filtered$BP[pval_keep]
 P   <- pvals_filtered[pval_keep]
 P[P == 0] <- .Machine$double.xmin
 
-qqdf_GFMxWM <- data.frame(SNP, CHR, BP, P)
+df_prepped <- data.frame(SNP, CHR, BP, P)
 
+# print number of rows in dataframe ie number of SNPs
+cat(sprintf("  Number of SNPs  : %d\n", nrow(df_prepped)))
 
-# ── Sliding window analysis on pcadapt results ────────────────────────────────
-#
+# Sliding window analysis on pcadapt results
 # For each chromosome, a 50 kb window slides in 5 kb steps across all SNPs.
 
-window_size <- 50000   # 500 k
+window_size <- 50000   # 500 kb
 step_size   <-   5000   #   5 kb
 
-# helper to relabel chr 30 back to Z in output
+# Relabel chr 30 back to Z in output
 chr_label <- function(chr) ifelse(chr == 30, "Z", as.character(chr))
 
 window_results <- list()
 
-for (chr in sort(unique(qqdf_GFMxWM$CHR))) {
+for (chr in sort(unique(df_prepped$CHR))) {
 
-  chr_snps <- qqdf_GFMxWM %>%
+  chr_snps <- df_prepped %>%
     filter(CHR == chr) %>%
     arrange(BP)
 
@@ -95,9 +96,23 @@ window_df <- bind_rows(window_results)
 
 
 write.csv(window_df,
-          file = "/scratch/las80898/pcadapt_output_5/GFMxWM_revised_windows.csv",
+          file = "/scratch/las80898/pcadapt_output_5/GFMxKC_revised_windows.csv",
           row.names = FALSE,
           quote = FALSE)
 
-cat(sprintf("Sliding window analysis complete\n"))
+
 cat(sprintf("  Total windows scored  : %d\n", nrow(window_df)))
+
+# manhattan plot
+
+png(filename = "/scratch/las80898/pcadapt_output_5/GFMxKC_revised_plot.png",
+    width = 1800, height = 850, units = "px", pointsize = 14)
+manhattan(window_df,
+          cex.axis = 0.8,
+          suggestiveline = FALSE,
+          annotateTop = FALSE,
+          genomewideline = FALSE,
+          xlab = "Chromosome number",
+          cex = 0.6,
+          ylim = c(0, 45))
+dev.off()
