@@ -56,10 +56,9 @@ for (chr in sort(unique(df_prepped$CHR))) {
 
   if (nrow(chr_snps) == 0) next
 
-  bp_min <- min(chr_snps$BP)
   bp_max <- max(chr_snps$BP)
 
-  starts <- seq(bp_min, bp_max, by = step_size)
+  starts <- seq(1, bp_max, by = step_size)
 
   chr_windows <- data.frame(
     CHR          = character(),

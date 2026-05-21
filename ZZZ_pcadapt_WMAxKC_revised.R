@@ -55,11 +55,10 @@ for (chr in sort(unique(df_prepped$CHR))) {
     arrange(BP)
 
   if (nrow(chr_snps) == 0) next
-
-  bp_min <- min(chr_snps$BP)
+  
   bp_max <- max(chr_snps$BP)
 
-  starts <- seq(bp_min, bp_max, by = step_size)
+  starts <- seq(1, bp_max, by = step_size)
 
   chr_windows <- data.frame(
     CHR          = character(),
@@ -102,17 +101,3 @@ write.csv(window_df,
 
 
 cat(sprintf("  Total windows scored  : %d\n", nrow(window_df)))
-
-# manhattan plot
-
-png(filename = "/scratch/las80898/pcadapt_output_5/WMAxKC_revised_plot.png",
-    width = 1800, height = 850, units = "px", pointsize = 14)
-manhattan(window_df,
-          cex.axis = 0.8,
-          suggestiveline = FALSE,
-          annotateTop = FALSE,
-          genomewideline = FALSE,
-          xlab = "Chromosome number",
-          cex = 0.6,
-          ylim = c(0, 45))
-dev.off()

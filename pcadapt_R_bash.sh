@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=Revised_WMAxKC_1
+#SBATCH --job-name=Revised_GFMxKC_2
 #SBATCH --partition=batch
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64gb
 #SBATCH --time=4:00:00
-#SBATCH --error=/home/las80898/Mallard/Revised_WMAxKC_1.%j.err
-#SBATCH --output=/home/las80898/Mallard/Revised_WMAxKC_1.%j.out
+#SBATCH --error=/home/las80898/Mallard/Revised_GFMxKC_2.%j.err
+#SBATCH --output=/home/las80898/Mallard/Revised_GFMxKC_2.%j.out
 #SBATCH --mail-user=las80898@uga.edu
 #SBATCH --mail-type=START,END,FAIL
 
@@ -16,7 +16,7 @@ source ${CONDA_BASE}/etc/profile.d/conda.sh
 conda activate test_env
 
 #set output directory variable
-OUTDIR="/scratch/las80898/pcadapt_output_5"                 
+OUTDIR="/scratch/las80898/pcadapt_output_5"
 
 #if output directory doesn't exist, create it
 if [ ! -d "$OUTDIR" ]
@@ -25,4 +25,4 @@ then
 fi
 
 # run R script
-R --no-save < /home/las80898/Mallard/ZZZ_pcadapt_WMAxKC_revised.R
+R --no-save < /home/las80898/Mallard/ZZZ_pcadapt_GFMxKC_revised.R
